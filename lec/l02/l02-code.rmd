@@ -163,7 +163,6 @@ The unit of analysis is the major entity you are working with:
     - **Discrete** variables: can be counted. E.g., number of brain lesions, number of previous births
     - **Continuous** variables: can be measured precisely, with a ruler or scale. E.g, annual income, blood alcohol content, gestational age at birth
 
-## Participation Question
 
 ## dplyr functions for data manipulation
 
