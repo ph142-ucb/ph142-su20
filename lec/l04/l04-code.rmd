@@ -1,7 +1,7 @@
 ---
-title: "L04: Intro to Linear Regression "
+title: 'L04: Intro to Linear Regression '
+output: pdf_document
 date: "July 9, 2020"
-output:
 ---
 
 <!-- libraries -->
