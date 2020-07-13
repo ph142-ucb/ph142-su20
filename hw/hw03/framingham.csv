@@ -1,0 +1,4070 @@
+sex,age,education,smoker,bmi,totChol
+male,64,some college,no,26.76,229
+female,33,high school,yes,23.8,200
+female,55,some college,no,28.68,262
+female,35,high school,yes,19.14,165
+female,58,some high school,no,26.98,292
+female,40,some high school,yes,20.32,214
+male,56,some college,no,28.41,193
+male,53,college,no,28.27,241
+male,36,some high school,no,35.31,233
+female,42,high school,no,30.22,233
+female,50,college,yes,22.17,214
+female,48,some college,yes,21.08,259
+female,58,high school,no,27.97,166
+female,60,some college,no,27.61,325
+male,55,some high school,yes,26.79,242
+female,39,some high school,no,38.06,214
+male,59,some high school,no,26.08,274
+male,57,some high school,yes,27.98,206
+male,50,college,yes,25.35,255
+female,47,high school,yes,22.35,272
+male,49,some high school,yes,23.94,221
+female,53,some college,no,23.01,245
+male,54,high school,yes,27.03,212
+female,42,high school,yes,28.04,223
+female,51,some high school,yes,25.09,246
+male,63,college,yes,21.99,217
+female,47,high school,yes,23.48,229
+female,50,college,yes,23.07,256
+female,40,some college,yes,20.68,205
+female,56,some college,no,24.48,273
+male,42,some high school,no,22.56,160
+male,39,high school,yes,35.11,310
+male,63,some high school,yes,30.48,240
+female,43,high school,yes,28.96,165
+male,60,some high school,yes,22.13,288
+male,66,some college,no,29.29,288
+male,57,college,no,25.84,303
+female,65,some high school,no,32,193
+male,42,some college,yes,28.94,240
+female,61,some high school,no,37.41,217
+male,61,some high school,no,28.85,239
+female,56,some college,no,26.82,344
+female,34,high school,yes,21.51,180
+female,40,some college,no,20.33,159
+female,50,some college,yes,27.71,240
+male,45,some high school,no,31.9,218
+female,46,high school,no,21.02,304
+female,38,high school,yes,24.51,209
+male,46,some college,no,30.41,300
+male,54,some high school,yes,32.99,235
+female,36,some college,no,22.36,230
+male,48,some college,yes,24.24,187
+male,52,some high school,no,24.06,219
+male,44,some high school,no,25.65,234
+female,45,high school,no,19.16,260
+female,47,college,yes,23.26,261
+female,54,some high school,no,23.66,272
+male,61,some high school,no,27.33,295
+male,46,some high school,yes,28.53,270
+male,63,high school,yes,19.97,230
+female,55,some college,no,20.53,210
+female,46,some college,no,28.23,230
+male,60,some high school,no,29.51,240
+male,64,some high school,no,27.01,296
+female,60,some high school,no,28.41,238
+female,37,some college,yes,20.02,173
+male,42,some high school,yes,24.68,197
+male,36,high school,no,30.18,163
+female,41,some college,no,24.2,180
+female,38,high school,yes,21.35,221
+female,44,some high school,no,28.72,212
+male,36,high school,yes,25.84,226
+male,46,some high school,yes,22.08,212
+female,48,some high school,no,26.13,224
+female,60,some high school,yes,23.27,254
+male,54,high school,no,25.82,175
+female,42,high school,no,34.55,196
+female,46,some college,no,23.14,197
+male,60,high school,yes,24.62,260
+male,56,some high school,yes,23.38,296
+female,54,some high school,no,31.44,207
+male,52,college,no,23.35,225
+male,38,high school,yes,26.65,229
+male,41,some college,no,28.54,230
+female,38,some college,yes,27.51,192
+female,55,high school,no,23.81,256
+female,46,some high school,yes,22.15,182
+male,56,some high school,yes,26.67,256
+male,54,some high school,yes,20.12,255
+female,45,some college,yes,22.54,230
+male,53,some high school,no,19.94,157
+female,48,college,yes,23.08,340
+male,36,high school,no,24.39,183
+male,60,some high school,yes,24.1,253
+male,41,high school,yes,25.2,212
+male,44,college,yes,27.99,198
+female,52,college,no,24.39,240
+female,46,some college,yes,21.01,196
+female,67,some high school,yes,35.01,270
+male,64,some high school,yes,24.94,240
+female,38,high school,yes,21.49,179
+male,43,high school,no,25.46,222
+male,39,some college,yes,24.47,148
+female,43,some college,no,20.43,232
+female,54,some college,no,22.7,227
+female,59,some college,no,23.94,330
+male,60,college,no,29.23,232
+female,67,some high school,no,27.59,228
+male,59,some high school,no,28.83,300
+male,57,some high school,no,29.08,263
+male,44,some college,yes,27.17,237
+female,52,some high school,no,37.58,203
+male,56,high school,yes,24.62,186
+female,60,some high school,yes,26.38,246
+female,60,some high school,no,25.13,277
+male,43,high school,yes,26.32,240
+male,54,some high school,yes,27.97,333
+male,43,college,no,23.05,179
+female,43,high school,no,24.47,190
+female,62,some college,no,24.83,312
+male,43,high school,yes,29.48,201
+female,43,some high school,no,34.95,231
+male,42,college,no,21.5,236
+male,61,some high school,yes,25.86,215
+male,38,high school,yes,31.61,265
+male,56,high school,yes,24.47,214
+male,53,college,yes,25.13,232
+female,39,college,no,20.51,260
+female,64,some college,no,27.96,270
+male,62,some high school,yes,23.88,270
+male,48,some high school,yes,23.68,259
+female,39,some high school,no,20.59,182
+female,37,some high school,no,24.61,192
+female,40,high school,no,16.69,242
+male,52,some high school,yes,29.63,206
+female,66,some high school,no,28.27,203
+male,49,high school,yes,29.03,278
+female,59,some college,yes,22.18,251
+female,46,some high school,no,28.92,248
+male,48,college,yes,25.34,230
+female,52,college,no,23.51,302
+female,47,some high school,yes,23.48,285
+female,46,some high school,no,25.87,295
+female,55,high school,yes,29,246
+male,38,high school,yes,28.74,300
+female,55,some high school,no,25.94,185
+male,63,some high school,no,26.6,219
+male,38,college,yes,29.76,226
+female,46,college,yes,22.89,240
+female,35,high school,no,25.94,216
+male,51,some high school,yes,21.51,195
+female,46,some high school,no,30,265
+female,36,high school,no,19.53,213
+male,58,some high school,yes,27.47,255
+female,40,some college,yes,22.69,180
+male,47,high school,yes,20.12,201
+male,48,some high school,yes,20.27,212
+female,40,high school,yes,18.06,197
+female,57,some high school,yes,26.36,252
+female,56,high school,no,25.38,306
+female,58,college,no,20.34,268
+male,54,some high school,yes,22.18,225
+male,53,high school,no,23.98,202
+female,54,some high school,no,26.42,262
+male,39,some high school,yes,31.09,292
+female,44,some high school,yes,25.71,160
+male,42,some college,yes,25.31,230
+male,59,some high school,no,25.18,229
+female,58,high school,no,23.36,195
+male,48,some high school,yes,30.85,308
+female,41,high school,no,23.63,187
+female,63,some high school,yes,26.87,213
+female,43,high school,yes,29.34,213
+male,43,high school,no,32.02,241
+female,64,some high school,no,32.32,205
+male,40,college,yes,27.47,267
+female,46,some high school,no,31.02,213
+male,56,college,yes,23.58,270
+female,54,some high school,no,27.76,192
+male,39,college,no,26.97,195
+female,60,some college,no,24.96,229
+female,64,college,no,19.34,239
+female,41,some high school,yes,23.54,210
+female,35,high school,no,22,208
+female,50,some college,no,29.94,224
+female,50,some high school,no,21.82,280
+female,58,some college,no,35.58,188
+female,41,some high school,yes,19.16,192
+female,48,some high school,no,22.98,186
+female,55,some high school,no,23.46,195
+female,48,some high school,yes,24.1,229
+female,40,college,yes,25.45,205
+male,36,some high school,yes,25.68,300
+male,51,college,yes,19.36,238
+female,39,some high school,yes,22.89,233
+female,40,some high school,no,27.46,144
+female,46,high school,no,29.29,203
+female,64,some high school,no,30.93,241
+female,50,some high school,no,24.91,296
+female,40,some high school,yes,20.7,220
+female,44,some high school,no,31.93,178
+male,39,high school,yes,27.43,212
+male,55,college,no,28.89,260
+male,35,some college,yes,22.64,196
+male,60,some college,no,28.04,203
+male,59,high school,no,25.45,299
+female,47,some high school,no,21.71,289
+female,57,some high school,no,23.41,285
+male,43,high school,yes,24.96,207
+female,45,some college,yes,21.44,261
+male,42,some high school,yes,25.29,226
+male,39,college,yes,25.31,230
+male,46,some high school,yes,26.25,210
+female,54,some high school,no,20.26,205
+female,57,college,no,25.45,236
+female,65,some high school,no,23.07,245
+female,41,high school,yes,20.85,205
+male,51,some high school,no,29.11,205
+female,34,some college,yes,21.5,206
+female,49,some high school,no,23.79,224
+female,49,some high school,no,25.29,205
+male,44,some high school,yes,23.51,214
+male,38,high school,yes,23.9,170
+male,60,some college,yes,29.89,250
+female,52,some high school,no,32.27,210
+female,39,high school,no,26.97,195
+male,60,some high school,no,23.53,275
+female,38,high school,yes,20.71,226
+male,64,some high school,yes,18.7,211
+male,38,some college,yes,25.62,165
+male,60,some high school,yes,21.76,235
+male,54,high school,no,26.21,195
+male,57,some college,yes,26.56,280
+female,46,high school,no,27.72,247
+male,53,some high school,yes,27.8,229
+male,39,some high school,yes,22.04,186
+male,51,some high school,yes,24.76,300
+female,63,high school,yes,24.38,246
+female,45,some high school,no,22.01,210
+male,53,some college,yes,30.63,233
+male,58,high school,yes,21.02,235
+male,59,some high school,no,33.45,178
+male,62,college,no,25.37,240
+female,42,some college,no,22.19,190
+male,50,some high school,yes,30.46,340
+female,59,high school,no,26.24,364
+female,47,high school,yes,20.86,198
+male,66,some high school,no,25.16,233
+female,57,some college,yes,18.55,200
+male,49,some college,no,28.33,267
+male,47,some high school,yes,31.31,190
+female,44,some college,yes,21.65,245
+female,47,some college,yes,25.62,237
+female,48,some college,no,20.27,253
+male,39,college,no,25.91,208
+female,51,some high school,no,26.28,160
+female,51,some college,no,26.68,264
+female,42,some high school,yes,24.23,187
+female,56,some college,no,24.22,267
+male,43,high school,yes,23.95,275
+female,46,some high school,no,25.6,284
+female,40,high school,yes,23.06,165
+female,37,some college,yes,28.78,254
+female,45,some high school,no,26.51,244
+female,63,some high school,no,24.38,235
+female,36,high school,yes,23.86,228
+male,57,some high school,yes,25.48,225
+male,59,some high school,yes,25.01,162
+male,63,some high school,no,23.5,248
+male,41,high school,yes,24.04,176
+female,42,some college,yes,27.78,193
+female,44,some high school,yes,23.72,173
+female,53,college,no,26.21,291
+male,54,some college,yes,25.59,298
+female,38,some college,no,27.47,174
+female,59,some high school,no,25.11,281
+male,47,high school,no,27.93,219
+female,55,some college,no,29.66,265
+female,54,some college,no,27.01,341
+male,64,high school,no,24.77,210
+female,60,some high school,no,28.77,252
+female,60,college,no,22.19,247
+male,50,some college,yes,24.39,240
+male,52,high school,yes,20.87,215
+female,56,some high school,no,24.08,254
+male,55,some high school,yes,27.63,270
+male,58,some high school,yes,29.01,192
+female,44,some college,no,21.67,180
+female,48,some college,yes,21.33,172
+female,45,some college,no,22.36,129
+female,52,some high school,yes,29.64,240
+male,54,college,no,27.93,226
+female,63,high school,no,23.64,276
+female,40,high school,yes,18.84,221
+male,65,college,no,24.12,253
+male,33,high school,no,26.74,165
+male,57,some high school,yes,28.3,262
+male,42,some high school,yes,29,220
+female,56,some high school,yes,29.59,217
+female,38,high school,no,22.01,175
+male,49,high school,yes,24.24,260
+male,65,college,no,23.14,205
+female,45,some college,yes,20.68,268
+male,49,college,yes,28.21,256
+female,56,some high school,yes,32.99,279
+female,47,high school,yes,20.13,300
+female,60,high school,yes,24.22,294
+female,36,high school,yes,28.74,204
+female,37,some high school,yes,21.8,205
+male,37,college,yes,23.51,212
+male,55,some high school,yes,25.05,290
+male,42,some high school,yes,24.2,190
+male,38,high school,yes,22.7,180
+male,42,high school,yes,25.09,200
+female,55,some college,no,31.82,308
+female,44,some high school,no,26.62,173
+female,60,some college,yes,27.94,255
+female,39,some college,yes,29.7,235
+male,58,some high school,no,29.85,220
+female,44,some college,yes,24.16,226
+female,50,high school,no,23.81,241
+female,63,high school,no,21.35,276
+female,51,some college,no,24.41,216
+male,52,some high school,yes,21.18,223
+female,58,high school,no,26.45,240
+female,54,high school,no,22.5,321
+male,50,high school,yes,25.77,225
+female,51,some high school,no,27.51,292
+female,39,some college,no,16.73,213
+male,44,some high school,yes,27.38,232
+female,48,high school,yes,23.25,250
+male,64,some high school,no,28.82,263
+male,42,some high school,no,25.75,163
+female,38,high school,no,23.82,215
+female,59,high school,no,27.2,239
+male,39,some high school,yes,28.34,209
+female,47,some high school,no,30.59,190
+male,64,high school,no,21.85,217
+male,45,some high school,yes,25.01,240
+female,50,some college,yes,28.69,150
+female,44,college,yes,29.29,231
+female,68,high school,no,25.21,242
+female,63,some high school,no,26.47,226
+male,54,some high school,yes,26.05,219
+female,41,some college,yes,23.38,140
+male,49,high school,no,33.14,215
+female,40,some high school,yes,25.67,173
+male,54,college,no,25.11,180
+female,45,high school,yes,21.68,222
+female,46,high school,yes,20.84,233
+male,61,some high school,no,28.15,270
+female,50,some college,yes,18.26,210
+female,44,high school,no,24.67,226
+female,44,college,no,21.27,254
+female,65,some college,no,24.33,266
+female,42,high school,no,29.94,230
+female,50,high school,yes,26.3,330
+male,45,college,yes,30.92,255
+female,54,some high school,no,27.2,260
+female,40,high school,yes,27.9,284
+male,42,some high school,yes,22.04,143
+male,41,some high school,yes,26.09,238
+female,59,some college,no,19.77,271
+female,45,some college,no,25.74,225
+female,56,some college,yes,24.99,240
+male,63,some high school,yes,24.1,230
+female,65,some high school,no,22.91,230
+female,46,some high school,yes,22.54,210
+male,38,some college,no,28.68,244
+male,44,high school,no,31.74,248
+female,34,high school,yes,25.56,184
+male,61,some high school,no,28.88,285
+female,57,some high school,no,17.71,257
+male,44,some college,no,28.23,216
+female,54,some high school,yes,20.72,267
+female,41,some college,no,22.72,192
+female,52,college,yes,16.59,254
+female,56,some high school,yes,22.36,269
+female,54,some college,no,24.96,292
+female,43,some high school,yes,22.65,216
+male,43,some high school,yes,26.91,309
+female,41,some college,yes,22.91,195
+female,57,high school,yes,25.15,272
+female,46,high school,no,27.27,229
+male,40,some high school,yes,21.71,165
+female,63,some high school,no,32.66,289
+female,63,some high school,no,31.71,320
+female,41,college,no,25.99,205
+male,39,high school,yes,19,287
+female,38,high school,no,26.87,169
+female,51,some college,no,23.54,230
+male,59,college,yes,27.06,265
+female,60,some high school,no,28.53,212
+female,63,some high school,no,28.69,234
+male,48,some college,yes,30.34,200
+female,55,high school,no,23.05,273
+female,44,high school,yes,25.38,244
+female,49,high school,yes,23.35,239
+female,42,high school,yes,24.05,235
+male,41,high school,yes,25.63,313
+female,51,some high school,no,23.48,227
+female,53,some college,no,25.29,252
+female,40,high school,yes,27.22,216
+female,61,high school,no,22.02,271
+male,58,some college,no,25.26,250
+male,62,some high school,yes,26.51,245
+female,38,college,yes,20.44,267
+female,49,some high school,yes,20.66,266
+male,48,some high school,yes,31.67,188
+female,61,some high school,yes,21.93,206
+female,45,some high school,no,30.35,172
+male,54,some college,no,29.86,248
+female,66,high school,no,20.74,305
+female,55,some college,no,26.89,238
+female,47,high school,yes,24.33,308
+female,54,some high school,yes,23.26,205
+female,52,high school,no,26.64,279
+male,62,some high school,yes,31.11,271
+female,35,high school,yes,20.32,185
+female,63,some college,no,32.57,241
+male,46,some college,yes,22.76,154
+female,46,high school,no,28.04,275
+female,50,college,yes,23.31,261
+female,56,some high school,no,30.33,290
+female,55,some high school,no,26.09,232
+male,62,some high school,no,28.73,157
+male,64,high school,no,23.64,287
+female,37,some college,yes,22.81,224
+female,46,some high school,no,25.43,219
+female,52,some high school,no,25.12,220
+female,46,some high school,yes,24.01,244
+female,41,high school,no,24.81,213
+female,43,high school,no,20.82,202
+male,43,some college,no,24.45,199
+female,39,some high school,yes,20.56,160
+female,38,some college,no,24.38,240
+female,46,some high school,yes,21.5,203
+male,56,college,no,21.68,287
+female,53,high school,no,24.65,185
+female,39,some high school,no,24.1,229
+female,46,high school,yes,20.66,161
+male,51,college,no,23.47,216
+male,41,some high school,yes,26.58,265
+male,41,some college,yes,25.21,292
+female,38,high school,yes,21.99,160
+male,37,college,no,25.66,195
+female,47,high school,yes,23.81,191
+female,41,high school,no,29.73,277
+male,67,some high school,yes,22.9,144
+female,35,high school,yes,16.71,168
+female,42,some college,yes,32.52,304
+female,42,some high school,no,28.68,271
+male,53,some high school,yes,19.64,220
+female,41,some high school,no,25.14,181
+male,46,some high school,no,27.23,222
+female,67,high school,yes,25.35,371
+male,60,some high school,yes,28.76,267
+female,49,some college,no,31.4,278
+male,46,some high school,yes,30.1,216
+female,63,some high school,no,36.54,150
+male,45,some high school,yes,24.15,265
+male,36,high school,yes,36.52,248
+female,50,some high school,no,31.37,240
+male,61,some high school,no,27.73,201
+female,37,high school,no,22.52,185
+male,52,high school,yes,22.93,240
+female,53,some college,no,24.96,218
+female,37,some high school,yes,22.89,205
+female,57,some high school,no,23.22,219
+male,45,some college,yes,28.68,250
+female,61,some college,no,33.9,257
+male,47,high school,yes,18.88,210
+female,55,some high school,no,28.96,245
+female,51,some college,no,22.91,242
+female,61,some high school,no,23.37,220
+male,42,some high school,yes,21.88,234
+female,57,some high school,no,20.86,207
+male,43,high school,no,26.59,200
+female,53,college,no,23.03,263
+male,68,some high school,no,23.14,176
+female,44,college,yes,22.72,253
+female,39,college,yes,22.33,229
+female,56,college,yes,22.64,266
+female,49,high school,no,28.3,221
+female,46,high school,yes,23.65,207
+female,60,high school,no,26.76,354
+female,43,high school,no,24.83,308
+male,36,high school,no,25.88,176
+male,43,college,no,28.82,217
+female,49,high school,no,21,170
+female,47,high school,no,28.84,221
+female,59,some high school,no,18.43,246
+male,60,some high school,no,23.77,261
+female,45,college,no,24.35,253
+male,46,some high school,yes,23.28,198
+male,34,high school,yes,29.04,250
+female,57,high school,no,24.79,301
+female,51,high school,yes,27.42,176
+male,50,some high school,yes,24.45,265
+male,52,some high school,no,33.03,206
+male,52,college,no,23.41,285
+female,41,some high school,yes,27.27,209
+female,48,some high school,no,24.23,265
+female,50,some high school,no,23.09,229
+female,56,some high school,yes,30.14,285
+female,49,some high school,no,29.22,254
+male,39,high school,no,24.06,216
+male,43,some college,yes,29.01,206
+female,36,high school,yes,22.54,177
+male,35,high school,yes,23.93,200
+female,42,high school,yes,29.65,196
+male,59,college,no,25.64,210
+male,52,some high school,yes,23.86,239
+female,56,some high school,yes,24.25,285
+female,42,some high school,no,28.74,216
+female,61,high school,no,21.64,210
+female,65,some high school,no,25.61,276
+male,58,some college,no,30.64,266
+female,44,some high school,yes,27.51,212
+male,40,some high school,yes,30.07,304
+female,63,some high school,no,26.76,273
+female,42,some high school,yes,34.71,290
+female,54,some high school,no,29.23,315
+male,56,some high school,no,25.11,252
+male,52,some college,yes,24.54,225
+male,67,some high school,no,22.81,256
+male,53,some high school,yes,22.26,232
+female,40,high school,no,19.64,215
+male,39,some high school,yes,31.6,228
+female,45,high school,no,21.72,229
+male,59,high school,no,24.17,237
+female,62,some high school,no,22.01,273
+female,58,some high school,no,26.94,241
+female,51,high school,yes,24.14,255
+female,43,some high school,yes,23.43,245
+male,46,high school,no,28.09,280
+male,44,high school,yes,25.43,311
+male,48,college,no,31.61,293
+female,55,some high school,no,27.49,257
+female,59,some high school,yes,39.82,312
+female,40,college,yes,21.84,244
+male,54,high school,yes,20.88,261
+male,64,some high school,no,32.52,205
+male,56,high school,yes,21.03,197
+male,44,some high school,no,36.12,190
+male,57,some high school,no,26.33,287
+male,60,some college,yes,25.64,227
+male,39,some high school,yes,27.17,220
+female,62,college,yes,27.15,254
+male,48,some high school,no,22.37,204
+female,55,high school,yes,24.99,289
+male,35,high school,yes,29.27,227
+female,56,some high school,yes,27.9,320
+female,46,some high school,yes,22.5,303
+female,60,high school,yes,25.45,236
+male,47,college,no,24.54,190
+female,54,high school,yes,23.09,272
+male,39,high school,yes,23.39,199
+female,48,some high school,yes,31.76,174
+female,57,high school,no,29.28,245
+female,42,some college,yes,24.38,253
+female,63,high school,no,24.16,250
+female,35,some college,no,21.63,219
+male,45,some high school,no,32.15,218
+female,57,some college,yes,35.17,289
+male,42,high school,yes,24.01,209
+female,37,high school,yes,19.56,250
+female,66,some high school,no,34.36,275
+female,41,high school,yes,25.25,226
+male,56,some high school,yes,31.5,240
+male,45,some college,yes,21.49,207
+male,48,some high school,no,30.28,251
+female,60,some college,no,22,286
+male,47,some high school,yes,28.88,237
+female,42,some high school,no,25.75,179
+male,60,college,yes,22.17,233
+male,41,high school,no,18.76,246
+male,44,high school,yes,28.49,217
+female,59,some high school,no,25.9,220
+female,45,high school,no,23.46,258
+male,55,some high school,no,27.73,231
+female,37,high school,no,23.28,249
+female,49,high school,yes,21.42,229
+male,63,high school,yes,24.91,264
+male,62,high school,no,25.42,202
+female,49,some high school,yes,22.33,280
+female,61,some high school,no,29.53,259
+male,48,college,no,28.31,205
+female,66,some high school,no,23.22,273
+male,39,high school,no,27.29,203
+male,40,high school,yes,25.75,250
+female,59,some high school,no,20.77,209
+male,44,college,no,26.26,175
+male,67,some high school,yes,22.69,204
+female,37,high school,yes,32.26,217
+male,53,high school,no,29.56,193
+male,50,some high school,yes,20.17,231
+female,64,some high school,no,20.49,232
+female,65,some high school,yes,39.54,211
+female,50,college,yes,23.48,165
+female,66,some high school,no,26.04,285
+male,46,high school,yes,18.1,214
+male,48,high school,no,28.62,232
+male,48,high school,no,27.88,287
+female,58,some high school,no,28.31,296
+male,50,some college,yes,25.09,175
+female,51,some college,yes,23.63,398
+male,39,high school,no,27.23,235
+female,41,high school,yes,22.49,260
+female,41,some college,yes,24.71,268
+female,46,some high school,yes,19.37,202
+female,62,college,no,28.18,274
+female,60,high school,yes,25.23,314
+male,47,college,no,26.09,270
+female,65,college,no,25.37,289
+male,47,some college,yes,30.7,220
+male,37,college,no,27.98,253
+female,41,some high school,yes,22.29,176
+female,66,some high school,no,23.63,290
+female,55,high school,no,22.89,309
+male,40,some high school,yes,32.73,229
+female,40,high school,yes,18.75,250
+female,63,some high school,no,28.6,238
+male,55,some college,yes,23.55,252
+female,41,high school,yes,21.1,235
+female,48,high school,no,25.48,231
+male,42,some college,no,21.48,235
+male,42,some college,yes,21.48,231
+male,39,high school,yes,24.5,215
+female,53,some high school,no,27.35,303
+female,65,some high school,no,19.83,246
+female,54,some college,yes,25.91,225
+female,52,some high school,no,27.26,247
+male,49,some college,yes,24.35,219
+male,65,some high school,yes,29.35,219
+female,59,some high school,no,34.55,258
+male,49,some high school,no,23.03,152
+female,56,some college,no,31.1,310
+male,48,high school,no,24.87,215
+female,47,some college,yes,23.78,221
+female,40,some college,yes,23.48,236
+male,50,college,no,25.12,227
+male,35,high school,no,22.91,290
+female,49,high school,no,20.68,208
+male,38,some high school,no,25.69,184
+male,50,high school,yes,24.33,258
+female,48,some high school,no,22.51,274
+female,64,some high school,no,22.89,295
+female,57,some high school,no,22.73,224
+female,39,high school,no,27.16,190
+female,51,some college,yes,18.8,234
+male,60,college,no,23.96,280
+female,62,high school,yes,20.56,286
+male,62,college,yes,30.84,203
+female,37,some high school,yes,21.51,168
+female,59,some high school,no,27.49,242
+female,59,some high school,no,26.89,339
+male,59,some high school,no,27.88,252
+female,67,some high school,no,24.53,201
+female,59,some high school,no,28.41,225
+female,55,some high school,no,30.24,243
+female,61,high school,no,30.23,310
+female,39,high school,yes,25.31,180
+female,55,some high school,no,24.68,204
+female,63,some college,no,32.51,306
+female,46,some high school,yes,26.42,253
+female,65,some college,no,30.12,216
+male,57,some high school,no,37.15,207
+male,55,some college,yes,24.24,214
+male,40,college,yes,28.57,258
+male,55,some high school,no,26.41,199
+female,52,high school,no,24.56,215
+female,42,high school,no,21.12,183
+female,40,high school,yes,24.23,256
+female,49,some college,no,23.17,238
+male,52,some college,yes,26.48,265
+female,54,some college,no,29.88,288
+female,52,some high school,no,37.02,215
+female,41,some college,no,31.31,332
+male,46,college,yes,28.65,238
+female,57,some high school,yes,24.88,235
+female,53,high school,yes,23.65,256
+female,48,some college,yes,23.22,234
+male,59,high school,yes,24.92,232
+female,46,high school,yes,33.02,282
+male,42,some high school,yes,27.63,231
+male,44,some high school,no,25.21,229
+female,61,high school,no,29.87,270
+female,44,some college,no,27.56,257
+female,40,high school,yes,19.98,213
+female,38,some high school,yes,21.83,214
+female,52,high school,no,28.27,600
+male,36,college,yes,25.82,240
+female,45,some college,no,22.86,231
+male,51,some college,yes,26.83,260
+female,52,some high school,yes,23.88,188
+female,63,high school,no,30.47,293
+female,52,some high school,no,30.42,263
+male,40,high school,yes,23.6,335
+female,43,college,yes,22.72,214
+male,63,college,yes,23.06,248
+male,56,some high school,no,25.94,243
+male,53,some high school,yes,19.97,228
+male,45,some high school,yes,23.86,232
+male,34,some high school,yes,24.39,210
+female,62,some high school,no,22.91,207
+male,40,high school,yes,23.35,152
+male,56,some high school,no,30.77,226
+female,53,high school,no,25.45,232
+female,62,some high school,no,29.49,240
+male,60,some college,no,26.13,224
+female,37,college,yes,23.09,240
+male,52,high school,yes,21.17,260
+female,41,some high school,yes,32.52,167
+male,69,some high school,yes,26.58,245
+male,42,high school,yes,22.4,205
+female,65,some high school,no,25.83,212
+male,50,high school,yes,22.93,214
+female,64,some high school,no,25.77,305
+male,59,some high school,yes,25.91,230
+female,58,some high school,no,24.51,268
+female,46,high school,yes,22.53,211
+female,57,college,yes,23.84,250
+female,48,some high school,no,30.46,222
+female,45,some high school,yes,21.26,291
+female,47,some college,yes,20.89,215
+male,59,some college,no,28.23,285
+female,47,some high school,no,39.64,277
+female,55,some high school,yes,28.66,213
+male,58,some college,yes,23.37,200
+female,39,high school,no,24.41,226
+male,55,some high school,yes,24.14,281
+male,46,some college,yes,29.41,214
+male,39,high school,yes,28.09,292
+male,38,college,yes,28.94,275
+female,37,high school,no,26.98,159
+female,45,some high school,no,27.05,211
+female,59,some high school,no,25.58,410
+female,41,some high school,no,31.57,228
+male,48,college,no,27.48,273
+male,64,some high school,no,21.68,189
+male,44,college,yes,27.23,220
+male,60,some high school,yes,18.64,174
+male,38,some high school,yes,21.51,180
+female,58,high school,yes,27.02,231
+male,38,college,no,21.19,210
+male,44,high school,no,25.14,210
+male,42,high school,yes,26.17,355
+male,50,some high school,no,29.46,227
+male,46,some high school,no,25.86,220
+male,44,some college,yes,28.92,352
+female,40,college,yes,26.38,230
+female,61,some college,no,24.69,210
+female,48,some high school,no,27.04,250
+female,62,some high school,no,23.89,261
+female,67,some high school,no,27.89,223
+male,44,high school,no,30.32,267
+male,49,some high school,yes,25.65,255
+male,40,high school,yes,27.42,287
+female,55,some high school,no,21.18,331
+female,44,high school,yes,26.58,239
+female,53,high school,yes,21.02,261
+male,52,some high school,no,40.11,178
+female,43,some college,yes,24.67,192
+female,56,high school,no,25.71,199
+male,48,college,yes,25.68,194
+male,48,college,yes,25.09,216
+female,46,some high school,no,26.83,212
+female,59,high school,no,24.67,233
+female,41,some high school,no,23.07,197
+female,41,some high school,no,34.54,199
+female,46,high school,yes,24.91,275
+male,36,college,yes,30.82,200
+female,51,some high school,no,23.84,225
+male,57,some high school,no,23.04,206
+female,50,high school,yes,20.3,161
+male,39,college,no,22.45,220
+male,46,some college,no,26.97,256
+female,59,some high school,no,25.33,320
+female,52,some high school,no,32.04,245
+male,50,college,no,29.38,259
+male,61,some high school,yes,26.28,312
+male,61,college,no,24.84,204
+male,57,some high school,no,26.84,220
+female,62,some high school,no,29.35,239
+male,57,some college,no,30.77,213
+female,50,some high school,yes,30.36,287
+male,40,some high school,no,25.05,204
+male,55,high school,yes,28.35,222
+male,54,some high school,no,28.56,260
+male,61,some high school,yes,29.82,176
+female,54,some high school,no,23.81,287
+male,45,some high school,no,32.92,275
+female,46,some high school,no,18.4,208
+female,46,high school,no,19.98,213
+male,59,some high school,no,27.27,313
+female,48,some college,yes,31.16,266
+female,67,high school,no,25.81,249
+female,46,some college,yes,26.13,332
+male,48,some high school,yes,27.61,170
+female,58,some high school,no,36.91,281
+female,65,high school,no,30.43,279
+male,42,high school,no,26.14,249
+male,55,some high school,no,24.8,165
+female,59,high school,yes,31.52,345
+female,47,some college,yes,26.2,196
+male,67,some high school,yes,30.42,285
+male,56,college,no,25.59,296
+male,38,college,no,25.87,235
+female,56,high school,no,26.89,260
+male,48,high school,yes,23.34,230
+male,56,some high school,yes,20.12,241
+female,39,some college,yes,18.16,184
+female,50,college,no,24.33,305
+female,46,high school,no,26.67,264
+male,38,some high school,yes,27.22,281
+male,60,some high school,no,26.4,278
+male,36,college,yes,25.14,155
+female,38,high school,no,29.19,251
+male,38,high school,yes,26.68,279
+female,43,college,yes,24.56,203
+female,58,some college,no,26.38,232
+male,42,some high school,yes,24.58,223
+female,63,some college,no,26.45,241
+male,50,high school,no,30.89,252
+female,44,some high school,no,23.09,195
+female,35,some high school,no,23.48,170
+male,44,high school,yes,22.92,205
+male,46,college,yes,28.61,200
+female,44,some high school,no,23.24,200
+female,59,some high school,no,25.32,261
+female,57,some high school,no,26.84,194
+female,52,some high school,yes,28.79,232
+male,62,some high school,no,22.68,275
+male,61,some high school,no,21.9,224
+male,41,some high school,yes,33.08,260
+female,62,high school,no,33.97,229
+male,50,some high school,no,29.13,208
+male,50,some high school,no,28.86,240
+female,54,some high school,yes,30.29,298
+male,44,college,yes,21.19,225
+male,36,college,yes,22.05,155
+male,57,some college,no,24.19,235
+male,39,high school,yes,23.32,217
+female,53,college,no,29.3,310
+female,45,some college,yes,23.22,195
+female,63,some high school,no,28.57,219
+male,41,high school,yes,27.13,249
+female,46,some college,yes,19.7,253
+male,41,high school,yes,25.51,199
+male,49,some high school,yes,27.17,215
+male,43,college,yes,27.57,226
+female,65,some high school,no,24.5,244
+female,48,some college,no,22.19,202
+female,48,some college,no,26.83,309
+female,43,high school,yes,21.85,199
+male,45,some high school,yes,22.3,191
+male,46,high school,yes,20.87,179
+female,61,some high school,no,29.04,311
+female,37,some high school,yes,24.89,279
+male,38,college,no,23.97,240
+female,53,high school,no,22.73,219
+female,60,some high school,no,27.49,238
+female,38,some high school,yes,27.14,201
+male,62,some college,no,27.91,202
+female,52,some college,yes,21.84,248
+male,39,some high school,yes,28.35,215
+male,45,some high school,yes,28.56,255
+female,42,high school,yes,21.98,173
+female,60,some college,yes,20.84,270
+male,46,some high school,yes,24.81,221
+male,36,college,no,26.78,234
+male,44,high school,no,28.15,254
+female,53,some high school,yes,25.52,222
+female,33,some college,yes,21.61,199
+female,64,some high school,no,33.19,194
+female,60,high school,no,25.38,334
+female,37,high school,no,21.03,160
+male,50,some high school,no,25.74,230
+female,55,high school,yes,25.33,250
+male,64,some high school,yes,22.48,214
+male,45,some high school,no,26.6,258
+female,41,high school,no,24.56,237
+male,64,some high school,yes,25.33,266
+male,56,some high school,yes,33.71,217
+male,49,high school,no,24.68,220
+male,51,high school,no,27.78,223
+female,55,some high school,no,27.78,219
+female,60,some high school,no,29.64,275
+female,38,some college,yes,19.49,175
+female,50,some college,no,29.35,254
+female,57,some high school,no,35.19,212
+male,55,some high school,no,28.18,237
+female,63,college,no,22.62,232
+male,63,some high school,no,25.9,178
+female,64,high school,no,26.91,272
+male,41,high school,yes,20.96,155
+female,61,some college,no,21.97,260
+female,56,high school,no,26.1,338
+male,42,college,yes,19.97,166
+male,42,high school,yes,30.13,270
+female,58,some high school,yes,25.56,260
+female,53,some high school,yes,23.95,225
+female,41,some high school,no,25.54,225
+female,60,some high school,no,24.48,222
+female,64,high school,no,34.56,293
+male,48,some high school,yes,40.08,263
+male,62,some high school,yes,25.62,237
+male,53,high school,yes,26.28,220
+male,56,some high school,no,29.77,220
+male,41,high school,yes,21.42,224
+female,36,some college,no,22.54,188
+male,53,some high school,no,28.15,235
+female,44,some college,no,23.98,180
+female,64,some high school,no,26.15,263
+male,35,high school,no,26.23,245
+female,39,some college,no,24.26,201
+male,49,high school,yes,29.76,278
+male,51,some high school,yes,34.97,227
+male,65,some high school,no,28.16,201
+female,42,some high school,no,31.75,158
+female,36,high school,no,33.36,212
+female,53,high school,no,22.01,303
+male,55,some high school,yes,30.16,230
+male,51,college,no,32.98,260
+female,38,high school,yes,24.6,196
+female,64,some high school,no,20.67,239
+male,51,some high school,yes,20.09,241
+female,45,some college,no,19.46,254
+female,55,some high school,no,30,232
+female,38,high school,yes,24.28,192
+male,39,high school,yes,26.48,188
+male,59,college,no,22.17,314
+female,47,some college,no,27.13,230
+male,42,college,yes,29.76,260
+male,38,some high school,no,30.19,203
+female,52,high school,no,20.15,246
+female,46,some high school,no,26.72,233
+female,40,high school,no,22.81,196
+female,37,some high school,yes,43.48,274
+female,39,some college,no,22.85,220
+female,53,high school,no,29.55,230
+male,36,college,no,21.93,210
+female,53,some high school,yes,26.91,235
+female,54,some high school,no,34.25,237
+female,49,college,no,22.17,232
+male,54,some high school,yes,26.21,173
+male,50,some college,no,25.09,232
+female,45,some college,no,22.53,237
+male,58,some high school,yes,26.04,279
+female,47,some high school,no,27.86,278
+male,51,high school,no,27.22,227
+male,47,some college,yes,20.23,173
+male,48,some high school,yes,23.62,170
+male,42,high school,yes,28.84,238
+female,38,some college,yes,19.76,167
+female,58,high school,no,31.34,210
+male,62,college,yes,24.75,292
+female,42,some high school,yes,23.43,225
+female,45,college,no,28.59,250
+male,43,some high school,no,30.55,245
+female,55,some high school,no,26.2,220
+male,53,some high school,yes,18.23,188
+male,61,college,no,24.38,179
+male,41,high school,yes,30.58,274
+female,46,some high school,yes,36.12,275
+female,53,some college,yes,21.14,252
+female,56,high school,yes,25.48,273
+female,46,some high school,no,19.27,239
+female,65,some college,no,25.41,344
+male,62,some high school,yes,21.28,295
+female,56,high school,no,21.88,233
+female,58,high school,no,23.08,190
+female,55,some high school,no,26.89,291
+male,37,some high school,yes,29.19,243
+female,48,some high school,no,28.6,255
+male,64,some college,no,24.9,195
+female,43,high school,yes,26.87,243
+female,46,some college,yes,23.1,285
+female,67,some high school,no,22.91,248
+female,52,high school,yes,28.18,205
+female,69,some college,no,20.92,286
+female,60,high school,yes,21.07,282
+female,40,high school,yes,34.46,178
+male,52,some college,yes,31.05,205
+female,48,some high school,yes,25.21,262
+female,49,some high school,no,28.23,246
+male,49,high school,yes,25.35,252
+female,46,some high school,no,24.28,246
+male,36,college,no,28.53,172
+male,37,college,no,26.09,266
+male,49,some college,yes,26.29,305
+female,50,high school,yes,23.01,235
+female,63,some high school,no,23.44,246
+female,41,some high school,no,31.71,170
+male,39,some high school,yes,23.6,215
+female,48,some college,no,22.83,281
+female,63,some high school,no,24.69,235
+male,51,some college,no,26.09,214
+male,46,some college,no,27.18,295
+female,47,some college,yes,25.85,221
+female,40,college,yes,23.16,155
+female,45,high school,yes,21.94,199
+male,58,some high school,yes,25.67,240
+male,37,high school,no,24.81,228
+female,52,high school,no,28.33,260
+female,45,some college,yes,23.45,268
+female,48,college,no,20.41,241
+male,55,some high school,no,26.36,255
+female,34,high school,yes,22.15,159
+female,44,some high school,no,23.07,242
+male,54,high school,yes,23.71,245
+female,62,high school,no,37.1,298
+female,39,high school,no,21.33,202
+female,43,high school,yes,23.83,291
+female,63,high school,no,22.26,207
+female,47,some college,no,22.02,219
+female,45,high school,yes,26.27,311
+male,54,some high school,no,25.36,230
+female,65,some high school,yes,32.54,217
+female,48,some high school,no,32.67,202
+male,48,some high school,yes,27.24,215
+male,55,college,no,29.05,245
+male,37,some college,no,31.47,257
+male,47,high school,yes,28.88,217
+male,52,high school,no,29.51,310
+male,43,college,no,25.29,260
+female,54,some high school,no,19.63,275
+female,43,college,no,24.09,240
+male,42,some high school,no,28.47,214
+male,46,some college,no,26.82,305
+female,37,high school,no,24.66,209
+female,41,high school,no,24.88,185
+female,50,high school,yes,24.29,275
+female,51,some high school,yes,28.38,195
+female,51,some high school,no,24.67,246
+male,44,some high school,yes,25.38,262
+female,47,some high school,no,28.78,232
+female,38,high school,yes,21.79,266
+female,53,college,yes,24.5,297
+female,56,some college,no,27.69,246
+female,62,high school,no,26.21,276
+male,47,some high school,yes,24.58,210
+female,51,some high school,no,27.73,226
+female,59,some college,no,25.69,282
+female,62,some high school,no,22.53,186
+female,55,some high school,no,24.5,330
+male,63,college,yes,26.18,203
+male,57,some high school,yes,27.56,235
+male,46,some high school,yes,23.22,255
+male,64,some high school,no,37.38,188
+female,49,some college,no,23.29,241
+male,44,some high school,no,25.81,160
+female,47,high school,yes,19.66,237
+female,60,high school,yes,24.68,260
+female,63,some high school,no,25.31,252
+male,50,some high school,no,27.3,282
+female,47,high school,yes,21.66,246
+male,38,high school,yes,19.53,243
+male,44,some high school,no,25.01,195
+female,58,high school,yes,24.77,177
+female,66,some high school,no,23.48,304
+male,61,some high school,no,23.84,257
+male,61,some high school,no,24.93,300
+male,63,some high school,yes,23.72,197
+female,56,some high school,yes,28.66,265
+female,47,high school,yes,24.44,365
+male,48,some high school,yes,26.6,150
+female,39,some college,yes,20.91,196
+female,63,some high school,no,25.49,257
+female,50,high school,no,26.39,214
+male,56,some high school,yes,27.12,222
+male,43,high school,yes,19.84,153
+male,64,some high school,yes,24.68,253
+male,47,some college,yes,20.57,261
+female,58,high school,no,25.02,200
+female,38,some college,yes,23.85,164
+female,46,high school,no,19.03,190
+female,51,some high school,yes,20.24,261
+female,42,some high school,yes,23.99,228
+male,58,college,yes,23.27,290
+female,50,some high school,no,29.36,234
+female,56,some high school,no,25.39,301
+female,54,some college,no,30.47,239
+female,53,some high school,no,24.17,225
+female,52,some high school,no,27.02,279
+female,51,high school,no,23.58,206
+male,45,high school,no,22.32,203
+male,63,some high school,no,27.13,190
+female,43,high school,no,30.79,232
+female,36,high school,yes,25.07,160
+male,41,high school,no,28.76,245
+male,40,some high school,yes,29.38,201
+male,47,college,no,28.23,194
+male,35,college,yes,24.69,300
+female,44,some high school,yes,26.95,189
+female,56,some college,no,25.5,254
+female,64,some high school,no,24.37,282
+male,42,high school,yes,24.21,220
+male,68,some high school,no,33.16,184
+male,40,college,yes,31.69,258
+female,48,some high school,yes,24.53,253
+male,44,some high school,no,24.06,271
+male,48,high school,yes,23.85,208
+male,47,some high school,yes,23.46,260
+female,55,college,no,31.35,258
+female,47,some high school,no,26.32,200
+female,59,some high school,no,29.41,244
+female,65,high school,no,28.38,355
+female,56,some college,no,22.89,207
+male,53,high school,no,27.75,275
+female,42,high school,yes,24.46,359
+female,50,high school,no,21.86,270
+male,45,some high school,yes,27.15,216
+female,42,some high school,yes,23.85,237
+male,46,some high school,yes,24.3,187
+female,42,high school,no,27.01,236
+female,40,some college,no,28.35,202
+male,43,high school,yes,26.64,226
+female,42,some high school,no,22.65,245
+female,39,high school,no,30.36,252
+female,43,some college,no,25.91,263
+male,45,some college,yes,23.72,266
+male,58,some high school,yes,18.84,242
+female,44,some high school,yes,22.36,217
+male,55,some high school,yes,27.38,345
+female,40,some high school,yes,23.41,199
+female,49,college,yes,29.3,231
+female,44,some high school,yes,19.16,210
+female,48,some high school,yes,36.11,268
+female,43,some high school,yes,24.33,186
+female,46,college,no,25.13,190
+male,64,high school,no,16.59,193
+female,54,some high school,no,28.47,219
+female,49,high school,no,25.94,285
+male,38,some high school,yes,23.01,223
+male,61,some high school,no,30.18,214
+male,54,some college,yes,24.05,260
+female,42,college,no,22.9,238
+female,51,some college,no,24.58,250
+male,54,high school,no,23.63,207
+male,40,some college,yes,25.98,208
+female,41,college,no,20.72,204
+female,42,high school,yes,18.68,199
+male,44,high school,yes,25.16,217
+female,39,some high school,no,22.44,243
+male,59,some college,no,26.53,236
+male,44,some high school,yes,34.59,201
+female,45,some high school,no,23.87,220
+female,40,some high school,yes,39.94,209
+female,58,some high school,yes,24.6,225
+male,54,college,no,23.52,265
+female,56,some college,yes,23.4,325
+female,44,some college,yes,21.33,250
+female,51,high school,no,26.65,239
+male,56,college,yes,26.64,303
+female,56,high school,no,28.22,280
+male,52,some high school,no,27.78,285
+female,42,high school,yes,19.74,220
+male,56,high school,yes,24.58,270
+male,39,high school,no,32.51,285
+female,60,some college,no,22.36,328
+male,39,high school,yes,24.25,207
+male,41,some high school,no,30.85,255
+female,42,college,no,28.78,165
+male,60,some high school,no,30.85,226
+female,52,high school,yes,29.56,292
+male,53,some high school,no,24.27,220
+female,42,high school,no,30.91,176
+female,37,college,yes,24.43,205
+female,61,high school,no,18.14,219
+male,37,high school,yes,22.79,249
+female,67,some high school,no,30.04,263
+female,58,some high school,no,23.06,200
+female,47,high school,yes,22.18,253
+female,60,some high school,yes,22.66,353
+male,58,college,no,28.92,210
+female,46,some college,yes,29.15,267
+female,39,some high school,yes,24.89,255
+male,52,high school,no,29.93,202
+female,64,some high school,no,26.24,320
+male,40,some college,no,26.68,213
+female,40,college,yes,25.21,182
+female,59,college,no,23.82,240
+female,59,some college,no,25.56,293
+female,46,some high school,yes,20.2,237
+female,54,some high school,no,31.82,197
+male,42,some college,yes,25.54,225
+female,57,high school,yes,24.83,270
+male,41,high school,yes,25.48,255
+female,55,high school,no,26.18,340
+female,59,some high school,yes,39.91,201
+male,43,college,yes,21.73,292
+female,49,high school,yes,22.54,346
+male,57,college,no,26.35,251
+male,47,some high school,yes,29.98,286
+female,60,some high school,no,29.17,242
+male,55,some high school,no,24.8,246
+male,61,some high school,no,28.89,218
+male,45,some college,no,27.98,162
+male,60,some high school,yes,28.63,232
+female,67,some high school,no,30.12,302
+female,55,college,yes,27.87,263
+female,45,high school,no,22.19,262
+male,51,some high school,yes,30.38,239
+male,66,some high school,no,24.35,253
+male,41,high school,no,26.88,195
+female,50,some high school,yes,19.88,248
+female,61,high school,no,24.79,255
+male,49,some high school,no,27.38,168
+male,52,high school,yes,23.09,222
+female,40,high school,no,28.3,233
+male,43,high school,yes,27.94,192
+male,46,some high school,yes,29.11,346
+female,52,high school,yes,20.78,218
+male,61,some high school,yes,22.01,222
+female,57,some high school,no,36.21,277
+male,50,college,yes,23.55,296
+male,42,college,yes,24.77,270
+male,40,some high school,yes,29.29,154
+male,37,high school,yes,27.6,272
+female,50,some high school,yes,35.68,238
+female,55,some high school,no,26.27,278
+male,51,some high school,yes,28.76,256
+female,42,some high school,yes,20.77,248
+female,53,college,no,40.58,240
+male,40,high school,yes,28.4,193
+female,48,some high school,yes,26.03,188
+male,47,some high school,yes,26.59,143
+female,39,some high school,no,27.27,173
+female,56,college,no,26.21,246
+male,45,high school,yes,26,239
+female,50,some college,no,25.38,305
+male,40,some college,yes,30.55,211
+male,36,some college,yes,24.33,194
+female,57,high school,no,24.76,199
+male,36,some college,no,26.23,174
+female,41,some high school,no,23.04,179
+female,64,high school,no,32.68,246
+male,63,some college,no,28.4,204
+female,58,high school,yes,20.68,234
+female,53,high school,no,30.85,279
+male,48,college,yes,20.72,259
+male,45,college,yes,25.34,226
+male,64,some high school,no,27.08,203
+male,58,high school,yes,25.33,255
+female,44,some high school,no,18.63,160
+female,46,college,yes,18.99,229
+female,40,high school,yes,19.93,202
+female,47,some high school,yes,32.07,325
+female,40,high school,no,23.45,254
+female,54,some high school,no,26.64,245
+female,62,some college,no,21.11,294
+male,40,some high school,yes,27.15,297
+female,58,high school,no,28.4,200
+male,42,high school,yes,28.89,453
+female,41,some high school,yes,24.38,190
+male,38,some college,no,28.12,216
+female,54,high school,no,25.09,220
+female,43,some college,yes,20.4,276
+male,47,high school,yes,25.23,198
+female,41,high school,no,39.21,188
+male,45,some college,yes,26.74,170
+female,53,some college,yes,24.09,221
+male,52,some high school,yes,30.12,283
+female,45,high school,no,21.56,262
+female,46,some college,yes,26.8,269
+male,47,some high school,no,22.41,197
+male,42,some college,yes,26.79,225
+female,53,some high school,no,26.25,265
+male,45,some high school,yes,23.21,150
+male,55,some high school,yes,24.73,243
+female,42,high school,yes,22.32,310
+male,62,college,yes,25.35,260
+male,40,high school,yes,24.12,162
+female,55,high school,yes,20.92,265
+male,45,high school,no,30.34,215
+female,60,some high school,no,29.28,261
+female,36,high school,yes,23.07,190
+male,53,high school,yes,24.21,276
+female,40,high school,no,24.26,195
+female,39,some college,no,23.96,209
+male,51,some high school,no,26.98,250
+female,37,some high school,no,26.72,261
+male,37,high school,yes,19.68,237
+female,44,college,yes,27.29,200
+male,46,high school,no,31.93,226
+male,45,some high school,no,27.34,220
+male,48,high school,yes,24.32,210
+male,44,college,yes,34.89,210
+female,50,some high school,yes,18.99,203
+female,56,high school,no,27.51,225
+female,46,some high school,yes,25.2,185
+female,53,some high school,no,27.45,174
+male,50,some high school,yes,21.45,329
+male,48,college,no,26.22,323
+male,39,high school,yes,19.98,206
+female,65,some college,no,20.5,217
+female,49,some high school,no,25.61,257
+male,37,high school,yes,26.71,220
+female,54,high school,yes,24.76,262
+female,38,high school,no,22.58,167
+female,50,some high school,no,27.08,212
+male,52,some high school,no,28.28,200
+female,37,high school,yes,20.24,229
+female,41,high school,no,23.64,168
+female,43,high school,no,24.03,266
+female,57,some high school,yes,22.55,240
+male,60,some high school,yes,27.87,285
+female,48,some high school,no,27.49,279
+male,41,some high school,no,34.99,324
+female,55,some high school,no,20.56,225
+female,63,college,no,24.01,210
+male,38,some college,yes,23.76,270
+female,42,some high school,no,25.75,197
+female,64,some high school,no,29.97,285
+male,44,some high school,yes,21.02,163
+female,63,some high school,no,27.96,306
+male,41,high school,yes,23.27,210
+male,53,some high school,yes,24.45,248
+female,39,high school,yes,20.39,284
+male,42,some high school,yes,28.3,232
+male,50,college,no,26.26,220
+female,43,high school,yes,35.99,174
+female,48,some high school,no,17.11,205
+male,61,high school,no,26.84,260
+female,39,some college,yes,21.01,186
+male,43,college,yes,26.11,226
+female,43,high school,yes,28.18,300
+female,59,some high school,no,24.39,260
+female,46,high school,no,29.21,225
+female,50,some high school,no,23.44,281
+female,62,some high school,no,22.9,266
+male,55,college,no,28.52,275
+female,44,some college,yes,21.19,284
+female,63,some high school,no,27.69,180
+female,57,some high school,no,24.27,382
+female,40,some high school,yes,24.29,220
+female,49,some high school,yes,40.51,214
+male,60,some high school,no,27.73,225
+female,43,some high school,no,30.28,229
+female,62,high school,no,26.97,304
+female,54,some high school,no,32.1,306
+female,66,some college,yes,23.36,241
+female,36,some high school,no,26.03,200
+female,43,some college,yes,23.22,186
+male,61,some high school,yes,21.77,262
+female,52,some high school,no,23.09,248
+female,51,some college,yes,22.73,326
+male,65,college,yes,24.3,236
+male,43,some college,yes,22.05,285
+male,36,high school,yes,28.09,310
+male,42,high school,no,24.86,228
+female,57,some high school,yes,41.61,254
+female,40,high school,yes,22.37,235
+male,59,some high school,yes,22.82,200
+male,56,some high school,yes,25.16,197
+female,45,some high school,no,25.74,195
+female,42,some high school,no,24.85,165
+male,68,high school,yes,24.68,250
+female,59,some high school,no,32.84,288
+male,58,college,yes,28.3,213
+male,48,high school,no,22.12,247
+female,65,some high school,no,23.87,342
+female,69,high school,no,26.27,220
+female,63,some college,no,26.92,253
+female,40,some high school,yes,21.32,155
+female,43,some college,yes,21.14,250
+female,40,high school,no,22.98,212
+female,41,high school,yes,22.28,193
+female,45,high school,yes,23.26,232
+female,48,some high school,no,28.49,169
+female,58,some high school,yes,21.09,222
+female,40,some college,no,24.75,226
+female,38,some college,yes,22.73,203
+female,47,college,no,29.23,230
+female,38,some high school,yes,23.88,199
+female,46,some high school,no,25.46,222
+female,41,some high school,yes,20,190
+female,41,some high school,yes,19.68,242
+male,40,college,no,27.34,213
+male,51,some college,no,21.52,245
+male,54,some high school,yes,24.41,240
+female,50,high school,no,27.07,312
+female,48,college,yes,21.1,195
+male,44,high school,yes,31.62,240
+female,48,some high school,yes,24,252
+female,53,some college,no,20.31,260
+female,38,high school,no,23.05,255
+female,59,some high school,no,22.38,280
+female,36,some college,yes,20.41,159
+female,41,some high school,no,36.07,229
+female,54,some high school,no,29.4,302
+male,48,college,yes,21.84,245
+male,43,high school,yes,23.31,229
+male,55,high school,no,26.77,309
+male,53,college,no,26.5,207
+male,68,some high school,yes,26.73,157
+female,53,some college,no,26.05,294
+female,53,high school,no,28.78,250
+male,45,some high school,yes,28.74,277
+female,39,some college,yes,19.71,197
+male,59,some high school,no,28.47,190
+female,63,college,no,24.3,252
+male,45,high school,yes,22.79,229
+male,52,high school,yes,23.78,243
+female,38,some college,yes,21.44,205
+male,61,some high school,no,24.83,238
+female,43,high school,yes,24.44,286
+male,40,some college,yes,21.86,185
+male,40,some college,yes,19.11,193
+female,35,some college,yes,23.1,154
+male,40,some high school,yes,22.85,202
+male,52,college,yes,25.95,346
+female,39,some high school,no,29.06,219
+male,42,college,yes,23.95,274
+female,42,some college,no,23.98,270
+male,39,high school,yes,24,218
+female,44,some high school,yes,24.3,205
+female,47,high school,yes,27.42,236
+female,45,high school,yes,21.68,313
+female,46,some high school,no,26.15,200
+male,56,high school,no,25.79,241
+female,41,high school,no,20.62,232
+female,64,high school,yes,25.23,315
+male,41,some college,yes,28.62,210
+male,55,some high school,yes,28.55,274
+female,46,high school,yes,23.38,291
+male,58,high school,no,25.68,225
+male,51,some high school,yes,24.22,339
+female,47,some college,no,32.43,248
+male,50,some high school,no,26.26,219
+male,57,some high school,yes,20.19,211
+male,39,college,no,24.44,320
+female,62,some high school,no,18.99,390
+female,60,high school,yes,24.51,228
+male,37,some high school,no,25.83,300
+male,39,high school,no,31.38,262
+male,64,some high school,no,24.95,271
+male,47,some high school,yes,24.45,234
+male,46,some high school,no,22.92,235
+female,40,some college,yes,21.32,280
+female,41,high school,yes,20.18,220
+male,64,some high school,yes,21.03,232
+male,43,college,yes,25.09,171
+female,46,some high school,yes,32.49,220
+female,59,high school,yes,25.4,240
+male,47,some high school,no,26.25,283
+female,48,some high school,no,25.22,275
+female,44,college,yes,19.28,170
+female,55,high school,yes,25.23,252
+female,52,some college,yes,26.55,287
+male,58,some college,no,32.18,241
+female,44,high school,yes,24.37,179
+female,50,some high school,yes,39.94,204
+female,46,some college,yes,21.51,247
+female,41,some high school,no,28.25,203
+male,38,some high school,yes,25.17,274
+male,64,some high school,yes,34.53,185
+female,44,high school,yes,23.1,295
+male,42,high school,yes,23.72,204
+female,58,some high school,yes,19.18,275
+male,64,some high school,yes,29.29,219
+male,53,high school,no,25.61,254
+male,37,some college,yes,27.47,243
+male,41,high school,yes,31.12,236
+female,44,some high school,yes,23.74,181
+male,47,some high school,no,23.75,265
+female,61,some high school,yes,23.2,252
+female,59,high school,yes,21.82,254
+male,48,high school,yes,25.94,258
+female,55,some college,no,28.9,237
+female,54,college,no,27.91,201
+female,58,some high school,no,26.98,210
+male,54,some high school,no,35.85,206
+female,63,high school,yes,22.15,179
+female,43,some college,yes,24.68,214
+female,62,some high school,no,31.12,242
+female,40,college,yes,21.15,188
+male,43,some college,no,26.72,200
+male,38,high school,no,21.66,220
+female,47,college,no,22.01,242
+male,35,some high school,yes,26.59,265
+male,53,some high school,yes,23.65,260
+female,34,some college,no,25.67,196
+female,56,some high school,no,24.83,391
+male,44,some high school,yes,28.82,334
+male,37,some college,no,28.95,238
+male,63,some high school,no,28.78,252
+female,54,high school,yes,37.3,246
+female,54,some high school,no,29.76,266
+female,41,college,yes,19.23,218
+male,44,some high school,yes,30.03,232
+male,50,high school,no,24.56,258
+female,65,high school,no,29.75,256
+female,41,some college,yes,25.38,232
+female,45,some college,yes,22.18,198
+male,57,some high school,yes,28.13,167
+female,46,some college,yes,23.05,251
+female,48,high school,yes,26.4,150
+female,55,some high school,no,22.57,180
+male,51,some college,yes,19.71,207
+female,63,some high school,no,24.91,281
+female,54,some high school,yes,23.28,262
+female,48,some high school,yes,28.9,304
+female,52,some college,no,25.89,275
+female,38,high school,no,24.56,287
+male,39,high school,yes,28.62,273
+female,57,some high school,no,38.17,259
+female,46,high school,no,23.62,214
+male,60,some high school,no,29.37,270
+female,48,some high school,no,29.8,224
+female,48,high school,yes,22,248
+male,47,high school,yes,27.73,344
+male,66,some high school,yes,28.62,234
+male,39,some high school,yes,26.04,325
+female,38,college,no,22.73,254
+male,54,some high school,yes,31.3,243
+female,43,high school,no,27.64,247
+male,53,college,no,26.55,225
+female,53,high school,no,32.52,366
+female,50,high school,yes,22.54,292
+female,55,high school,no,27.76,250
+female,53,high school,yes,28.02,250
+male,52,some high school,yes,21.85,271
+male,38,high school,yes,25.63,200
+male,38,high school,no,21.43,150
+male,61,high school,yes,25.71,204
+female,40,high school,no,19.78,219
+female,55,high school,yes,27.51,323
+male,40,high school,yes,23.9,282
+female,56,high school,yes,18.62,288
+female,38,high school,no,28.21,159
+female,59,some high school,no,19.88,246
+female,57,some high school,no,38.39,266
+female,47,some high school,yes,34.91,160
+male,57,some high school,no,22.9,201
+female,52,some college,yes,22.54,249
+female,56,some high school,no,23.72,296
+female,48,some high school,yes,25.11,202
+female,59,high school,no,26.48,279
+female,43,some high school,yes,26.66,200
+male,62,some high school,yes,23.88,226
+male,59,some high school,no,27.14,248
+female,63,some college,no,21.35,281
+male,41,high school,yes,24.62,293
+male,42,some college,yes,33.26,272
+male,45,high school,yes,22.33,212
+female,39,some high school,no,34.84,195
+male,35,some college,yes,28.7,215
+female,51,some college,no,24.03,204
+male,60,some high school,yes,25.06,260
+female,58,high school,no,19.09,246
+male,51,some high school,yes,28.55,264
+male,58,some high school,no,26.05,233
+female,45,high school,yes,24.74,285
+male,33,college,no,24.95,165
+female,67,some high school,no,20.5,218
+male,59,high school,yes,31.76,176
+female,55,high school,yes,22.91,248
+female,59,some high school,no,25.63,205
+male,51,high school,yes,23.9,234
+female,65,some high school,no,26.54,288
+female,45,some college,no,31.35,186
+female,58,high school,yes,29.06,215
+female,42,high school,no,23.68,263
+female,37,college,no,21.84,165
+female,62,high school,no,23.29,317
+male,57,some high school,yes,23.81,249
+female,56,some college,no,28.61,192
+female,64,some high school,no,30.18,268
+female,44,some high school,no,33.47,219
+female,52,college,no,24.8,264
+female,40,high school,no,29.86,204
+female,64,some high school,yes,20.52,317
+female,64,college,yes,20.52,342
+male,44,some high school,yes,28.3,258
+female,51,some high school,yes,25.79,352
+male,63,some high school,yes,29.01,188
+male,41,high school,yes,27.63,206
+male,49,high school,yes,25.94,212
+female,40,high school,no,26.56,205
+female,47,high school,no,20.27,223
+female,40,high school,yes,21.83,261
+female,64,high school,yes,20.09,259
+female,56,high school,no,26.67,261
+male,44,some college,yes,24.16,272
+female,60,some high school,no,22.17,273
+male,45,some high school,yes,27.11,241
+female,46,some college,no,24.19,165
+female,59,college,no,28.96,282
+male,46,some college,no,29.91,216
+male,57,some high school,yes,27.26,274
+male,42,high school,no,32.52,164
+male,59,some high school,yes,27.93,259
+male,52,some college,no,26.51,232
+female,43,some high school,no,22.36,175
+female,52,high school,no,25.37,193
+male,49,some high school,no,27.29,248
+female,59,some college,no,27.39,292
+male,54,some high school,no,25.91,250
+female,41,some college,no,25.03,233
+female,59,some high school,no,22.91,276
+male,62,some high school,yes,26.97,234
+male,62,some high school,yes,24.02,260
+female,49,college,yes,24.96,262
+female,39,high school,no,30.36,197
+female,43,some high school,yes,27.49,249
+female,60,some college,no,23.03,232
+female,55,some high school,no,29.65,328
+female,41,college,no,22.25,206
+male,62,some high school,yes,19.53,286
+male,42,some college,yes,23.59,256
+female,55,some high school,yes,18.06,240
+female,47,some college,no,24.16,250
+female,44,high school,yes,25.71,152
+male,52,some high school,yes,26.56,200
+female,56,some high school,no,27.73,273
+male,41,some high school,yes,25.03,192
+male,58,high school,yes,26.4,282
+female,50,some high school,no,27.61,273
+female,41,some high school,yes,24.35,171
+female,52,some high school,no,33.9,280
+male,59,some high school,yes,24.79,206
+male,48,some college,no,21.06,234
+female,48,college,no,24.53,200
+male,37,high school,no,31.22,212
+male,47,college,yes,28.24,210
+female,48,some high school,no,22.72,215
+female,48,some college,yes,25.04,246
+female,45,high school,yes,17.32,255
+male,55,some high school,yes,27.56,246
+female,39,some high school,no,20.7,205
+female,41,high school,yes,23.71,235
+female,48,some high school,no,25.1,193
+female,38,some high school,yes,25.75,164
+female,42,high school,yes,22.65,219
+male,66,some high school,yes,29.58,228
+female,39,high school,no,29.23,250
+male,45,some college,yes,29.17,233
+female,51,some high school,no,32.35,216
+female,61,some high school,yes,22.91,259
+male,47,some high school,no,29.34,259
+male,55,high school,yes,28.49,283
+female,55,some high school,no,31.44,235
+female,40,college,yes,23.9,200
+male,48,some high school,no,23.95,306
+male,41,some high school,yes,26.89,260
+male,55,some high school,yes,23.59,220
+female,61,some college,no,32.8,272
+female,63,some high school,no,31.5,237
+male,53,some high school,yes,32.32,246
+female,61,college,no,23.16,233
+male,38,some high school,yes,28.61,305
+male,48,high school,yes,21.45,176
+female,52,some college,no,18.98,272
+female,38,some high school,yes,27.06,220
+female,51,some high school,yes,29.38,264
+female,62,some high school,no,30.51,242
+male,58,some high school,yes,25.18,241
+female,44,some high school,no,24.04,202
+male,47,high school,yes,26.84,200
+male,52,some high school,yes,18.65,262
+female,63,some high school,no,30,293
+male,60,high school,no,22.16,175
+male,60,some high school,yes,26.52,170
+male,54,some college,yes,26.2,288
+female,42,high school,no,26.81,233
+male,40,some high school,yes,26.51,332
+female,58,some high school,yes,26.85,240
+female,59,some high school,yes,29.69,270
+female,64,high school,yes,28.91,230
+male,60,college,no,27.13,250
+male,57,some high school,no,31.01,155
+female,57,some high school,yes,26,229
+female,45,some college,yes,22.02,156
+female,65,some high school,no,27.26,223
+male,50,some high school,yes,29.38,225
+male,56,some high school,yes,22.67,278
+female,48,some college,no,21.14,231
+female,55,some high school,no,29.17,252
+male,47,college,yes,16.87,184
+female,45,high school,no,25.92,215
+male,63,some high school,no,23.08,246
+female,42,high school,no,27.35,205
+male,59,college,yes,28.61,235
+male,38,high school,yes,29.6,195
+female,60,some high school,no,24.57,391
+female,44,high school,no,44.55,169
+female,46,some college,yes,21.67,165
+male,42,some high school,no,25.71,186
+female,46,college,no,26.35,255
+female,50,some high school,yes,21.65,242
+female,49,college,no,27.1,168
+male,57,college,no,32.09,310
+female,54,high school,no,22.02,270
+female,37,some college,yes,18.3,222
+male,61,some college,yes,20.72,180
+female,46,some high school,no,26.22,212
+male,65,some high school,yes,29.47,238
+male,47,high school,yes,27.51,234
+female,51,high school,no,24.41,295
+male,51,high school,yes,22.67,244
+female,56,some high school,yes,30.78,266
+male,58,some high school,yes,21.24,251
+male,45,high school,no,21.07,279
+male,50,some high school,no,26.54,253
+female,43,some college,no,26.11,214
+female,46,high school,no,21.35,270
+female,49,some college,no,22.29,286
+female,34,high school,no,24.99,226
+female,58,some high school,yes,28.24,252
+male,46,some high school,yes,21.34,217
+male,46,college,no,27.78,220
+female,39,some high school,no,22.01,164
+female,51,some high school,no,24.16,197
+female,58,some high school,no,24.25,234
+male,51,some high school,yes,29.86,243
+female,43,some high school,no,29.89,185
+female,43,some high school,yes,31.54,315
+female,41,college,no,25.48,240
+female,66,some high school,no,25.59,312
+female,46,high school,no,22.72,244
+female,39,high school,yes,27.26,225
+male,48,some high school,no,29.07,232
+female,57,high school,yes,27.99,315
+female,61,high school,yes,22.91,235
+male,42,high school,no,23.75,227
+male,40,some college,yes,23.81,302
+female,38,some high school,yes,18.18,224
+male,44,some high school,yes,25.24,271
+male,59,high school,yes,26.46,212
+female,48,some high school,no,24.91,270
+female,51,high school,yes,30.67,293
+female,38,high school,yes,25.33,255
+female,59,high school,no,23.29,310
+male,53,some high school,yes,25.09,186
+female,50,high school,yes,19.72,258
+female,46,some high school,no,21.96,199
+female,62,some high school,no,28.66,224
+male,44,high school,no,24.72,286
+male,53,high school,no,28.47,325
+male,39,high school,yes,23.57,190
+female,61,some high school,no,25.31,271
+female,42,some high school,yes,23.48,218
+male,50,some high school,yes,33.81,202
+male,51,some high school,yes,29.91,241
+female,49,some high school,yes,21.45,252
+male,38,high school,no,26.49,148
+male,44,some high school,no,29.89,273
+female,46,some high school,yes,21.4,219
+male,54,some high school,no,20.55,254
+female,46,some high school,yes,21.14,193
+male,38,high school,no,26.69,209
+male,43,college,yes,25.62,187
+female,44,some high school,yes,25.25,229
+male,36,high school,no,26.33,245
+male,52,college,no,23.96,224
+female,40,high school,no,27.38,157
+female,42,college,no,20.02,182
+female,56,some high school,no,23.42,207
+male,59,some high school,yes,20.12,207
+female,48,some college,no,24.73,230
+female,55,some high school,no,26.27,325
+male,50,high school,no,27.83,239
+male,41,high school,yes,28.08,232
+female,39,high school,yes,19.8,206
+female,38,high school,yes,33.14,186
+female,41,college,no,24.17,257
+male,40,some high school,yes,23.92,191
+female,48,some college,no,24.41,205
+female,44,some high school,yes,25.34,351
+female,57,some high school,no,21.02,372
+female,49,some high school,no,23.86,307
+female,58,some high school,yes,28.88,156
+male,38,some college,no,24.72,252
+female,60,some high school,no,25.05,231
+male,63,some high school,no,27.06,270
+female,40,high school,yes,27.24,271
+female,47,some college,yes,25.86,232
+male,49,high school,yes,27.92,246
+male,38,high school,yes,26.23,225
+female,60,some high school,no,18.87,318
+female,54,some high school,no,30.47,208
+male,41,high school,yes,21.28,200
+female,59,some high school,no,23.28,249
+female,62,some college,no,24.49,249
+male,39,college,yes,23.98,217
+female,42,some high school,yes,23.8,209
+female,41,college,yes,22.53,243
+female,36,high school,no,33.82,208
+male,54,some high school,no,26.58,267
+female,43,high school,no,22.53,232
+female,48,some college,no,19.78,197
+female,40,some high school,yes,22.37,187
+male,44,high school,yes,28.32,264
+male,37,some high school,yes,19.53,179
+female,51,high school,yes,20.82,326
+male,48,some high school,yes,23.03,252
+male,62,some high school,no,28.65,252
+male,46,some high school,yes,26.4,270
+male,50,some high school,no,21.85,260
+female,40,high school,yes,22.13,176
+female,57,some college,yes,22,262
+male,40,some high school,no,27.04,137
+female,43,some college,yes,26.61,202
+female,42,some high school,yes,25.08,228
+female,46,some college,yes,24.1,291
+male,52,some high school,no,29.35,170
+female,49,some high school,no,29.35,286
+male,43,some high school,yes,23.61,225
+male,62,some college,yes,20.87,300
+male,42,some college,no,25.41,283
+female,59,some college,yes,25.86,216
+male,38,high school,yes,24.46,220
+male,41,some high school,yes,21.51,198
+male,37,some college,no,22.9,197
+male,40,some college,no,25.6,185
+female,40,high school,no,23.28,178
+female,63,some high school,no,27.31,361
+female,40,some high school,no,28.18,190
+male,51,some high school,yes,25.62,240
+female,50,some high school,yes,22.02,177
+female,45,college,yes,23.48,239
+male,46,high school,yes,28.12,272
+male,37,high school,yes,27.97,165
+female,52,some high school,no,25.79,252
+male,48,high school,no,25.79,251
+female,46,some high school,yes,24.24,262
+female,61,some high school,no,51.28,225
+male,42,high school,yes,25.49,211
+male,57,high school,yes,24.17,245
+female,47,college,yes,20.32,243
+female,53,some college,no,27.17,280
+female,64,high school,yes,24.02,282
+female,36,some high school,no,22.19,211
+female,39,some high school,yes,22.88,226
+female,42,college,yes,19.27,273
+male,54,some high school,no,22.49,217
+female,39,high school,yes,18.7,247
+male,57,some high school,no,31.68,241
+female,38,some college,no,22.15,185
+male,44,high school,no,25.95,244
+female,46,some high school,yes,23.35,392
+female,62,high school,no,27.4,313
+male,63,some high school,yes,24.19,253
+female,53,high school,no,17.89,213
+male,62,high school,yes,26.15,264
+male,66,some high school,no,19.09,270
+female,59,some college,no,27.48,240
+female,52,some college,yes,20.4,275
+male,54,some high school,no,26.13,235
+male,65,some high school,yes,19.34,246
+female,38,some college,no,27.68,159
+female,61,college,no,31.64,235
+female,43,college,yes,24.54,201
+male,54,college,yes,27.3,300
+female,39,college,no,21.8,181
+female,59,high school,yes,22.7,236
+female,54,some college,no,24.96,238
+female,62,some high school,no,21.34,233
+male,47,college,yes,24.18,294
+male,58,some high school,yes,26.37,272
+female,52,high school,yes,29.01,334
+female,57,some high school,no,27.38,254
+male,50,high school,no,25.86,296
+male,48,high school,no,27.89,193
+female,58,some college,no,21.81,287
+male,48,some high school,no,27.13,270
+female,46,high school,no,28.73,250
+female,59,some high school,no,39.4,234
+female,44,some high school,no,25.74,230
+male,58,high school,no,24.73,149
+male,62,college,no,25.49,273
+male,47,some high school,no,24.05,219
+female,52,high school,no,23.37,221
+male,60,some high school,yes,28.36,239
+female,45,some college,yes,23.48,184
+male,52,some high school,yes,27.61,246
+male,65,some high school,no,26.46,251
+male,38,high school,yes,20.39,150
+female,40,high school,yes,23.09,169
+female,60,some college,no,27.94,259
+female,49,some college,no,24.87,203
+female,56,some high school,no,30.73,259
+male,39,some college,no,24.35,202
+female,62,some high school,no,30.21,205
+male,53,some high school,no,26.86,219
+female,55,some high school,yes,36.62,233
+female,37,some high school,no,16.48,184
+male,58,college,yes,23.72,243
+male,38,some college,no,23.1,305
+female,42,some college,yes,22.5,218
+female,52,some high school,no,34.17,234
+female,35,high school,yes,23.09,231
+female,55,some high school,no,26.99,268
+male,46,high school,no,27.86,254
+female,56,some high school,no,40.21,262
+female,64,some high school,no,24.77,262
+female,57,some college,no,26.59,210
+female,57,some high school,no,22.99,273
+female,62,high school,no,35.11,344
+female,42,college,no,21.99,278
+male,50,some college,yes,26.29,210
+female,57,high school,no,25.69,333
+female,59,some high school,no,28.06,297
+male,40,college,no,28.06,209
+female,42,some high school,yes,22.91,200
+female,46,high school,no,20.06,221
+male,54,high school,yes,26.47,279
+male,52,college,yes,24.47,190
+female,51,some high school,yes,22.34,201
+female,55,some high school,no,27.86,290
+female,66,high school,no,31.11,292
+male,66,high school,no,32.33,124
+male,41,some college,yes,21.27,217
+female,43,some college,no,23.33,202
+male,40,high school,no,26.56,234
+male,61,some high school,yes,28.74,360
+male,42,some high school,yes,27.72,306
+female,51,some college,yes,25.6,251
+male,50,some college,yes,23.3,200
+female,59,some high school,no,24.67,254
+female,44,college,no,22.19,216
+female,42,high school,no,21.29,232
+female,38,some college,yes,30.06,187
+female,39,some college,no,20.62,195
+male,62,some high school,no,25.65,237
+male,37,college,yes,23.8,210
+female,39,some college,no,24.56,152
+male,59,high school,no,28.45,237
+male,56,some high school,no,30.76,215
+male,64,some high school,no,28.66,203
+male,60,some high school,yes,24.86,217
+male,60,some high school,yes,19.42,166
+male,59,high school,yes,29.07,266
+female,65,high school,no,29.93,240
+male,50,college,no,30.41,259
+female,57,some high school,no,26.13,432
+female,42,high school,yes,21.59,190
+female,42,college,no,26.93,250
+male,41,some high school,yes,22.53,198
+female,38,high school,yes,24.91,180
+male,67,high school,no,36.04,287
+male,45,high school,yes,20.17,207
+female,58,some college,no,24.69,326
+male,63,some college,no,24.38,210
+male,46,high school,yes,31.46,216
+female,42,high school,no,23.78,185
+male,60,high school,yes,22.7,305
+male,40,high school,no,32.84,208
+male,40,college,no,36.01,192
+female,50,some high school,no,22.91,254
+female,35,high school,no,24.55,254
+female,43,some high school,yes,19.88,259
+female,55,some high school,yes,27.23,308
+female,50,some high school,yes,24.61,195
+male,48,high school,no,31.78,274
+female,54,some college,yes,29.45,213
+female,69,high school,no,17.23,215
+female,42,high school,yes,26.25,286
+male,40,high school,yes,26.17,246
+male,36,college,no,29.77,212
+male,44,some high school,yes,24.56,254
+female,64,some college,no,25.98,196
+female,41,some high school,yes,33.8,189
+male,60,high school,no,28.59,213
+male,44,high school,no,31.55,228
+male,53,some high school,no,29.82,240
+male,50,some high school,yes,20.42,196
+male,49,high school,yes,23.19,273
+male,64,some college,no,23.29,227
+female,41,some high school,no,29.01,295
+male,44,some high school,no,34.39,229
+female,55,some college,no,25.41,260
+female,45,some high school,no,25.97,244
+female,37,college,no,27.17,240
+female,44,some high school,no,30.47,192
+male,47,college,yes,24.23,214
+female,58,high school,no,21.51,312
+male,60,some high school,no,23.01,191
+male,53,some college,yes,23.4,238
+female,55,some high school,no,30.61,215
+female,40,high school,yes,18.82,240
+female,47,some college,no,21.93,274
+female,54,high school,no,24.9,193
+female,46,high school,no,19.2,232
+female,44,some college,yes,23.75,240
+female,43,college,yes,18.83,235
+female,63,some high school,no,26.91,258
+male,45,high school,yes,20.41,194
+female,58,some high school,yes,23.07,271
+male,65,college,no,24.04,207
+female,64,some high school,no,25.81,300
+male,38,high school,yes,30.02,245
+female,42,some high school,yes,38.54,240
+male,47,high school,yes,22.42,439
+female,37,high school,no,25.91,217
+male,41,high school,yes,29.69,193
+male,63,some high school,no,30.08,260
+male,35,high school,yes,25.16,234
+female,45,college,no,24.56,201
+female,61,some high school,no,22.48,210
+female,53,high school,no,28.71,220
+female,38,some high school,no,23.66,293
+female,64,some high school,no,23.39,255
+male,60,some high school,yes,23.06,248
+female,43,high school,yes,26.01,250
+female,64,some high school,no,22.54,173
+male,40,college,no,40.38,240
+male,56,high school,no,29.47,322
+female,59,high school,yes,25.97,309
+male,42,college,no,35.45,245
+male,38,some high school,yes,30.34,113
+male,39,high school,yes,29.72,186
+male,47,high school,yes,28.5,296
+female,58,some high school,no,28.4,274
+male,48,high school,yes,18.55,194
+male,36,college,no,20.86,219
+female,64,some college,no,23.09,330
+female,38,some college,no,21.8,171
+female,39,college,no,22.72,216
+female,63,some high school,no,16.92,222
+male,47,high school,yes,27.31,225
+male,41,high school,no,29.44,223
+female,49,some high school,no,21.83,225
+male,42,some high school,yes,26.62,319
+male,37,some high school,yes,27.45,245
+female,35,high school,no,19.64,170
+female,55,some high school,no,26.31,310
+male,57,some high school,yes,27.6,250
+male,41,some high school,yes,22.94,224
+female,54,some high school,yes,25.82,209
+female,57,some high school,no,36.46,207
+male,46,college,yes,27.48,209
+female,53,some high school,yes,27.87,366
+female,55,some high school,no,29.44,204
+female,45,some college,yes,25.38,152
+male,57,some college,yes,23.01,245
+female,61,college,no,23.06,261
+female,39,some high school,no,29.7,186
+male,43,some high school,yes,17.81,175
+male,64,high school,no,22.73,283
+male,41,high school,yes,24.5,245
+male,42,college,no,24.98,191
+female,57,high school,no,25.77,274
+male,42,high school,yes,23.56,223
+female,48,some high school,no,28.54,287
+female,55,some high school,no,28.27,230
+female,60,some high school,no,20.34,236
+male,44,some high school,yes,26.92,227
+female,55,some high school,yes,22.69,346
+male,52,high school,yes,26.73,312
+male,52,some high school,no,30.38,258
+male,56,high school,yes,24.87,285
+female,55,high school,no,22.54,198
+male,38,high school,no,25.85,235
+male,58,some high school,no,24.49,264
+female,52,some college,no,30.99,350
+female,49,some college,no,27.49,224
+male,61,some high school,yes,25.08,157
+female,52,high school,no,24.53,216
+male,50,some high school,yes,29.64,234
+female,46,some high school,no,31.24,254
+female,61,some college,no,23.33,340
+male,46,high school,yes,27.22,235
+female,48,high school,no,31.67,240
+female,32,high school,yes,29.84,242
+male,52,some high school,yes,32.27,240
+female,53,some high school,yes,34.69,181
+female,64,high school,no,35.22,254
+male,43,high school,yes,24.42,207
+female,45,some high school,yes,34.27,268
+female,64,high school,yes,25.16,250
+female,47,some high school,no,18.67,228
+female,44,some college,no,22.19,270
+female,53,high school,yes,24.22,240
+female,51,high school,no,21.66,351
+female,55,some high school,no,30.24,282
+female,42,some college,no,22.9,464
+female,61,high school,yes,26.11,326
+male,50,some high school,no,28.04,301
+female,67,some college,no,24.67,260
+male,39,college,yes,23.9,255
+male,44,some high school,yes,31.44,200
+female,58,some high school,no,27.73,294
+male,50,some high school,no,32.22,204
+female,61,some college,yes,24.03,310
+female,38,high school,yes,21.35,309
+female,41,college,yes,31.65,261
+female,44,some college,yes,22.17,198
+male,41,some college,no,33.29,250
+female,62,high school,yes,26.39,244
+male,63,college,no,26.76,207
+female,64,some high school,no,26.01,372
+male,57,some high school,yes,27.77,185
+female,53,some high school,no,28.92,272
+male,40,some college,yes,24.74,203
+female,39,high school,yes,22.35,226
+female,38,high school,no,30.24,227
+female,55,some high school,no,25.01,244
+male,65,some high school,yes,21.18,177
+female,50,high school,yes,24.22,220
+female,42,some high school,yes,23.25,173
+female,48,some high school,no,27.6,246
+male,46,some high school,no,27.17,328
+female,51,high school,no,33.66,320
+female,47,some high school,yes,35.78,221
+female,42,some college,yes,21.93,216
+male,46,some high school,yes,23.59,261
+male,67,high school,yes,22.71,261
+female,45,college,yes,24.53,192
+female,65,some high school,no,30.47,252
+female,40,high school,no,20.82,168
+female,64,some high school,yes,21.82,272
+male,45,college,yes,26.05,271
+female,46,high school,yes,25.17,271
+female,36,some high school,yes,26.79,222
+female,47,college,yes,22.18,241
+male,56,high school,yes,25.49,205
+female,47,high school,yes,25.59,234
+male,58,high school,yes,32,250
+male,52,high school,no,26.6,269
+male,45,some college,yes,31.14,238
+male,64,college,no,22.3,273
+male,64,some high school,no,26.11,185
+male,51,high school,yes,25.98,267
+male,49,some college,yes,26.87,282
+male,58,some high school,no,26.27,287
+male,44,some high school,yes,26.02,230
+male,49,high school,yes,29.91,291
+female,45,high school,yes,22.35,213
+female,62,some high school,no,31.44,174
+female,49,high school,yes,22.89,226
+male,57,some high school,yes,24.71,225
+male,45,some high school,yes,28.58,221
+male,55,high school,yes,21.97,342
+male,38,high school,yes,25.45,227
+female,60,some high school,no,26.72,266
+male,55,high school,no,31.68,202
+female,55,some high school,no,27.6,226
+female,49,some high school,yes,27.87,233
+male,56,some college,no,27.82,280
+female,57,some high school,no,23.67,262
+female,40,high school,no,22.36,195
+male,55,high school,yes,29.86,280
+male,50,some high school,yes,26.09,293
+male,42,some high school,no,25.14,327
+male,49,some college,yes,25.4,260
+female,53,high school,yes,24.11,262
+female,66,some high school,no,28.55,311
+male,42,high school,no,29.35,240
+male,59,some high school,yes,21.48,188
+female,66,some high school,no,44.71,212
+male,63,some high school,no,38.42,229
+female,49,some college,yes,29.07,247
+male,36,high school,no,28.3,153
+male,37,high school,no,38.53,225
+female,51,high school,yes,21.66,220
+female,36,college,yes,21.67,214
+female,53,some high school,yes,23.71,247
+male,39,college,yes,22.66,271
+male,39,some high school,yes,30.96,300
+female,45,high school,yes,25.38,220
+male,54,some high school,yes,26.38,299
+male,58,college,yes,25.96,229
+male,55,some high school,no,26.57,227
+male,58,college,no,27.91,223
+female,49,some high school,no,23.1,262
+male,51,high school,yes,23.6,274
+male,49,high school,yes,29.69,240
+male,40,high school,yes,24.77,234
+male,61,some high school,yes,23.65,260
+male,37,high school,yes,24.99,179
+male,60,some high school,yes,26.68,230
+male,41,high school,no,25.42,274
+male,54,some high school,yes,22.17,255
+female,65,some high school,no,24.72,205
+male,49,some high school,yes,35.96,288
+male,50,high school,yes,21.55,262
+female,37,some high school,no,23.67,300
+male,53,high school,yes,22.74,211
+male,52,high school,no,24.49,219
+male,40,some high school,yes,25.09,325
+female,39,high school,yes,26.44,188
+male,39,some high school,yes,26.5,220
+female,66,some high school,no,25.32,214
+female,56,some college,no,22.69,248
+male,49,some high school,yes,23.58,155
+female,37,some college,no,20.68,190
+female,43,some high school,no,22.36,145
+male,43,some college,yes,23.05,224
+male,44,some college,yes,26.44,363
+male,68,some high school,yes,23.13,193
+female,40,high school,no,22.31,159
+female,47,some high school,yes,27.96,261
+female,53,high school,no,31.5,284
+female,56,some college,yes,24.71,230
+male,60,college,yes,28.57,243
+female,49,some college,yes,21.6,248
+female,47,some college,yes,28.14,321
+female,57,some college,yes,20.34,267
+female,45,college,no,25.68,220
+male,57,some high school,no,28.9,242
+female,47,some high school,yes,26.58,260
+female,53,high school,no,22.49,210
+male,40,high school,yes,24.71,165
+female,38,some high school,no,21.67,182
+male,53,some college,no,26.7,289
+female,39,college,yes,22.19,170
+female,38,high school,yes,20.67,200
+male,68,some high school,no,25.78,276
+male,40,some high school,no,27.99,175
+female,45,some high school,no,24.24,290
+female,40,high school,no,21.12,185
+female,44,college,no,21.99,205
+female,40,some high school,yes,23.48,239
+male,62,high school,no,24.35,214
+male,38,high school,yes,20.55,233
+female,46,some college,no,27.22,259
+female,60,some college,no,29.47,268
+female,68,some high school,no,26.58,258
+female,56,some high school,yes,18.46,225
+male,44,some high school,no,31.69,260
+male,54,some college,yes,25.36,267
+male,44,some high school,yes,26.09,213
+female,53,high school,no,27.94,315
+male,39,some high school,no,26.82,160
+male,36,some high school,yes,18.99,215
+male,36,high school,yes,21.27,204
+male,46,some high school,yes,26.83,273
+male,51,some high school,no,24.87,237
+male,53,high school,no,26.32,196
+male,37,some college,yes,27.93,205
+female,43,some high school,yes,25.89,256
+female,43,high school,no,29.56,255
+male,55,some high school,yes,22.24,205
+female,56,some high school,yes,27.35,262
+female,54,some high school,no,24.11,195
+male,63,some college,yes,22.49,291
+female,49,some high school,yes,25.56,350
+male,45,high school,yes,30.63,279
+female,48,high school,no,26.03,273
+male,66,college,yes,26.37,235
+female,53,some high school,no,32.6,342
+female,46,some college,yes,32.89,315
+female,36,some high school,yes,22.53,135
+male,45,some high school,yes,21.79,246
+male,39,some high school,yes,25.38,196
+male,43,college,yes,23.16,245
+female,55,high school,no,20.69,271
+female,67,high school,yes,28.56,239
+female,40,high school,no,29.62,230
+female,59,high school,yes,23.65,229
+female,41,high school,yes,22.54,206
+male,63,some high school,yes,27.17,225
+male,48,high school,yes,26.4,250
+male,39,some high school,no,22.85,188
+male,40,some high school,yes,22.67,216
+male,48,some high school,yes,25.82,240
+female,40,some college,no,18.92,152
+male,58,college,yes,27.73,234
+female,37,college,no,28.44,169
+female,47,some high school,no,30.61,266
+female,50,some high school,no,24.1,258
+male,36,college,yes,30.2,155
+female,40,some high school,yes,19.32,220
+female,54,some high school,no,26.81,293
+male,51,some high school,yes,21.19,219
+female,66,high school,yes,18.23,225
+male,40,some high school,yes,27.99,290
+male,46,some high school,yes,29,198
+female,42,high school,yes,21.5,197
+male,53,some high school,yes,28.52,253
+male,60,some high school,no,30.71,173
+female,37,high school,yes,22.71,154
+male,43,college,no,24.01,262
+female,50,some high school,no,39.08,189
+male,45,college,yes,24.61,202
+male,49,college,no,29.25,215
+female,45,high school,yes,23.85,285
+female,34,high school,no,20.82,170
+female,36,high school,no,24.47,203
+female,49,some college,yes,23.1,260
+male,61,some college,yes,26.88,228
+male,59,some high school,yes,31.08,163
+male,42,some high school,yes,22.51,225
+female,40,high school,no,22.9,185
+male,41,some college,no,23.68,240
+male,63,high school,yes,25.91,217
+male,38,high school,no,25.42,256
+male,48,high school,yes,35.12,172
+male,39,high school,yes,24.8,256
+male,57,some high school,no,25.41,200
+female,40,some college,yes,22.17,187
+male,40,high school,yes,20.25,200
+male,52,some high school,no,25.82,220
+male,51,college,no,31.04,200
+male,56,some high school,yes,23.68,300
+male,49,high school,yes,22.86,262
+male,55,some college,yes,28.45,215
+female,44,high school,yes,33.99,174
+male,38,some high school,no,30.27,198
+female,45,high school,yes,26.45,280
+male,52,high school,no,26.25,210
+female,38,some high school,no,22.9,196
+male,41,high school,yes,23.81,201
+female,43,high school,yes,26.24,230
+female,65,high school,no,21.66,270
+male,48,high school,yes,26.18,226
+female,57,some college,yes,21.08,250
+female,54,some high school,yes,27.49,231
+male,46,some high school,no,23.48,205
+female,62,some college,yes,37.62,358
+female,46,some college,no,31.64,237
+female,57,some high school,no,25.27,320
+female,48,some college,yes,19.42,253
+female,45,high school,yes,24.35,208
+female,46,high school,no,34.52,212
+female,67,high school,no,21.93,292
+female,54,some college,no,25.84,318
+female,59,high school,no,19.61,264
+male,52,high school,no,23.43,214
+female,56,some high school,no,27.96,280
+female,40,some high school,no,32.81,290
+female,34,some high school,yes,22.15,175
+female,55,some college,no,21.05,269
+female,40,high school,no,36.79,170
+female,37,high school,yes,24.99,164
+female,61,some college,no,26.98,290
+female,49,some college,yes,24.3,227
+female,55,some high school,no,32.17,273
+male,44,some high school,yes,25.48,316
+female,46,some high school,yes,22.72,250
+female,68,high school,yes,20.98,322
+male,41,some high school,yes,22.27,163
+female,51,high school,yes,23.66,190
+male,42,some high school,yes,28.09,234
+female,56,some high school,yes,17.68,214
+female,41,some high school,no,26.83,252
+female,37,some high school,yes,21.64,166
+male,39,some high school,yes,26.11,232
+male,40,some college,yes,24.6,248
+female,52,some high school,no,21.84,280
+female,44,some college,no,24.17,244
+female,52,some high school,no,22.7,245
+female,56,some high school,yes,27.3,212
+female,66,some high school,no,27.07,263
+male,44,some high school,yes,25.46,274
+male,63,some high school,no,27.61,237
+male,53,some college,yes,21.01,190
+male,46,some college,yes,22.54,270
+female,55,some high school,no,30.61,250
+female,51,some high school,no,23.48,236
+male,56,some high school,no,21.97,254
+female,49,some college,yes,19.22,215
+female,64,some high school,no,21.11,262
+female,50,some high school,yes,22.18,213
+female,42,high school,yes,19.42,246
+male,45,some high school,yes,26.6,256
+male,34,college,no,25.41,227
+female,42,high school,no,18.73,206
+male,47,high school,yes,27.01,260
+male,36,high school,no,26.53,230
+female,49,high school,yes,20.23,206
+female,43,high school,yes,20.12,199
+male,62,some college,no,17.17,346
+female,45,some high school,no,27.73,238
+female,42,some high school,yes,19.12,231
+male,41,high school,no,31.06,298
+male,54,high school,yes,20.41,219
+female,50,some high school,yes,23.2,229
+female,51,college,no,22.62,239
+male,38,some high school,yes,23.74,183
+female,49,some high school,yes,28.66,235
+female,40,high school,yes,22.54,193
+female,41,some college,yes,20.47,201
+female,53,college,no,39.53,243
+male,38,some high school,yes,31.39,220
+female,60,some high school,no,32.76,295
+male,60,high school,yes,28.09,231
+female,36,high school,yes,23.71,150
+female,38,high school,no,33.49,239
+female,52,some college,yes,25.11,215
+male,38,college,yes,23.68,168
+male,51,college,yes,30.39,269
+male,38,some college,yes,24.18,238
+male,57,some high school,no,26.36,178
+female,49,some college,no,28.86,210
+female,63,some high school,no,25.15,362
+male,41,high school,no,28.39,173
+female,50,high school,no,23.88,232
+female,44,college,no,17.48,205
+female,59,some high school,no,26.23,267
+male,45,some college,yes,26.09,161
+male,42,some high school,no,26.25,258
+female,53,some high school,no,25.96,246
+male,58,high school,no,25.98,230
+male,63,high school,no,25.82,233
+female,58,high school,no,25.33,220
+male,54,some college,yes,24.39,250
+male,57,some high school,yes,26,193
+male,60,some high school,yes,29.59,269
+male,39,college,yes,21.01,163
+male,43,college,no,25.62,367
+male,45,some high school,yes,23.14,234
+female,41,some college,yes,20.5,187
+female,63,some high school,yes,20.5,281
+female,48,some college,no,25.85,193
+female,56,some high school,no,32.07,242
+female,41,high school,yes,19.78,169
+female,42,college,yes,24.1,219
+female,41,some high school,yes,23.47,240
+female,41,high school,yes,22.41,180
+female,55,some high school,no,28.26,212
+female,60,some college,yes,23.06,212
+female,38,high school,yes,24.03,176
+female,59,some high school,no,25.02,249
+male,40,college,yes,24.91,233
+female,53,some high school,yes,33.38,278
+male,46,college,yes,32.37,260
+female,44,high school,yes,21.11,288
+female,60,high school,yes,33.45,280
+male,49,high school,no,27.66,271
+female,41,high school,yes,24.22,223
+female,48,some high school,yes,20.99,305
+male,53,some college,yes,24.15,193
+female,63,some high school,no,28.6,252
+female,69,some college,no,25.4,203
+male,38,some high school,no,26.43,221
+female,55,high school,no,25.2,368
+male,42,some high school,yes,30.31,270
+male,65,some high school,no,29.36,266
+female,46,some college,yes,22.91,259
+male,65,college,no,25.74,272
+female,62,some high school,no,29.88,282
+male,50,some high school,yes,25.97,313
+female,51,some high school,yes,28.5,272
+female,35,high school,yes,25.71,177
+female,47,high school,no,22.88,202
+female,47,some high school,no,34.56,346
+male,44,high school,yes,22.19,339
+female,56,some high school,yes,27.38,240
+female,46,high school,yes,25.18,232
+female,54,some high school,no,34.13,226
+male,37,high school,no,26.75,176
+male,36,high school,yes,25.35,280
+female,38,college,yes,29.14,282
+female,42,some college,no,24.56,188
+female,54,some high school,no,29.06,273
+female,45,college,no,31.72,252
+female,53,some high school,no,26.18,279
+male,39,some high school,yes,32.66,253
+female,48,some college,no,25.23,262
+female,45,college,no,24.39,333
+male,39,some high school,yes,27.48,253
+female,47,some college,no,23.44,205
+male,65,some high school,no,26.36,196
+female,60,some high school,no,36.29,352
+male,53,some high school,yes,24.76,216
+female,38,high school,no,22.01,216
+male,54,high school,no,23.4,334
+male,43,high school,no,26.64,285
+male,42,some high school,yes,22.06,196
+female,43,high school,yes,19.48,208
+female,53,some high school,no,43.3,248
+female,49,some college,no,21.18,228
+male,55,college,yes,28.57,268
+male,62,some high school,no,23.24,232
+female,47,high school,no,26.15,174
+male,38,high school,yes,28.82,253
+female,51,high school,no,24.81,285
+female,43,some college,yes,23.09,232
+male,62,some high school,no,27.94,265
+female,36,some high school,yes,29.59,180
+female,43,some high school,no,21.26,202
+female,61,high school,no,25.98,224
+male,59,some college,yes,33,243
+male,44,high school,no,24.44,254
+male,51,college,yes,24.63,251
+male,40,high school,yes,23.48,193
+male,52,some college,no,24.59,240
+female,54,high school,no,26.42,243
+female,63,some college,no,20.15,380
+male,62,some high school,no,31.42,208
+male,42,high school,yes,23.25,216
+male,38,high school,yes,31.62,268
+female,68,some college,no,30.12,241
+male,44,college,yes,27.78,241
+male,57,college,no,32.65,195
+male,61,college,yes,24.35,258
+female,51,some college,no,24.94,257
+male,52,some college,no,31.19,238
+male,46,college,yes,24.67,165
+female,49,high school,no,24.82,308
+male,39,high school,yes,27.52,318
+female,47,high school,yes,23.64,175
+male,46,some high school,yes,26.33,405
+male,57,some high school,yes,28.18,265
+female,35,high school,yes,24.73,186
+male,43,high school,no,24.17,206
+male,43,high school,no,26.77,214
+female,63,high school,yes,27.68,213
+female,43,high school,no,19.38,213
+female,36,some college,yes,22.66,202
+male,40,college,yes,24.01,212
+female,47,high school,yes,20.15,232
+male,50,high school,yes,28.5,249
+female,35,high school,no,27.86,165
+male,48,high school,yes,26.27,214
+female,52,some high school,yes,32.52,161
+female,47,college,yes,25.77,231
+male,49,some high school,yes,27.25,222
+male,43,high school,yes,21.38,240
+male,57,high school,no,30.05,198
+male,48,high school,yes,27.33,218
+male,42,high school,yes,25.35,272
+male,46,college,yes,23.97,233
+male,54,some college,no,26.05,258
+male,60,some high school,no,29.99,264
+female,47,high school,yes,20.39,218
+male,57,some high school,yes,27.51,260
+female,41,some high school,yes,21.26,203
+male,43,high school,yes,26.28,188
+male,61,high school,yes,27.28,167
+female,55,high school,yes,26.21,315
+female,53,some college,yes,27.08,210
+female,47,some high school,no,21.33,210
+male,43,high school,no,27.15,245
+male,40,some college,yes,31.57,210
+male,67,some high school,yes,32.63,216
+female,48,some high school,yes,23.36,235
+male,48,some college,no,32.4,235
+female,51,high school,yes,25.79,315
+male,39,some high school,yes,19.97,258
+male,57,high school,yes,20.55,205
+female,45,some high school,no,26.79,235
+female,48,some high school,no,29.45,227
+female,47,some high school,yes,21.4,195
+female,64,some high school,no,27.59,312
+female,40,some college,yes,22.55,247
+female,43,some high school,no,21.95,257
+male,63,some high school,yes,21.33,207
+male,40,college,no,30.8,161
+male,48,some high school,yes,17.5,205
+male,37,high school,yes,24.5,211
+female,47,some high school,yes,20.05,252
+male,50,high school,yes,28.67,256
+female,54,some college,no,20.51,258
+female,40,some high school,no,28.46,340
+male,51,some high school,yes,26.97,255
+female,42,high school,yes,24.41,185
+male,46,some high school,yes,32.47,247
+female,51,some college,yes,31.16,248
+female,42,some high school,yes,22.54,214
+male,44,high school,yes,21.96,270
+female,40,high school,no,22.01,202
+male,53,college,yes,23.59,189
+female,51,high school,no,28.58,261
+male,39,high school,yes,27.62,285
+male,56,some college,yes,21.91,340
+male,40,some college,yes,26.32,238
+male,47,some high school,yes,26.25,277
+female,41,high school,yes,18.21,195
+male,40,high school,yes,28.04,275
+female,39,high school,no,23.07,337
+female,47,high school,yes,22.34,328
+male,41,high school,yes,26.95,239
+male,66,some college,no,25.22,182
+female,44,high school,no,31.29,208
+male,55,high school,no,26.08,219
+male,36,high school,yes,24.04,242
+male,45,college,yes,29.32,227
+male,44,some high school,no,27.93,208
+male,44,some high school,no,27.22,238
+male,57,college,yes,29.51,256
+female,48,some high school,no,28.96,244
+male,39,some high school,yes,21.99,181
+male,39,high school,yes,25.13,225
+male,59,some high school,no,28.04,282
+male,38,some high school,yes,28.3,163
+male,39,some high school,yes,25.51,202
+female,48,some college,yes,27.69,248
+female,52,some high school,yes,24.25,235
+male,41,high school,yes,27.8,218
+female,53,some college,no,21.51,311
+female,67,some high school,no,25.75,264
+male,37,high school,no,27.27,205
+female,49,some college,no,21.18,222
+male,67,some high school,no,27.78,234
+male,68,some high school,yes,26.37,261
+female,58,high school,yes,18.53,206
+female,40,some college,yes,23.58,237
+female,36,some college,no,18.98,185
+female,47,high school,yes,21.34,155
+male,60,some high school,no,28.56,245
+female,58,college,yes,23.35,270
+female,56,college,no,31.11,298
+female,64,some high school,no,28.87,251
+female,44,some high school,yes,22.02,231
+male,45,high school,no,27.55,232
+female,39,college,yes,20.24,200
+male,55,some high school,yes,23.65,230
+female,53,high school,no,30.1,235
+male,52,college,yes,26.77,200
+male,53,some college,yes,24.8,204
+female,38,college,no,20.42,150
+female,40,high school,yes,27.65,242
+male,58,some college,no,24.96,187
+female,39,some high school,yes,24.22,280
+female,47,high school,no,24.63,187
+male,54,some high school,yes,22.97,177
+female,64,some high school,no,30.39,280
+female,51,college,yes,24.03,320
+female,41,college,no,21.99,199
+female,67,high school,no,27.86,303
+female,42,some high school,no,21.74,249
+female,42,high school,no,33.19,238
+female,60,some high school,no,28.58,282
+female,49,some high school,yes,20.13,185
+female,47,college,yes,23.29,205
+male,51,college,no,30.75,230
+female,43,some high school,yes,24.38,269
+female,51,some high school,no,26.36,230
+female,50,high school,no,24.94,215
+male,52,some college,no,26.89,225
+female,41,some college,no,21.02,166
+female,43,college,no,22.73,223
+female,63,some high school,yes,21.05,260
+male,48,college,no,23.62,233
+female,43,high school,yes,25.23,250
+female,59,some college,no,24.87,226
+male,36,college,yes,28.15,295
+female,46,some high school,yes,28.06,280
+male,38,some high school,yes,28.88,265
+female,53,high school,no,24.64,370
+male,54,high school,yes,29.93,215
+male,52,some college,yes,26.55,248
+female,52,some high school,no,25.68,275
+female,44,some high school,yes,22.67,302
+female,61,high school,no,22.35,219
+male,43,high school,yes,34.32,195
+male,38,college,yes,22.17,248
+female,37,some college,no,23.44,145
+male,44,high school,yes,23.23,232
+female,43,some college,yes,22.87,292
+male,45,some college,no,27.18,258
+male,40,some high school,no,23.78,265
+female,64,some high school,no,38.82,253
+male,55,college,no,32.35,239
+male,54,high school,yes,26.77,215
+male,42,some high school,yes,32.4,240
+male,49,college,no,25.16,264
+female,44,high school,yes,23.24,244
+female,46,some high school,no,24.62,222
+female,64,some high school,no,25.16,255
+female,46,some high school,no,20.25,217
+female,36,some college,no,24.11,295
+female,36,some college,yes,25.97,180
+male,55,some high school,yes,26.77,242
+female,49,some college,no,26.85,300
+female,35,high school,no,22.88,135
+female,35,some college,no,23.95,190
+female,52,some high school,no,28.35,234
+female,39,high school,yes,22.54,209
+female,47,high school,yes,34.08,211
+male,52,some high school,no,26.36,260
+male,48,high school,yes,29.11,209
+female,63,some high school,no,19.69,273
+female,53,some high school,no,27.49,180
+female,52,high school,no,21.47,269
+female,38,some college,yes,24.24,215
+male,39,high school,no,28.59,247
+female,42,college,yes,27.54,228
+female,38,high school,yes,29.29,180
+male,59,college,no,29.77,237
+female,62,some high school,no,42,266
+female,41,some high school,no,21.49,193
+female,61,some high school,yes,25.45,229
+male,44,high school,yes,20.56,157
+male,44,some high school,no,26.97,212
+female,62,some college,yes,31.78,264
+female,55,some high school,yes,19.5,280
+male,59,high school,no,28.7,242
+male,54,high school,no,23.74,165
+male,64,high school,yes,24.35,206
+male,46,some college,no,25.98,297
+male,55,some high school,yes,28.69,240
+female,42,some high school,no,32.36,241
+female,66,some high school,yes,30.06,216
+male,45,some college,yes,23.79,278
+male,55,some high school,no,26.83,180
+male,56,some high school,yes,22.92,195
+male,53,college,yes,23.62,226
+female,49,some college,no,22.52,203
+female,57,some high school,no,26.24,287
+female,47,some high school,yes,27.9,186
+male,52,some high school,yes,28.88,238
+female,63,some college,yes,27.91,236
+male,51,some high school,yes,16.98,133
+male,47,high school,yes,24.5,253
+male,60,some high school,no,23.56,183
+female,38,high school,yes,24.45,195
+female,39,high school,yes,21.51,194
+male,57,high school,yes,23.5,242
+female,58,some high school,no,22.91,218
+female,37,high school,yes,18.38,185
+female,43,some high school,no,26.01,260
+female,47,some high school,yes,24.08,214
+male,58,some high school,no,22.49,279
+female,50,high school,no,23.96,210
+female,40,high school,no,31.77,267
+female,38,high school,yes,24.19,155
+female,42,high school,yes,20.62,177
+female,63,some high school,no,28.25,242
+male,46,high school,yes,26.97,238
+female,39,some college,yes,25.64,190
+female,57,college,no,27.01,160
+female,47,some high school,no,26.98,230
+male,54,college,yes,23.5,234
+female,40,some college,no,17.61,180
+male,57,some high school,no,28.09,300
+male,46,college,yes,20.1,259
+female,39,some high school,yes,25.83,175
+female,49,high school,no,20.94,261
+female,49,college,no,23.88,189
+male,40,high school,no,24.08,185
+male,45,high school,yes,27.88,248
+male,50,high school,yes,27.82,238
+female,44,high school,yes,21.28,270
+male,57,some high school,yes,24.07,158
+male,42,college,yes,23.22,218
+female,36,high school,no,26.13,165
+female,39,some high school,yes,27.35,170
+female,52,college,no,24.98,216
+male,55,high school,no,28.45,198
+female,67,high school,no,22.55,261
+male,43,some high school,yes,26,310
+male,55,some high school,yes,24.5,244
+female,54,high school,no,33.11,252
+female,38,some high school,no,25.69,214
+female,59,high school,yes,25.83,206
+female,54,some high school,no,26.77,255
+male,48,high school,yes,21.47,228
+male,36,some college,no,27.78,180
+male,52,high school,no,22.32,196
+female,60,some high school,yes,25.01,239
+male,45,college,no,28.4,189
+female,42,some high school,yes,29.47,171
+male,50,some high school,yes,22.32,261
+male,41,college,yes,25.8,289
+female,54,some college,no,24.89,248
+female,52,some high school,no,24.85,208
+female,44,some high school,no,24.12,206
+male,44,high school,yes,22.33,189
+female,39,some college,no,25.73,194
+male,38,some high school,no,28.03,205
+male,43,some high school,yes,28.85,263
+female,52,high school,no,23.63,209
+female,64,college,yes,20.06,239
+male,51,high school,yes,29.11,290
+male,52,high school,yes,27.73,240
+female,49,high school,no,21.45,165
+female,40,some college,no,22.72,220
+female,52,some college,no,26.79,254
+female,66,some high school,no,29.04,260
+female,44,high school,no,30.4,187
+female,40,high school,yes,26.56,232
+female,51,some college,no,25.15,304
+female,37,high school,yes,23.55,185
+female,55,some high school,no,24.51,266
+male,50,some high school,yes,28.26,233
+male,64,some high school,yes,22.46,214
+male,45,college,yes,24.62,257
+female,65,some college,no,29.33,193
+female,54,high school,yes,31.82,187
+male,63,some high school,yes,28.85,256
+female,64,high school,yes,21.17,283
+male,37,college,no,26.81,166
+male,36,high school,yes,28.35,210
+female,67,high school,no,21.8,261
+female,62,some high school,no,32.19,300
+female,39,some college,yes,24.12,277
+male,44,high school,yes,23.39,211
+male,45,some college,yes,24.94,263
+female,39,college,yes,20.93,191
+female,42,some college,yes,26.03,192
+male,58,high school,no,26,241
+female,55,some high school,no,26.76,282
+female,63,high school,no,27.18,223
+female,66,some high school,no,29.84,232
+male,53,high school,no,23.85,213
+male,56,some high school,no,30.42,256
+female,57,high school,yes,18.09,238
+male,40,high school,no,28.32,193
+male,45,high school,yes,30.29,232
+female,42,high school,yes,27.01,216
+female,45,some high school,no,45.8,183
+female,36,high school,no,21.59,209
+female,56,some college,yes,36.18,260
+female,43,college,yes,19.78,207
+female,58,some high school,no,41.66,385
+male,44,some high school,yes,21.01,220
+male,62,some high school,no,27.89,164
+male,48,some college,no,24.95,175
+female,51,high school,no,21.94,284
+female,54,some high school,yes,24.21,240
+female,45,high school,no,20.24,218
+male,64,some high school,yes,20.09,259
+male,34,some high school,yes,24.42,185
+male,46,some high school,yes,24.17,219
+female,56,some high school,yes,22.89,268
+male,56,some high school,no,27.68,243
+male,38,high school,yes,30.85,309
+male,67,some high school,yes,29.04,245
+female,52,college,no,24.22,309
+female,61,high school,yes,26.3,231
+male,40,some high school,yes,25.82,169
+male,47,some college,yes,23.72,281
+female,52,high school,yes,24.29,244
+male,67,some high school,no,22.11,214
+female,62,some high school,no,26.03,231
+male,42,some high school,yes,25.77,232
+female,41,some high school,no,42.15,265
+male,40,some high school,yes,27.54,290
+female,61,some high school,yes,23.61,286
+male,43,some college,yes,24.21,218
+female,59,some high school,yes,24.66,184
+male,54,college,yes,21.78,195
+male,56,some college,no,28.82,205
+male,49,some college,no,25.97,221
+female,59,some high school,no,25.48,254
+female,54,college,yes,22.16,242
+female,56,some college,no,24.38,186
+female,38,high school,yes,20.73,193
+male,54,some high school,no,29.18,224
+female,37,some high school,no,25.09,208
+female,62,high school,no,35.2,283
+female,47,some college,yes,24.71,246
+male,54,some high school,no,21.03,179
+male,43,some high school,yes,25.1,210
+male,45,high school,yes,28.04,188
+male,60,some high school,no,21.18,252
+male,46,some high school,yes,18,210
+female,50,some high school,no,43.67,260
+female,41,high school,yes,23.08,189
+female,52,college,no,22,240
+female,40,some high school,yes,23.29,231
+male,60,some high school,no,30.41,220
+female,49,some college,yes,19.39,186
+female,53,some high school,yes,19.64,242
+female,43,high school,no,32.93,170
+female,67,some high school,no,24.25,254
+female,60,some high school,no,26.59,260
+female,63,some high school,no,28.87,275
+female,38,some college,no,27.14,155
+male,45,some college,no,26.63,347
+female,44,some high school,yes,32.82,214
+male,41,high school,yes,25.67,228
+female,53,some high school,yes,25.63,239
+male,53,high school,yes,25.77,230
+female,58,some high school,no,35.19,239
+male,43,some high school,yes,21.73,206
+female,59,some high school,no,33.54,240
+male,48,high school,no,28.11,336
+female,65,some high school,no,24.73,295
+female,37,some high school,yes,23.1,275
+male,46,high school,yes,29.15,181
+female,39,some college,yes,19.24,200
+female,52,some high school,no,26.06,223
+female,38,high school,yes,23.24,195
+female,52,some high school,no,31.92,292
+female,63,some high school,no,25.23,266
+male,67,some college,no,25.86,223
+female,65,some high school,no,21.41,290
+female,48,some high school,no,26.39,186
+female,52,some high school,no,29.09,211
+female,48,college,yes,23.1,249
+female,46,some college,no,22.19,193
+male,47,high school,yes,20.7,271
+male,50,college,yes,24,250
+female,48,some high school,no,21.35,225
+male,52,some high school,no,25.64,266
+female,67,some high school,no,44.09,251
+male,39,college,yes,20.71,208
+female,52,some high school,no,26.91,265
+male,48,some college,no,26.09,243
+female,40,some high school,yes,23.54,237
+female,52,some high school,no,30.18,225
+female,42,high school,yes,22.9,281
+male,53,high school,no,24.8,234
+male,42,some high school,no,27.83,242
+male,43,some high school,yes,26.84,215
+female,44,some college,yes,23.29,242
+male,58,some high school,yes,25.62,184
+male,51,high school,yes,27.47,261
+male,60,some college,no,26.98,276
+male,45,some college,no,20.5,185
+female,59,some high school,no,23.76,241
+male,36,high school,yes,23.1,215
+male,59,high school,no,25.63,207
+female,45,some high school,yes,21.35,230
+female,37,some high school,yes,25.87,200
+male,57,college,no,28.53,235
+female,55,some high school,no,56.8,208
+female,51,high school,yes,20.72,192
+female,41,high school,yes,25.25,208
+female,49,some college,yes,27.8,267
+female,42,some college,no,25.15,230
+female,36,high school,yes,20.69,272
+male,35,high school,yes,19.99,223
+female,45,some high school,no,30.53,175
+female,57,some high school,no,28.36,306
+female,42,high school,no,18.11,218
+male,43,college,yes,25.82,202
+female,66,some high school,no,40.52,278
+female,45,some high school,yes,27.94,228
+female,37,college,yes,20.22,160
+female,66,high school,no,26.69,238
+male,38,some high school,yes,33.61,268
+male,44,high school,yes,26.41,209
+female,37,high school,yes,19.61,167
+female,51,some high school,no,24.36,226
+male,67,some college,no,22.36,250
+female,46,some college,yes,18.68,200
+female,43,some college,no,29.25,240
+female,55,some high school,no,26.45,305
+male,46,some high school,yes,20.23,182
+male,41,high school,yes,22.72,196
+female,65,college,no,19.76,280
+female,59,some college,no,28.3,223
+male,48,college,yes,30.43,236
+female,55,high school,no,26.59,281
+female,55,some college,yes,27.05,275
+male,62,some high school,yes,25.95,157
+male,47,some high school,yes,27.33,284
+female,64,some high school,no,33.37,232
+female,58,high school,no,21.68,265
+male,57,some high school,no,24.15,176
+male,35,high school,yes,22.78,231
+male,58,some high school,yes,26.11,231
+male,51,some high school,yes,27.77,335
+male,57,some high school,yes,29.38,250
+female,39,high school,no,31.48,201
+female,51,college,yes,24.1,240
+male,42,some high school,yes,22.54,226
+female,61,some college,yes,28.58,225
+male,52,some high school,yes,23.68,253
+female,51,some high school,yes,19.05,345
+male,52,high school,yes,27.52,258
+female,60,some college,no,25.82,325
+male,66,some high school,no,31.42,276
+female,40,some high school,yes,22.16,199
+male,44,some high school,yes,22.25,260
+female,38,college,yes,23.84,177
+female,46,high school,yes,18.28,290
+male,35,high school,yes,29.42,282
+male,51,college,no,22.46,199
+female,46,some high school,no,22.34,229
+female,45,high school,yes,23.1,234
+female,47,high school,no,20.49,215
+female,50,high school,no,26.76,240
+male,54,some high school,yes,28.35,241
+female,49,high school,yes,18.44,350
+female,63,college,yes,26.64,239
+female,54,some high school,yes,17.61,266
+female,66,college,no,25.27,273
+female,46,high school,yes,22.7,250
+female,55,college,no,32.27,260
+female,41,college,yes,18.48,207
+male,46,some high school,yes,26.31,294
+female,65,some high school,yes,32.41,271
+male,51,college,no,22.86,154
+female,54,some high school,no,29.94,326
+male,68,some high school,no,29.54,258
+female,53,some high school,no,30.75,328
+female,53,high school,yes,27.09,276
+male,55,some high school,yes,19.81,211
+male,65,some high school,no,34.69,167
+male,68,some high school,no,22.85,230
+male,42,some college,no,25.74,252
+female,38,high school,no,18.76,171
+male,57,college,no,29.02,194
+female,40,some high school,no,26.63,236
+female,46,some high school,no,27.78,313
+male,41,high school,no,33.11,270
+female,61,some high school,no,31.27,295
+female,49,some high school,no,25.77,193
+male,41,high school,yes,26.74,310
+male,38,high school,no,32.19,199
+male,60,college,yes,26.67,267
+male,52,some high school,no,29.29,215
+female,63,some high school,no,23.1,316
+female,41,some high school,no,35.42,317
+male,46,high school,no,33.79,270
+male,49,high school,yes,21.86,193
+male,49,some high school,yes,26.62,199
+female,62,high school,no,23.88,246
+female,52,high school,no,26.81,296
+male,46,some high school,yes,22.78,279
+male,59,some high school,yes,26.84,207
+female,51,high school,yes,21.02,220
+female,36,some high school,yes,19.87,164
+male,50,some college,yes,25.45,320
+female,50,high school,no,33.68,259
+female,51,some college,no,23.86,198
+female,50,some college,no,26.25,229
+female,40,some college,yes,21.99,143
+female,51,some college,no,23.53,260
+female,58,some high school,no,23.45,295
+male,51,some college,yes,26.56,163
+female,65,college,yes,22.84,322
+female,45,some high school,no,22.54,282
+female,48,college,yes,24.35,299
+female,54,some high school,yes,24.77,274
+male,50,some high school,no,33.1,227
+female,40,high school,yes,23.59,224
+female,36,some high school,yes,23.24,195
+female,41,some college,no,20.2,239
+female,39,some college,no,32.09,190
+male,37,high school,yes,30.93,246
+male,47,some high school,no,24.99,271
+male,50,some college,no,25.78,232
+female,62,college,no,26.18,288
+female,36,high school,yes,27.86,257
+female,59,high school,no,23.72,345
+female,38,some college,no,21.35,162
+male,36,high school,no,20.42,197
+female,56,some high school,no,27.72,206
+male,44,some high school,yes,23.77,193
+male,61,college,yes,26.46,217
+female,47,some college,yes,22.71,167
+female,57,some college,yes,23.08,272
+female,57,high school,no,22.66,163
+male,52,some high school,no,27.22,200
+female,39,high school,yes,19.57,190
+female,36,some high school,no,26.32,180
+male,43,some high school,no,21.83,210
+female,46,some high school,no,36.81,200
+female,41,college,yes,20.79,209
+male,41,college,no,25.26,210
+male,39,college,yes,30.22,232
+male,47,college,no,29.73,254
+male,60,some high school,no,26.85,235
+female,39,high school,no,23.29,253
+female,61,some high school,no,26.8,240
+female,45,college,yes,16.75,224
+male,39,high school,yes,28.44,230
+female,39,some college,yes,22.43,190
+female,54,high school,no,28.76,240
+female,35,high school,no,20.64,248
+male,52,some high school,no,27.39,266
+male,43,college,yes,23.97,296
+female,57,high school,no,25.99,309
+female,50,some high school,yes,24.07,221
+female,55,some high school,no,34.4,211
+female,44,some high school,yes,26.51,140
+male,48,high school,yes,27.97,210
+male,49,college,no,23.03,280
+female,41,high school,yes,39.69,280
+female,45,high school,no,45.79,226
+female,47,some high school,no,23.45,222
+female,55,some high school,yes,28.86,244
+female,41,some high school,no,22.18,235
+female,46,some high school,yes,20.35,250
+male,61,some high school,no,27.3,243
+female,61,some high school,no,23.95,292
+male,44,college,yes,27.43,275
+female,41,some college,no,23.92,228
+female,58,high school,no,22.88,249
+female,61,some high school,no,32.77,266
+male,43,some high school,yes,27.18,180
+male,42,some high school,yes,30.03,241
+female,40,some college,yes,24.4,210
+female,49,some high school,no,21.14,184
+male,45,college,yes,26.65,218
+female,35,high school,no,20.86,175
+female,61,high school,no,25.11,273
+female,60,high school,no,33.88,254
+female,61,some high school,no,29.25,250
+male,61,some high school,yes,24.12,256
+male,51,some high school,yes,28.85,240
+male,55,some high school,no,24.15,207
+male,65,high school,no,28.06,286
+female,36,some college,no,28.59,264
+male,40,some high school,no,25.88,206
+male,41,high school,yes,26.26,293
+female,53,some high school,no,28.49,267
+female,43,high school,yes,20.86,195
+female,47,some high school,no,27.82,205
+male,52,some high school,no,25.23,222
+female,55,high school,no,24.45,183
+female,54,some high school,no,26.84,248
+female,45,some college,yes,23.08,210
+male,56,some high school,no,25.12,220
+female,55,some college,yes,24.79,249
+female,46,high school,yes,22.02,291
+male,51,college,yes,25.7,215
+female,50,some college,no,24.19,258
+male,40,some high school,yes,19.98,195
+female,56,some college,no,26.01,287
+female,39,some college,no,20.68,181
+male,49,some high school,yes,26.91,238
+female,39,some college,no,24.6,195
+female,37,college,yes,21.8,156
+male,46,some high school,yes,27.31,253
+male,62,high school,no,23.8,214
+female,49,some high school,no,24.17,211
+female,49,high school,yes,25.57,265
+female,46,high school,no,23.29,165
+female,59,some high school,no,29.16,250
+male,40,some college,yes,24.63,190
+female,61,some high school,no,29.5,265
+female,40,some high school,yes,35.02,226
+female,33,some high school,no,19.84,158
+male,53,high school,yes,24.74,314
+female,44,some high school,yes,20.52,310
+female,64,some high school,no,27.53,273
+male,54,some high school,no,25.63,225
+female,46,some college,yes,34.84,241
+female,52,some high school,yes,19.47,246
+female,51,some college,no,29.8,214
+female,55,some college,yes,27.18,216
+female,52,some college,no,24.56,325
+female,63,college,no,24.85,263
+female,46,high school,no,25.11,259
+female,60,some college,no,23.02,285
+male,42,college,no,21.96,253
+female,48,high school,no,23.03,224
+female,40,high school,no,26.79,314
+male,53,some high school,yes,31.22,306
+male,44,some high school,yes,27.33,273
+female,41,some high school,no,23.57,156
+female,63,high school,no,23.62,264
+female,54,some college,no,26.28,286
+female,50,high school,yes,25.26,265
+male,62,high school,no,27.2,193
+female,42,some high school,yes,43.69,199
+female,54,some high school,no,28.92,230
+male,56,college,no,25.67,232
+male,60,some high school,yes,26.53,195
+female,60,some high school,no,19.91,275
+male,39,high school,yes,28.33,285
+male,38,some college,yes,31.22,250
+male,63,some college,yes,24.42,269
+female,55,some college,no,32.91,195
+male,52,some high school,no,26,265
+female,62,some high school,no,29.64,212
+female,67,some high school,no,25.23,302
+female,47,some high school,yes,22.73,214
+male,52,some high school,no,27.66,318
+male,66,some college,no,25.29,226
+male,50,some high school,yes,31.27,272
+male,37,some high school,yes,26.48,261
+female,59,some high school,no,26.45,278
+male,43,some high school,no,25.65,126
+female,45,high school,yes,33.65,217
+male,40,some college,no,26.82,154
+male,53,high school,yes,29.4,239
+female,44,college,yes,20.88,265
+female,49,some high school,no,29.45,250
+female,43,some high school,yes,26.01,204
+male,63,some high school,no,29.76,235
+male,43,some high school,yes,23.84,201
+female,62,some high school,no,30.53,258
+female,35,college,yes,24.08,185
+male,37,some high school,yes,22.52,315
+female,40,high school,yes,22.9,207
+female,55,high school,no,20.17,175
+female,48,some high school,no,26.73,164
+male,38,college,no,24.57,197
+male,35,some high school,yes,22.39,210
+male,47,some high school,yes,21.14,206
+male,39,some college,no,23.9,221
+female,42,some high school,yes,22.19,274
+male,40,high school,yes,31.96,219
+female,43,high school,yes,22.35,172
+female,53,college,no,21.31,232
+female,63,some high school,no,33.11,205
+male,43,some college,yes,25.6,240
+male,61,some high school,no,28.63,235
+male,45,some high school,yes,27.87,272
+female,56,high school,no,26.45,290
+female,61,some high school,no,37.04,218
+female,53,some college,yes,27.88,268
+female,42,some high school,yes,21.34,194
+female,50,high school,no,23.88,216
+female,41,some high school,no,18.58,179
+male,36,some college,yes,24.27,245
+male,56,some college,no,25.09,214
+male,65,high school,no,23.95,238
+female,54,high school,no,22.54,253
+female,59,high school,no,30.28,320
+male,58,some high school,no,28.38,333
+male,58,some high school,yes,26.25,200
+male,63,some high school,no,27.01,260
+female,51,some college,no,23.45,214
+male,41,college,yes,28.56,252
+female,52,some high school,no,28.68,291
+male,52,some high school,yes,22.18,225
+male,58,some high school,no,29.63,200
+male,58,some high school,no,26.51,239
+male,57,some high school,yes,27.1,257
+male,62,some high school,yes,23.35,373
+male,51,college,yes,29.43,185
+female,54,high school,no,31.98,302
+female,54,some college,no,19.18,230
+male,58,some high school,yes,20.12,196
+female,40,some college,yes,21.21,210
+female,60,high school,no,25.09,298
+female,43,some high school,no,23.09,210
+female,67,high school,no,35.35,295
+female,50,high school,yes,25.61,308
+male,40,high school,yes,24.75,195
+female,39,some college,yes,23.36,192
+male,43,high school,no,27.99,234
+male,42,some college,yes,23.31,220
+female,62,some high school,no,30.91,262
+female,51,high school,no,28.25,233
+female,63,some college,no,25.09,297
+female,51,high school,yes,26.27,295
+male,36,some high school,no,30.92,182
+female,34,some college,no,24.96,227
+female,55,high school,no,26.45,266
+male,45,high school,yes,26.95,217
+female,57,high school,no,27.64,286
+female,43,high school,no,22.71,237
+male,42,high school,yes,29.89,184
+female,66,some high school,no,30.86,235
+male,46,some high school,no,31.31,185
+male,66,high school,yes,26.35,199
+female,52,some college,no,26.36,234
+female,44,high school,yes,22.16,221
+male,54,some college,yes,25.58,208
+female,51,high school,no,24.08,224
+female,50,college,no,21.67,274
+male,41,college,yes,27.68,254
+female,45,high school,yes,20.24,250
+male,52,some high school,yes,24.83,211
+female,59,high school,yes,15.96,167
+female,63,high school,no,23.64,192
+female,44,high school,yes,27.42,222
+female,68,high school,no,29.25,257
+female,61,some high school,no,42.53,256
+male,57,some high school,yes,28.18,198
+male,48,college,no,23.96,195
+male,53,some high school,yes,25.23,231
+female,36,some high school,no,21.27,165
+female,48,high school,yes,18.01,246
+male,59,some college,yes,26.42,238
+male,63,some college,yes,27.8,176
+male,37,high school,yes,24.46,232
+female,49,high school,yes,23.68,283
+male,49,some high school,yes,27.92,247
+female,49,high school,no,25.01,275
+male,64,college,no,24.28,251
+female,47,some college,no,23.4,231
+female,48,college,yes,25.5,280
+male,62,some high school,no,21.18,216
+female,46,some college,no,26.18,193
+female,52,some college,no,22.69,272
+male,49,college,yes,32.13,309
+female,53,some high school,yes,26.51,183
+female,59,some high school,no,23.76,294
+female,45,some college,yes,21.67,210
+male,61,some high school,yes,22.16,170
+female,48,college,yes,24.87,247
+male,48,some high school,no,32.58,245
+female,44,some high school,yes,22.34,185
+male,56,college,no,24.04,258
+male,66,high school,no,27.56,189
+male,39,some high school,no,22.32,213
+female,45,some college,no,23.96,271
+male,68,some high school,no,30.28,164
+male,38,high school,no,29.84,278
+female,53,high school,no,28.9,258
+female,54,high school,no,38.31,320
+female,61,high school,no,23.48,194
+female,60,some high school,no,25.94,260
+female,54,college,no,26.89,195
+male,65,college,yes,29.08,215
+male,46,some high school,yes,27.62,285
+male,41,some college,no,26.38,256
+male,45,high school,yes,27.94,288
+male,60,some high school,no,23.68,266
+male,62,some high school,no,28.96,190
+male,51,some college,no,26.35,268
+female,63,some high school,no,39.17,236
+female,34,high school,yes,20.79,220
+male,43,high school,no,24.81,177
+female,50,some high school,no,24.47,236
+female,45,high school,no,25.56,222
+female,37,college,no,20.84,169
+female,61,some college,no,19.22,235
+female,53,some college,no,21.8,245
+male,40,some college,no,29.42,286
+female,40,high school,no,24.06,290
+female,41,high school,yes,23.28,237
+male,40,high school,yes,23.27,283
+female,41,some high school,no,22.37,177
+male,54,high school,yes,25.72,230
+male,49,some high school,yes,29.62,197
+female,57,some high school,yes,25.13,174
+male,38,high school,no,20.39,224
+male,50,high school,yes,20.72,163
+male,56,some high school,yes,20.12,177
+male,41,some high school,yes,25.4,309
+male,49,some high school,yes,28.57,237
+male,53,some college,yes,19.82,161
+female,54,some high school,no,27.64,241
+male,37,high school,yes,25.23,309
+female,39,high school,no,20.74,252
+female,53,some college,no,24.16,238
+female,48,some high school,no,26.18,202
+male,36,high school,no,27.08,186
+male,49,some high school,yes,30.33,270
+female,43,some high school,no,27.78,230
+male,55,college,no,26.79,180
+male,42,some college,yes,28.61,175
+female,61,some high school,yes,21.57,200
+male,52,some college,no,22.73,205
+male,48,high school,yes,20.42,260
+male,60,some high school,no,24.66,241
+female,48,high school,yes,19.72,211
+male,50,some high school,no,24.54,220
+female,63,some high school,yes,27.1,267
+female,48,some high school,no,29.34,234
+male,48,high school,no,25.14,263
+male,47,college,yes,19.14,227
+female,48,high school,no,30.91,211
+male,43,some college,no,23.02,237
+female,61,some high school,yes,27.3,356
+female,40,some high school,yes,23.46,209
+female,41,high school,no,26.22,235
+male,45,some high school,yes,29.17,280
+male,36,college,no,27.5,237
+female,42,high school,yes,21.85,242
+male,45,college,yes,20.27,176
+female,56,high school,no,28.3,220
+male,35,high school,no,24.43,242
+female,64,some college,no,21.99,200
+female,55,college,no,24.99,230
+male,62,some high school,yes,24.46,263
+female,37,college,yes,21.48,186
+female,46,high school,yes,29.84,174
+male,40,college,yes,22.66,334
+female,55,some college,yes,23.18,222
+female,44,some college,no,19.05,213
+male,53,some high school,yes,26.76,270
+female,57,high school,no,32.31,250
+male,40,some high school,yes,26.77,228
+male,40,high school,yes,22.98,282
+male,46,high school,yes,24.8,259
+female,58,high school,yes,23.38,242
+male,54,college,no,30.62,225
+female,64,high school,no,23.33,266
+female,59,some college,yes,25.18,342
+female,48,high school,no,33.29,237
+female,38,college,no,27.16,227
+female,42,high school,no,19.93,172
+male,44,high school,no,22.29,185
+female,59,some college,no,23.94,273
+female,42,some college,no,22.19,260
+male,41,high school,no,24.26,245
+female,56,high school,yes,25.36,310
+female,44,some college,yes,23.13,188
+female,58,some high school,no,27.87,282
+female,55,some high school,no,22.62,250
+male,45,college,yes,28.57,307
+female,63,high school,no,28.27,184
+male,48,college,yes,25.1,150
+female,43,college,no,38.43,240
+male,51,college,yes,28.86,342
+female,56,some high school,no,24.59,227
+male,40,high school,no,29.35,190
+female,60,some high school,no,22.43,279
+female,64,high school,no,28.92,280
+female,45,high school,yes,26.24,258
+male,51,college,yes,21.19,231
+female,53,high school,yes,20.33,317
+female,44,high school,yes,30.85,243
+female,39,high school,no,28.28,167
+female,38,some high school,yes,24.69,220
+male,41,college,no,25.48,197
+female,60,college,yes,25.96,352
+male,59,some high school,yes,29.76,280
+male,46,some high school,yes,33.49,237
+male,41,high school,yes,23.46,196
+female,51,some high school,no,29.64,177
+male,37,college,yes,23.87,254
+female,64,some college,yes,21.32,270
+female,58,high school,no,28.89,345
+male,48,college,no,28.13,206
+female,45,high school,no,25.56,155
+female,62,some high school,no,28.55,309
+female,43,college,no,20.06,213
+male,68,some high school,no,33.52,237
+female,35,high school,yes,17.92,194
+female,44,some high school,yes,30.98,205
+male,37,college,no,28.61,230
+male,57,some high school,no,25.94,321
+female,58,some high school,yes,29.86,215
+female,43,high school,yes,17.84,163
+male,38,some high school,yes,24.58,219
+male,42,some high school,yes,27.26,182
+male,53,high school,yes,28.04,266
+male,51,some high school,yes,24.1,220
+female,50,high school,no,22.99,190
+male,44,high school,yes,26.79,225
+female,59,some high school,yes,19.83,316
+male,63,some high school,no,21.9,222
+female,62,some high school,no,35.42,308
+male,67,some high school,no,15.54,203
+male,64,some high school,no,29.73,217
+male,58,high school,yes,25.08,187
+male,52,some high school,yes,27.78,199
+male,61,some high school,no,30.77,182
+male,59,some college,yes,27.87,239
+female,39,high school,yes,24.79,240
+male,39,high school,no,28.41,196
+female,61,some high school,yes,28.87,290
+male,56,some high school,no,24.66,208
+female,60,some high school,no,22.69,295
+male,63,some high school,yes,25.84,228
+male,44,high school,yes,23.85,246
+female,62,some high school,no,28.27,240
+female,52,high school,no,24.36,225
+female,48,some high school,yes,21.35,197
+female,44,high school,no,24.94,194
+female,51,some college,yes,31.23,220
+female,38,some high school,yes,20.4,212
+male,65,some high school,yes,21.24,285
+female,43,some college,no,27.99,209
+male,48,some high school,no,27.56,231
+female,59,high school,no,25.85,201
+male,52,some high school,yes,29.6,232
+female,65,some high school,no,26.82,274
+female,53,some college,no,39.6,156
+female,45,high school,yes,23.68,200
+female,52,some high school,no,25.02,245
+female,46,high school,no,34.36,184
+female,41,high school,yes,24.16,235
+female,39,high school,yes,22,270
+male,38,high school,no,27.05,208
+female,57,some college,no,24.19,366
+female,39,high school,no,25.54,242
+female,50,college,no,23.06,261
+male,62,some high school,no,31.2,191
+male,40,high school,yes,25.74,211
+female,62,some high school,no,22.35,312
+female,50,some college,no,23.82,243
+male,44,some high school,no,28.04,198
+male,49,college,yes,23.38,240
+male,41,college,no,26.91,178
+female,40,some college,yes,22.73,189
+female,63,some high school,no,25.88,250
+female,60,some high school,no,30.36,247
+male,46,high school,yes,29.28,275
+female,45,high school,yes,26.32,181
+male,62,some high school,yes,24.53,185
+female,52,some high school,no,28.86,235
+female,40,some college,no,24.87,274
+female,45,some high school,no,27.45,285
+female,46,some college,no,27.42,277
+female,53,high school,yes,25.46,300
+male,39,some high school,no,27.8,190
+female,40,some high school,yes,23.08,272
+male,36,some high school,no,19.42,167
+male,57,some college,no,25.62,314
+male,42,high school,yes,22.41,245
+female,51,some high school,no,23.24,226
+female,57,college,yes,21.2,382
+female,39,high school,yes,24.79,323
+male,41,college,yes,30.77,244
+male,43,college,yes,25.5,222
+female,46,some college,yes,19.48,205
+male,43,college,yes,28.31,184
+female,57,high school,no,22.37,175
+male,59,some high school,yes,25.05,298
+female,57,high school,no,18.64,289
+male,37,some high school,yes,28.46,231
+male,41,high school,no,25.52,218
+female,50,some college,no,20.74,250
+male,45,college,no,23.95,221
+male,59,some college,yes,26,206
+male,46,some high school,yes,25.94,288
+male,61,some high school,yes,24.69,220
+male,38,some high school,no,29.77,319
+female,55,some college,no,22.89,255
+female,40,some high school,no,20.79,156
+female,64,high school,no,24.01,279
+female,42,some college,no,25.38,215
+female,48,high school,no,21.79,271
+male,36,some high school,yes,25.23,252
+male,45,high school,yes,26.46,238
+male,57,some college,no,25.57,272
+female,58,some high school,no,32.49,229
+female,54,high school,yes,27.34,390
+male,62,some college,yes,23.5,245
+female,39,college,no,26.12,241
+male,43,high school,yes,20.65,185
+male,50,some high school,no,32.23,257
+female,52,high school,yes,21.48,190
+female,70,high school,no,31.78,231
+female,36,some high school,no,20.79,200
+female,53,some high school,no,38.94,291
+male,41,high school,no,23.7,247
+female,67,some college,yes,26.05,245
+male,48,some high school,yes,25.34,245
+female,38,high school,no,21.1,186
+female,42,some high school,no,30.55,193
+female,41,high school,no,24.73,177
+male,40,some high school,yes,28.09,208
+female,63,some high school,no,40.81,179
+male,61,some high school,no,25.36,238
+male,54,some college,yes,25.13,211
+female,52,high school,no,25.4,300
+male,44,college,no,26.49,201
+female,56,high school,no,21.75,223
+female,52,some high school,yes,27.01,210
+male,65,some high school,yes,26.08,194
+female,58,some high school,no,21.47,223
+male,43,some high school,yes,30.22,212
+male,45,some high school,yes,26.35,264
+male,51,some high school,no,26.69,166
+male,58,high school,yes,23.55,207
+male,48,some high school,no,25.1,259
+female,53,some high school,no,25.7,307
+female,55,some high school,no,24.27,286
+female,48,some college,no,26.73,258
+male,64,some high school,yes,20.45,180
+male,41,high school,yes,28.8,242
+female,49,some high school,no,23.06,309
+male,41,high school,no,30.34,248
+female,53,some high school,yes,25.51,268
+male,44,some high school,yes,17.44,197
+male,56,some high school,yes,26.09,191
+female,58,high school,no,24.49,245
+male,55,college,no,20.72,232
+male,42,high school,yes,27.53,283
+male,39,some high school,yes,27.06,222
+female,39,some college,no,25.57,240
+female,60,some college,no,27.82,270
+male,48,some high school,no,23.68,201
+male,45,some college,yes,24.32,233
+male,39,some high school,yes,23.57,195
+female,63,some college,no,25.92,315
+female,36,some college,yes,21.34,220
+female,54,high school,no,22.19,288
+female,58,some college,yes,22.54,281
+female,45,high school,no,22.98,304
+female,49,some high school,yes,19.72,277
+female,44,some high school,no,25.09,229
+female,44,high school,yes,24.58,245
+female,36,high school,yes,22.73,197
+male,49,some college,no,26.17,230
+male,48,college,yes,24.67,178
+male,45,high school,no,23.85,201
+female,49,some college,no,28.35,254
+male,62,some college,no,27.99,211
+male,50,college,yes,29.98,215
+female,55,high school,no,24.71,293
+male,43,college,yes,23.99,198
+female,47,some college,yes,24.39,250
+female,61,some high school,yes,22.73,243
+male,37,some high school,yes,27.22,275
+male,62,some college,no,28.5,332
+female,45,some college,no,24.58,222
+female,36,some college,yes,22.02,214
+female,48,high school,yes,26.39,182
+female,43,college,yes,22.34,205
+female,43,some college,yes,21.1,270
+female,39,some high school,no,26.74,227
+male,44,college,no,39.04,249
+male,44,some high school,no,31.16,268
+male,63,some high school,yes,33.49,252
+male,47,high school,yes,26.4,119
+male,43,some high school,yes,24.3,240
+female,39,some high school,yes,27.27,236
+male,45,college,yes,24.24,216
+female,46,high school,yes,21.82,214
+male,61,some high school,yes,24.69,183
+female,41,some high school,yes,22.5,172
+male,68,some high school,no,23.25,239
+female,51,high school,no,21.8,235
+male,53,some high school,yes,21.84,244
+female,48,college,no,24.57,240
+female,41,high school,yes,20.7,220
+female,40,some high school,no,23.26,187
+female,49,high school,yes,22.02,240
+female,49,high school,yes,25.31,233
+female,46,high school,yes,21.17,188
+male,56,college,yes,23.58,228
+female,46,some college,yes,22.83,274
+female,38,high school,yes,22.18,172
+male,39,high school,yes,22.92,257
+female,38,some college,no,26.57,171
+female,52,some college,no,27.09,265
+male,54,some high school,yes,24.71,214
+male,63,college,yes,20.12,260
+female,56,some high school,no,28.34,206
+female,40,some college,no,28,188
+male,57,some high school,no,24.94,258
+male,40,high school,yes,24.01,197
+female,46,some high school,no,35.13,325
+female,67,college,no,23.1,281
+female,68,some college,yes,31.64,258
+female,42,some college,yes,21.26,152
+female,40,some college,no,17.64,240
+female,49,some high school,yes,22.19,288
+female,59,some high school,no,35.11,254
+female,66,some high school,yes,32.6,261
+female,40,high school,no,20.99,162
+female,67,high school,yes,24.63,326
+female,57,some high school,yes,27.04,281
+female,60,some high school,yes,44.27,180
+male,53,some college,no,20.54,228
+female,61,some high school,yes,30.74,245
+male,57,some college,yes,25.14,257
+male,49,some college,yes,19.7,193
+female,50,some high school,yes,25.26,168
+female,48,some college,yes,32.67,192
+male,36,high school,yes,21.63,226
+male,46,high school,no,32.4,217
+male,43,some high school,yes,28.36,262
+female,39,some college,yes,23.09,269
+male,39,some high school,yes,24.01,251
+female,40,high school,no,23.05,173
+male,62,some high school,yes,21.61,194
+male,40,college,yes,23.09,242
+male,55,some high school,yes,29.25,214
+female,49,high school,yes,24.26,273
+female,44,high school,yes,19.18,175
+female,39,high school,yes,17.51,236
+female,43,college,yes,21.08,265
+female,51,some high school,no,27.38,244
+female,63,college,no,29.35,248
+male,35,some college,yes,21.03,175
+male,44,high school,no,19.44,169
+female,54,high school,no,22.91,199
+male,37,high school,no,22.7,218
+female,47,some college,no,23.79,250
+female,54,some high school,no,20.55,218
+male,44,some high school,yes,21.44,158
+female,42,some college,no,22.85,252
+female,40,some high school,yes,24.35,220
+male,58,some college,no,23.97,189
+female,63,some high school,yes,20.2,238
+male,45,some high school,no,22.82,252
+female,45,some high school,no,25.23,288
+female,44,some high school,no,25.13,197
+female,42,some high school,no,21.31,170
+male,37,high school,no,33.07,178
+female,57,high school,no,21.85,239
+male,56,high school,no,27.73,212
+female,53,some high school,yes,22.37,309
+male,41,high school,yes,20.72,180
+male,51,high school,yes,22.26,245
+male,49,high school,yes,24.84,213
+male,45,some high school,no,32.03,258
+male,50,high school,yes,30.11,180
+male,49,college,yes,28.47,222
+male,44,some high school,yes,39.88,229
+female,51,some high school,yes,25.74,340
+male,41,some high school,no,19.09,181
+male,61,some high school,no,27.04,206
+female,50,some college,no,22.01,208
+male,51,some high school,yes,25.08,230
+female,37,high school,yes,41.29,257
+male,56,some high school,no,26.05,194
+male,36,some high school,yes,25.64,242
+male,61,some high school,no,31.31,193
+female,49,some high school,no,21.83,265
+female,46,some college,no,23.01,190
+male,44,some college,yes,26.41,340
+female,36,college,yes,26.82,212
+female,45,high school,yes,35.02,297
+male,47,some high school,yes,27.4,290
+male,39,some high school,no,28.57,224
+female,51,high school,no,30.79,262
+female,43,high school,yes,22.17,276
+male,48,some high school,yes,23.1,285
+male,64,college,no,26.49,210
+female,45,some high school,no,28.06,285
+female,46,high school,no,26.61,253
+female,48,some high school,yes,24.59,296
+female,39,high school,yes,22.91,254
+female,45,some college,no,28.81,297
+female,53,some high school,no,26.73,268
+female,51,some high school,no,26.32,198
+male,51,some high school,no,22.01,220
+female,55,high school,no,25.71,326
+male,43,college,yes,25.68,263
+female,54,some college,no,22.73,241
+female,41,some high school,yes,23.69,249
+male,40,high school,no,23.71,222
+male,43,high school,yes,24.89,243
+male,41,high school,yes,26.36,260
+female,39,some college,no,21.51,179
+female,53,some college,no,31.31,285
+female,41,some high school,yes,38.75,306
+male,43,some high school,yes,19.05,179
+female,50,some college,yes,23.29,271
+female,41,college,no,27.49,159
+female,56,some high school,yes,23.17,292
+male,40,some high school,yes,21.19,160
+male,43,some high school,yes,28.77,249
+male,50,college,yes,21.98,236
+female,46,some high school,yes,27.27,263
+male,52,some college,yes,32.27,281
+female,46,high school,no,27.4,242
+female,49,high school,no,28.38,239
+female,46,some college,yes,23.48,218
+female,51,high school,no,31.63,283
+female,36,some college,yes,23.09,200
+female,64,some high school,yes,26.42,241
+female,37,some high school,no,26.29,181
+male,50,some high school,no,25.2,167
+female,49,some high school,no,25.04,305
+female,58,some high school,no,36.65,290
+female,58,high school,no,23.17,270
+female,37,some high school,no,17.93,209
+female,51,some high school,no,26.91,285
+female,56,some high school,yes,29.22,241
+female,61,some high school,no,31.13,312
+female,62,college,no,23.29,281
+male,49,some college,yes,24.16,208
+female,54,some college,no,23.08,278
+female,54,high school,no,21.93,243
+male,61,high school,no,25.63,246
+female,39,high school,yes,24.25,216
+male,59,high school,yes,24.07,303
+male,38,high school,no,25.94,155
+male,42,some high school,yes,17.81,218
+female,50,high school,yes,24.24,298
+female,41,high school,yes,28.6,188
+male,37,some college,yes,26.62,188
+male,49,high school,yes,31.07,211
+female,62,high school,no,33.7,326
+female,47,high school,yes,27.98,220
+female,41,high school,no,20.11,180
+male,57,some college,no,25.38,238
+female,48,some college,yes,21.51,215
+male,62,some high school,yes,26.21,217
+female,58,some college,no,23.96,241
+female,42,college,no,23.64,212
+male,49,some college,yes,25.83,167
+female,42,some college,no,21.49,212
+female,61,some high school,no,29.35,210
+male,55,some high school,yes,29.6,259
+male,51,some college,no,28.59,215
+male,38,high school,yes,31.08,266
+female,48,some high school,yes,26.27,195
+female,55,high school,no,30.23,285
+female,61,college,no,24.4,325
+female,39,high school,no,24.04,200
+female,42,high school,yes,24.87,230
+male,41,high school,yes,23.96,264
+female,43,some college,yes,23.18,185
+male,48,some high school,yes,21.34,268
+male,39,some high school,yes,25.74,291
+male,52,some high school,no,29.82,222
+female,43,high school,yes,24.08,190
+female,42,some high school,yes,28.93,233
+female,42,some college,no,31.84,256
+male,49,high school,yes,19.26,187
+female,44,some college,yes,21.16,213
+male,42,college,no,27.67,225
+female,56,high school,yes,25.54,246
+male,53,high school,no,26.26,287
+male,51,high school,yes,29.29,227
+male,52,college,yes,29.77,167
+female,65,some high school,no,29.8,225
+female,54,high school,yes,21.31,231
+male,48,some high school,no,25.08,210
+female,49,some high school,no,26.03,233
+male,51,some high school,yes,27.57,246
+male,52,some high school,yes,22.81,233
+male,54,some high school,yes,24.85,245
+female,40,high school,no,27.91,230
+male,55,some high school,yes,22.72,175
+female,47,some high school,no,23.78,205
+male,50,college,yes,25.9,212
+female,41,high school,yes,19.09,159
+male,62,some high school,yes,20.56,168
+female,65,some high school,no,29.48,221
+male,41,some college,no,25.13,215
+female,49,some college,no,20.26,273
+female,58,some college,yes,29.5,290
+female,62,some high school,no,29.64,268
+female,46,college,no,23.99,192
+male,49,high school,no,31.47,239
+female,42,some college,yes,23.72,212
+female,49,some high school,no,26.56,270
+female,39,some high school,no,25.79,275
+male,40,high school,no,25.41,192
+male,40,college,yes,35.2,229
+male,55,some high school,no,27.51,298
+male,50,some high school,yes,28.55,193
+male,34,some college,yes,23.51,155
+female,39,some high school,yes,28.73,273
+female,56,some college,no,25.66,220
+male,40,high school,yes,22.14,186
+female,47,some high school,no,27.64,305
+male,39,high school,no,21.19,167
+male,48,high school,no,26.79,165
+male,46,some high school,yes,30.62,253
+female,43,high school,no,24.59,273
+female,51,high school,no,21.14,220
+female,34,high school,no,20.81,189
+male,45,some high school,no,27.25,213
+female,40,high school,no,23.65,197
+female,39,college,yes,25.19,226
+female,42,high school,yes,26.58,201
+female,35,high school,no,26.38,197
+female,50,high school,no,23.62,225
+female,42,college,no,19.78,183
+female,38,college,no,23.09,220
+male,55,some high school,yes,28.82,239
+female,43,high school,no,30.3,228
+male,56,some high school,no,25.14,260
+female,50,college,yes,25.65,243
+male,56,some college,no,29.44,239
+female,40,high school,no,26.13,190
+male,39,high school,yes,23.22,222
+male,61,some high school,no,26.18,227
+female,43,some college,no,21.22,192
+female,64,some high school,no,26.51,262
+female,58,some high school,yes,25.46,289
+female,46,high school,yes,22.51,197
+male,62,college,no,24.88,241
+female,51,high school,no,25.29,346
+female,53,some high school,no,25.46,265
+male,51,some high school,yes,24.49,212
+male,45,some high school,yes,21.03,212
+male,58,high school,yes,26.33,220
+female,41,high school,yes,27.78,243
+male,41,some college,yes,35.53,240
+female,47,some high school,yes,27.05,247
+female,62,college,yes,26.73,298
+female,38,high school,yes,21.16,160
+male,50,some high school,yes,26.73,258
+female,64,some high school,no,35.62,213
+male,67,some high school,no,26.71,222
+female,63,high school,yes,33.66,219
+female,54,some high school,no,25.43,207
+female,39,high school,no,30.06,283
+female,60,some high school,no,32.53,258
+male,62,some high school,no,27.27,208
+female,45,some high school,yes,17.38,170
+female,39,high school,no,20.55,205
+female,44,some high school,no,22.19,240
+female,63,some high school,no,25.58,229
+female,51,high school,no,28.68,234
+female,60,some college,no,29.66,275
+male,42,high school,yes,21.67,256
+female,58,some high school,no,20.76,260
+female,42,high school,no,20.93,211
+female,47,some high school,no,28.02,190
+female,57,some high school,no,38.88,233
+male,48,college,no,26.36,240
+male,61,some high school,no,25.74,239
+female,43,college,no,25.32,229
+male,51,some college,no,25.62,218
+male,38,college,no,29.08,328
+male,39,some high school,yes,26.47,227
+female,46,some college,yes,28.87,248
+female,42,some college,no,27.71,204
+female,45,some college,no,21.99,246
+male,43,high school,yes,31.07,220
+female,41,some high school,no,25.87,179
+female,43,some college,yes,22.9,233
+male,36,some high school,yes,24.43,203
+male,61,some high school,no,25.51,195
+male,45,some high school,no,28.25,172
+female,53,high school,no,25.5,272
+male,42,some high school,yes,21.68,410
+male,56,high school,yes,21.41,189
+female,41,some college,yes,20.67,205
+male,46,some high school,yes,26.55,269
+female,54,some high school,no,21.22,223
+female,42,high school,no,20.06,234
+female,56,college,no,26.36,287
+male,44,some high school,yes,24.56,246
+female,50,high school,yes,25.03,202
+male,40,college,yes,23.74,205
+male,66,college,yes,25.41,273
+female,64,some high school,no,29.67,229
+female,47,some college,no,28.59,294
+female,51,some high school,yes,26.69,300
+female,52,high school,yes,27.33,410
+female,41,high school,no,23.78,197
+male,53,some high school,no,25.82,202
+female,58,some high school,no,33.32,267
+male,48,some college,yes,22.37,232
+male,44,some college,no,26.72,243
+female,49,some high school,yes,22.86,323
+male,43,high school,no,27.94,210
+female,42,some college,yes,20.53,175
+female,61,some college,no,22.82,189
+female,39,high school,no,26.39,195
+female,40,high school,yes,25.05,174
+female,51,some high school,yes,28.06,262
+female,42,high school,yes,23.68,200
+female,59,some high school,yes,25.92,254
+female,63,high school,no,24.64,283
+male,35,high school,yes,26.09,225
+female,36,some high school,no,22.16,195
+male,39,high school,no,24.1,258
+male,56,some high school,yes,29.64,246
+female,36,high school,yes,25.25,201
+male,52,some high school,no,25.88,248
+female,48,high school,no,22.72,196
+male,42,college,no,23.37,195
+male,44,high school,yes,29.15,319
+male,51,some high school,yes,22.34,212
+female,40,some college,no,31.6,251
+male,53,some college,no,28.09,253
+female,55,some college,no,23.43,329
+female,39,high school,no,24.2,175
+female,46,some high school,no,26.84,193
+male,53,college,no,25.04,292
+female,44,high school,yes,23.82,223
+male,67,some high school,yes,21.64,194
+female,59,college,no,25.65,313
+female,43,some high school,yes,38.96,258
+female,41,some high school,yes,25.27,326
+male,44,college,yes,25.12,230
+female,36,some high school,yes,20.87,178
+female,51,some college,yes,23.17,275
+male,37,some college,yes,28.07,292
+female,42,high school,no,29.02,246
+male,41,college,no,30.69,206
+male,48,high school,yes,29.79,249
+male,44,college,no,26.98,211
+female,51,high school,no,22.19,238
+male,37,high school,yes,24.66,158
+female,53,college,no,22.19,219
+male,58,some high school,yes,21.65,290
+female,58,high school,yes,24,226
+male,50,some high school,yes,22.81,259
+male,44,some high school,yes,27.51,277
+female,41,some high school,yes,26.42,223
+female,47,some high school,yes,24.62,226
+male,59,some high school,no,31.6,294
+female,43,high school,no,35.16,194
+female,46,some college,no,22.9,230
+female,43,high school,no,33.17,234
+female,51,high school,no,29.36,358
+male,50,college,yes,25.9,261
+female,35,high school,yes,23.74,245
+male,60,college,no,24.8,227
+male,56,some high school,yes,28.3,280
+female,39,some high school,no,20.99,153
+female,50,high school,no,24.06,173
+male,40,high school,yes,22.71,203
+female,38,college,yes,20.4,178
+female,47,some high school,no,24.71,220
+female,59,some high school,yes,25.97,259
+male,57,some high school,no,25.51,213
+male,48,some high school,no,27.61,235
+female,40,some college,yes,22.52,304
+male,52,some high school,yes,24.88,212
+male,48,some high school,no,29.34,181
+female,41,high school,yes,24.2,200
+male,49,some high school,yes,28.4,206
+male,58,some high school,yes,26.05,264
+male,47,some college,yes,28.96,177
+male,39,high school,yes,30.08,250
+male,48,some high school,yes,24.12,210
+female,43,some high school,no,21.99,249
+male,69,some high school,yes,24.14,232
+female,58,some high school,no,25.66,240
+female,39,high school,yes,21.3,149
+male,59,college,yes,26.89,232
+female,57,high school,no,38.11,318
+female,42,high school,yes,22.26,195
+female,45,some college,no,23.75,230
+female,46,some high school,no,26.95,238
+female,48,some college,no,25.94,310
+female,54,high school,no,23.48,279
+male,43,some high school,yes,24.25,252
+female,55,some high school,no,23.48,200
+female,53,some high school,no,27.6,234
+female,48,high school,yes,21.97,271
+female,61,high school,yes,38.46,326
+female,39,high school,yes,23.87,185
+female,56,some high school,no,29.67,307
+male,58,some high school,yes,29.66,175
+male,53,some high school,yes,29.35,260
+female,65,some high school,no,25.12,304
+female,56,college,yes,25.68,289
+male,48,some high school,yes,26.25,253
+male,57,high school,yes,27.14,210
+female,57,some high school,no,18.59,197
+male,45,some college,yes,30.39,270
+female,45,college,yes,21.25,202
+female,50,college,no,23.24,243
+female,44,some high school,no,26.38,175
+female,38,high school,yes,23.47,229
+female,53,some college,yes,22.91,304
+male,53,high school,no,23.84,198
+female,51,some high school,no,39.22,190
+female,35,high school,no,29.22,234
+male,46,some high school,yes,20.63,208
+female,47,high school,yes,22.53,186
+male,45,some high school,yes,24.1,218
+female,53,some high school,no,27.04,237
+female,45,some college,yes,20.56,196
+male,38,some high school,yes,27.8,239
+male,41,college,yes,28.78,213
+female,60,some high school,no,32.41,170
+female,62,some high school,no,35.16,325
+male,58,some high school,yes,24.9,200
+female,57,some high school,yes,38.61,283
+female,57,some high school,no,31.82,277
+male,46,high school,yes,21.66,250
+female,42,some high school,no,27.23,199
+male,48,college,yes,22.01,212
+female,59,some high school,yes,28.1,225
+female,52,some high school,yes,22.35,234
+male,51,some high school,yes,27.56,176
+male,37,college,yes,26,170
+male,37,some high school,yes,32.35,189
+female,46,college,yes,19.74,228
+male,43,some high school,yes,24.92,175
+female,55,some college,yes,27.15,273
+female,51,some high school,yes,18.52,327
+female,41,high school,yes,23.8,226
+male,62,some high school,yes,28.83,243
+female,49,high school,no,24.46,290
+male,41,some high school,yes,29.79,239
+female,59,high school,no,27.59,250
+female,47,some high school,no,27.65,234
+male,47,some college,no,29.17,199
+male,57,high school,yes,25.51,221
+female,52,some high school,yes,26.03,170
+female,39,some college,no,22.91,180
+male,49,some high school,no,31.67,304
+female,39,college,yes,17.65,180
+female,40,high school,no,18.52,208
+female,57,college,no,27.05,328
+female,44,high school,no,23.13,210
+female,45,some high school,no,24.45,219
+female,60,high school,no,24.61,335
+female,67,some college,yes,19.81,242
+female,53,college,no,29.82,243
+female,51,some high school,no,37.48,287
+female,61,some high school,no,26.98,217
+male,42,some high school,no,23.61,266
+female,48,some college,yes,27.86,266
+female,57,high school,yes,24.22,254
+male,49,some college,yes,20.26,189
+female,62,some high school,no,27.23,318
+female,61,high school,no,25.05,183
+female,59,college,no,19.34,239
+female,50,some high school,no,30.47,312
+female,56,some college,no,24.81,267
+male,36,college,no,27.08,194
+male,53,some high school,yes,29.87,218
+female,49,college,no,29.01,224
+female,54,high school,yes,25.07,325
+male,56,some college,no,27.81,177
+male,63,some college,no,28.43,161
+male,58,college,no,23.65,320
+female,61,some high school,no,31.63,254
+male,52,college,yes,30.93,225
+female,43,some high school,yes,19.83,179
+male,57,some high school,no,38.14,176
