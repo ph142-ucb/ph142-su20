@@ -1,0 +1,305 @@
+---
+title: "Assignment 5"
+author: "Your name and student ID"
+date: "Today's date"
+output:
+  pdf_document: default
+---
+
+* Due date: Thursday, July 23 10:00pm.
+* Remember: autograder is meant as sanity check ONLY. It will not tell you if you have the correct answer. It will tell you if you are in the ball park of the answer so *CHECK YOUR WORK*.
+* Submission process: Follow the submission instructions on the final page. Make sure you do not remove any `\newpage` tags or rename this file, as this will break the submission.
+
+```{r setup, include = FALSE}
+# Don't change these lines, just run them!
+source("setup/hw05.RAGS.R")
+```
+
+Helpful hints:
+
+- Every function you need to use was taught during lecture! So you may need to 
+revisit the lecture code to help you along by opening the relevant files on Datahub. 
+Alternatively, you may wish to view the code in the condensed PDFs posted 
+on the course website. Good luck!
+
+- Knit your file early and often to minimize knitting errors! If you copy and 
+paste code for the slides, you are bound to get an error that is hard to 
+diagnose. Typing out the code is the way to smooth knitting! We recommend 
+knitting your file each time after you write a few sentences/add a new code 
+chunk, so you can detect the source of knitting errors more easily. This will 
+save you and the GSIs from frustration! **You must knit correctly before submitting.**
+
+- If your code runs off the page of the knitted PDF then you will LOSE POINTS! To
+avoid this, have a look at your knitted PDF and ensure all the code fits in the 
+file (you can easily view it on Gradescope via the provided link after submitting). 
+If it doesn't look right, go back to your .Rmd file and add spaces (new lines) using 
+the return or enter key so that the code runs onto the next line.
+
+\newpage
+
+--------------------------------------------------------------------------------
+
+```{r load-libraries}
+library(dplyr)
+library(ggplot2)
+```
+
+
+**[7 points] Part 1: Male Height Probabilities** 
+
+The average height of an adult male in the United States is 70 inches, with a 
+standard deviation of 3 inches. Assume that male heights are Normally distributed. 
+
+1. [3 marks] Approximately what proportion of males are expected to be under 76 
+inches? To aid your answer, hand-draw (or use any software) to sketch a Normal
+curve, and shade in the area under the Normal density curve the question 
+represents. Add dashed lines at the mean +/- 1SD, 2SD and 3SD. Then calculate 
+the proportion asked about in the first sentence. You shouldn't need to use R
+to perform any calculations for this question. Report the probability as a number between 0 and 100 rounded to one decimal place.
+
+(Use the code chunk below to include an image file of your drawing. To do so you 
+need to delete the hashtag, upload the image to Datahub into the `src` directory and replace
+the file name with your file name. JPG or PNG will both work.)
+
+```{r, out.width="50%"}
+#knitr::include_graphics("src/Your-file-name.JPG")
+```
+
+
+\newpage
+
+
+2. [1 mark] Check your answer from part a) using R code. Store your answer and the absolute difference between your answer and the exact probability to the vector `p2`. For this question, store your answer as a number between 0 and 1 rounded to 3 decimal places.
+
+```{r}
+p2 <- "<<<<YOUR CODE HERE>>>>"
+
+p2
+
+check_problem2()
+```
+
+
+\newpage
+
+
+3. [3 marks] What is the height, in inches, of the middle 50% heights of adult men? To aid 
+your answer, hand-draw (or use any software) to sketch a Normal curve, and
+shade in the area under the Normal density curve that the middle represents. 
+Then, use R to calculate the requested range. Round the lower and upper bound of
+the range each to two decimal places.
+
+(Use the code chunk below to include an image file of your drawing. To do so you 
+need to delete the hashtag, upload the image to Datahub into the `src` directory and replace
+the file name with your file name. JPG or PNG will both work.)
+
+```{r}
+#knitr::include_graphics("src/Your-file-name.JPG")
+
+# a useful function is called round()
+# run the following two lines of code to see the effect
+example <- round(3.1415926535, 2)
+example
+
+#Your code here
+p3_lower_bound <- "<<<<YOUR CODE HERE>>>>"
+p3_upper_bound <- "<<<<YOUR CODE HERE>>>>"
+
+
+#don't forget to look at the values!
+p3_lower_bound
+p3_upper_bound
+
+check_problem3()
+```
+
+\newpage
+
+
+**[3 points] Part 2: Assessing Normality and Interpreting QQ Plots** 
+
+The recording for ten adult systolic blood pressure readings are as follows:  
+112, 110, 108, 120, 115, 122, 105, 123, 114, 111. Are these data Normally 
+distributed?
+
+
+\newpage
+
+
+4. [3 marks] Make a Normal quantile plot for these data using R. Remember, to make a ggplot
+of these data, you need to first input the data as a vector called `counts` and then convert that vector to a data frame. Example code has been provided to you to get you started.
+After making the plot, assess whether the data appear to approximately follow a 
+Normal distribution. Answer in no more than 2-3 sentences.
+
+```{r ggplot_qqplot,message=FALSE}
+library(dplyr)
+library(ggplot2)
+# example code
+counts <- c(1, 2, 3)
+sbp_data <- data.frame(counts)
+
+# your code here 
+counts <- "<<<<YOUR CODE HERE>>>>"
+sbp_data <- data.frame(counts)
+plot <- "<<<<YOUR CODE HERE>>>>"
+plot
+
+
+```
+
+[ TODO: YOUR ANSWER HERE ]
+
+
+\newpage
+
+
+**[12 points] Part 3: Conducting a general anxiety disorder study** 
+
+Suppose that a new treatment for COVID-19 has undergone 
+safety and efficacy trials and based on these data 45% of patients with 
+COVID-19 are expected to benefit from the new treatment. You are
+conducting a follow-up study and so far have enrolled 14 participants with 
+COVID-19 into your study. These patients do not know each other
+and represent individuals who responded to a mailed flyer. 
+
+
+\newpage
+
+
+5. [2 marks] Let $X$ represent the number of patients that you have enrolled who benefit
+from the treatment. Does $X$ meet the assumptions of a Binomial distribution? 
+Thoroughly explain why or why not.
+
+[ TODO: YOUR ANSWER HERE ]
+
+
+\newpage
+
+
+6. [1 mark] Using one of the distributions learned in class that $X$ meets the assumptions
+of, calculate by hand the probability that exactly 7 participants will benefit.
+Show your work. 
+
+[ TODO: YOUR ANSWER HERE ]
+
+
+\newpage
+
+
+7. [1 mark] Confirm your previous calculation using an R function. Store your answer to p7.
+
+```{r}
+p7 <- "<<<<YOUR CODE HERE>>>>"
+
+
+p7
+check_problem7()
+```
+
+
+\newpage
+
+
+8. [2 marks] Calculate by hand the probability that 12 or more participants will benefit. 
+Show your work.
+
+[ TODO: YOUR ANSWER HERE ]
+
+\newpage
+
+9. [1 mark] Confirm your previous calculation using code that depends on `pbinom()`. Store your answer to p9.
+
+```{r}
+p9 <- "<<<<YOUR CODE HERE>>>>"
+
+p9
+
+check_problem9()
+
+```
+
+
+\newpage
+
+
+10. [1 mark] Re-confirm your previous calculation, this time using code that depends on `dbinom()`. Store your answer to p10.
+
+```{r}
+p10 <- "<<<<YOUR CODE HERE>>>>"
+
+p10
+
+check_problem10()
+
+```
+
+
+\newpage
+
+
+11. [4 marks] Calculate the number of patients you would expect to benefit 
+from the treatment and the standard deviation. Write a sentence
+to interpret the meaning of the mean. If the mean is not a whole number, what 
+whole number is most probable?
+
+[ TODO: YOUR ANSWER HERE ]
+
+
+\newpage
+
+
+12. [1 mark] Should you apply a Normal approximation to these data using the $\mu$ and $\sigma$
+you calculated in the last question? Why or why not?
+
+[ TODO: YOUR ANSWER HERE ]
+
+
+\newpage
+
+**13. [4 points] BONUS** At the end of every homework, you will have the opportunity to obtain up to *4 extra credit points* on that assignment. 
+
++1 point for developing a multiple choice question on the material in the homework
+
++1 point for developing a true/false question on the material 
+
++2 points for developing a free response question.
+
+To get full credit, you need to write the question, write an answer, provide a rubric for grading the answer, and say something about why/how you feel this question addresses a concept in this homework. You can only write **one question per category**.
+
+*Note: If you are including code as part of your questions, please include an additional code chunk that loads the required packages and the required dataset.*
+
+[ YOUR ANSWER HERE ]
+
+\newpage
+
+### Check your score
+
+Click on the middle icon on the top right of this code chunk (with the downwards gray arrow and green bar) to run all your code in order. Then, run this chunk to check your score.
+```{r check-total-score}
+# Just run this chunk.
+total_score()
+```
+
+\newpage
+
+### Submission
+
+For assignments in this class, you'll be submitting using the **Terminal** tab in the pane below. In order for the submission to work properly, make sure that:
+
+1. Any image files you add that are needed to knit the file are in the `src` folder and file paths are specified accordingly. 
+2. You **have not changed the file name** of the assignment.
+3. The file is saved (the file name in the tab should be **black**, not red with an asterisk).
+4. The file knits properly.
+
+Once you have checked these items, you can proceed to submit your assignment.
+
+1. Click on the **Terminal** tab in the pane below.
+2. Copy-paste the following line of code into the terminal and press enter.
+
+cd; cd ph142-su20/hw/hw05; python3 turn_in.py
+
+3. Follow the prompts to enter your Gradescope username and password. When entering your password, you won't see anything come up on the screen--don't worry! This is just for security purposes--just keep typing and hit enter.
+4. If the submission is successful, you should see "Submission successful!" appear as output.
+5. If the submission fails, try to diagnose the issue using the error messages--if you have problems, post on Piazza. 
+
+The late policy will be strictly enforced, **no matter the reason**, including submission issues, so be sure to submit early enough to have time to diagnose issues if problems arise.
