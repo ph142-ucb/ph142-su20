@@ -150,7 +150,6 @@ if __name__ == '__main__':
     # Use the APIClient to upload submissions after logging in, e.g:
     # client.upload_pdf_submission(1234, 5678, 'student@example.edu', 'submission.pdf')
 
-
     if PROGRAMMING_ASSIGNMENT_ID is not None:
         #src_files = [join("src", f) for f in listdir("src") if isfile(join("src", f))]
         #files = src_files + [ASSIGNMENT_RMD_PATH, PDF_PATH]
