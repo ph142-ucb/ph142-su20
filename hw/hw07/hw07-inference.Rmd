@@ -132,3 +132,21 @@ The ban on smoking in public places (restaurants, bars etc) was argued legally b
 
 [ YOUR ANSWER HERE ]
 
+\newpage
+
+**6. [4 points] BONUS** At the end of every homework, you will have the opportunity to obtain up to *4 extra credit points* on that assignment. 
+
++1 point for developing a multiple choice question on the material in the homework
+
++1 point for developing a true/false question on the material 
+
++2 points for developing a free response question.
+
+To get full credit, you need to write the question, write an answer, provide a rubric for grading the answer, and say something about why/how you feel this question addresses a concept in this homework. You can only write **one question per category**.
+
+*Note: If you are including code as part of your questions, please include an additional code chunk that loads the required packages and the required dataset.*
+
+[ YOUR ANSWER HERE ]
+
+\newpage
+
