@@ -189,7 +189,7 @@ check_problem6 = function() {
              error_message = "Did you input a number.")
   
   checkpoint(checkpoint_number = 2,
-             test = round(t_statistics, 2) < .6,
+             test = round(t_statistics, 2) > .6,
              correct_message = "Passed.",
              error_message = "Not in the correct range. Check your work"
   )
