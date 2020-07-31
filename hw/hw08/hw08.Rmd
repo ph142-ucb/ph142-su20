@@ -1,0 +1,233 @@
+---
+title: "Assignment 8"
+author: "Your name and student ID"
+date: "Today's date"
+output:
+  pdf_document: default
+---
+
+```{r, warning=F, message=F, echo=F}
+library(dplyr)
+library(ggplot2)
+```
+
+* Due date: Tuesday, August 4th 10:00pm.
+* Remember: autograder is meant as sanity check ONLY. It will not tell you if you have the correct answer. It will tell you if you are in the ball park of the answer so *CHECK YOUR WORK*.
+* Submission process: Follow the submission instructions on the final page. Make sure you do not remove any `\newpage` tags or rename this file, as this will break the submission.
+
+```{r setup, include = FALSE}
+# Don't change these lines, just run them!
+source("setup/hw08.RAGS.R")
+```
+
+Helpful hints:
+
+-  Every function you need to use was taught during lecture! So you may need to 
+revisit the lecture code to help you along by opening the relevant files on Datahub. 
+Alternatively, you may wish to view the code in the condensed PDFs posted 
+on the course website. Good luck!
+
+- Knit your file early and often to minimize knitting errors! If you copy and 
+paste code for the slides, you are bound to get an error that is hard to 
+diagnose. Typing out the code is the way to smooth knitting! We recommend 
+knitting your file each time after you write a few sentences/add a new code 
+chunk, so you can detect the source of knitting errors more easily. This will 
+save you and the GSIs from frustration! **You must knit correctly before submitting.**
+
+- If your code runs off the page of the knitted PDF then you will LOSE POINTS! To
+avoid this, have a look at your knitted PDF and ensure all the code fits in the 
+file (you can easily view it on Gradescope via the provided link after submitting). 
+If it doesn't look right, go back to your .Rmd file and add spaces (new lines) using 
+the return or enter key so that the code runs onto the next line.
+
+
+--------------------------------------------------------------------------------
+
+Some experts think that high population density may have contributed to the spread of COVID-19 in some areas of the United States. Below are the confirmed cases per 10,000 residents for the 12 states with the highest population density (Group A) and the confirmed cases per 10,000 residents for the 12 states with the lowest population density (Group B). (Source:NYTimes, 6/27/20)
+
+Group A: 
+```{r}
+group_a <- c(194.5, 157.3, 156.8, 129.2, 110.8, 113.9, 203.9, 61.7, 69.5, 42.3, 52.7, 112.4)
+```
+
+Group B: 
+```{r}
+group_b <- c(13.7, 24.1, 8.0, 45.5, 74.9, 54.4, 28.8, 95.8, 53.0, 47.2, 63.1, 18.8)
+```
+
+1. [1 point] In one ggplot, create two box plots to compare the population density values for Group A and Group B. Also plot the raw data as points, overlaid on top of the box plots. 
+
+```{r make-data-frame}
+
+cases <- data.frame(case_rate = c(group_a, group_b), 
+                         states = c(rep("Group A", 12), rep("Group B", 12)))
+```
+
+```{r make-box-plot}
+
+p1 <- "YOUR ANSWER HERE"
+check_problem1()
+```
+
+\newpage
+
+2. [1 points] Comment on the similarities/differences portrayed by the plots, keeping in mind that the sample size is relatively small for these two groups of states.
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+3. [2 points] What two assumptions do you need to make to use any of the t-procedures? Because each group has a rather small sample size (n = 12 for both), what two characteristics of the data would you need to check for to ensure that the t-procedures can be applied?
+
+[TODO: YOUR ANSWER HERE]
+
+
+
+\newpage
+
+4. [3 points] Using only `dplyr` and `*t` functions, create a 95% confidence interval for the mean difference between states in Group A and states in Group B. You can do this by using `dplyr` to calculate the inputs required to calculate the 95% CI, and then plugging these values in on a separate line of code (or using your calculator). Use a degrees of freedom of 15.991 (You don't need to calculate the degrees of freedom, you can use this value directly). Round your solution to 3 decimal places.
+
+```{r}
+# YOUR CODE HERE
+
+# THEN, ASSIGN YOUR FINAL ANSWERS BELOW:
+CI_lowerbound <- "YOUR ANSWER HERE"
+CI_upperbound <- "YOUR ANSWER HERE"
+
+check_problem4()
+```
+
+\newpage
+
+5. [1 points] Interpret the mean difference and its 95% CI you just calculated.
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+Perform a two-sided t-test for the difference between the two groups of states. Calculate the test statistic (showing your work) and p-value. Continue to assume that the degrees of freedom is 15.991. 
+Verify the p-value by running the t-test using R's built in function.
+Show the output from that test. Hint: to perform the t-test using R's built in 
+function, you need to pass the function an x and y argument, where x includes 
+that values for Group A and Y includes the values for Group B. 
+
+
+6. [1 points] Calculate the t-test statistics
+
+```{r}
+t_statistics <- "YOUR ANSWER HERE"
+t_statistics
+
+
+check_problem6()
+```
+242.521833
+
+\newpage
+
+7. [1 points] We need to compare this t-statistic to a t distribution with 15.99102 degrees of freedom. Calculate the p-value:
+
+```{r}
+p_value <- "YOUR ANSWER HERE"
+p_value
+
+
+check_problem7()
+```
+
+\newpage
+
+8.[2 points] Interpret the p value you got in the context of the this question. Is there evidence against null hypothesis?
+
+[TODO: YOUR ANSWER HERE]
+
+
+
+Check this against the `t.test` output (Using `dplyr`'s `filter()` and `pull()`):
+```{r}
+t.test(x = cases %>% filter(states == "Group A") %>% pull(case_rate), 
+       y = cases %>% filter(states == "Group B") %>% pull(case_rate), 
+       alternative = "two.sided")
+```
+
+\newpage
+
+
+9. [1 point] Suppose you were testing the hypotheses $H_0: \mu_d = 0$ and $H_a: \mu_d \neq 0$ in a paired design and obtain a p-value of 0.21. Which one of the following could be a possible 95% confidence interval for $\mu_d$?
+
+```{r}
+# Uncomment one of the following choices:
+# p9 <- "-2.20 to -3.20"
+# p9 <- "-2.22 to 0.24"
+# p9 <- "0.04 to 1.80"
+# p9 <- "0.19 to 0.23"
+
+check_problem9()
+```
+
+\newpage
+
+
+10. [1 point] Suppose you were testing the hypotheses $H_0: \mu_d = 0$ and $H_a: \mu_d \neq 0$ in a paired design and obtain a p-value of 0.03. Also suppose you computed confidence intervals for $\mu_d$. Based on the p-value which one of the following is true?
+
+```{r}
+# Uncomment one of the following choices:
+# p10 <- "Both a 95% CI and a 99% CI will contain 0."
+# p10 <- "A 95% CI will contain 0, but a 99% CI will not."
+# p10 <- "A 95% CI will not contain 0, but a 99% CI will."
+# p10 <- "Neither a 95% CI nor a 99% CI interval will contain 0." 
+
+check_problem10()
+```
+
+\newpage
+
+**11. [4 points] BONUS** At the end of every homework, you will have the opportunity to obtain up to *4 extra credit points* on that assignment. 
+
++1 point for developing a multiple choice question on the material in the homework
+
++1 point for developing a true/false question on the material 
+
++2 points for developing a free response question.
+
+To get full credit, you need to write the question, write an answer, provide a rubric for grading the answer, and say something about why/how you feel this question addresses a concept in this homework. You can only write **one question per category**.
+
+*Note: If you are including code as part of your questions, please include an additional code chunk that loads the required packages and the required dataset.*
+
+[ YOUR ANSWER HERE ]
+
+\newpage
+
+### Check your score
+
+Click on the middle icon on the top right of this code chunk (with the downwards gray arrow and green bar) to run all your code in order. Then, run this chunk to check your score.
+```{r check-total-score}
+# Just run this chunk.
+total_score()
+```
+
+\newpage
+
+### Submission
+
+For assignments in this class, you'll be submitting using the **Terminal** tab in the pane below. In order for the submission to work properly, make sure that:
+
+1. Any image files you add that are needed to knit the file are in the `src` folder and file paths are specified accordingly. 
+2. You **have not changed the file name** of the assignment.
+3. The file is saved (the file name in the tab should be **black**, not red with an asterisk).
+4. The file knits properly.
+
+Once you have checked these items, you can proceed to submit your assignment.
+
+1. Click on the **Terminal** tab in the pane below.
+2. Copy-paste the following line of code into the terminal and press enter.
+
+cd; cd ph142-su20/hw/hw08; python3 turn_in.py
+
+3. Follow the prompts to enter your Gradescope username and password. When entering your password, you won't see anything come up on the screen--don't worry! This is just for security purposes--just keep typing and hit enter.
+4. If the submission is successful, you should see "Submission successful!" appear as output.
+5. If the submission fails, try to diagnose the issue using the error messages--if you have problems, post on Piazza. 
+
+The late policy will be strictly enforced, **no matter the reason**, including submission issues, so be sure to submit early enough to have time to diagnose issues if problems arise.
