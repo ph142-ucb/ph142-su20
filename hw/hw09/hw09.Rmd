@@ -1,0 +1,285 @@
+---
+title: "Homework 9"
+author: "Your name and student ID"
+date: "Today's date"
+output:
+  pdf_document: default
+---
+
+```{r, warning=F, message=F, echo=F}
+library(dplyr)
+library(ggplot2)
+library(readr)
+library(ggrepel)
+library(broom)
+library(tidyr)
+```
+
+* Due date: Friday, August 7 at 10:00pm.
+* Remember: autograder is meant as sanity check ONLY. It will not tell you if you have the correct answer. It will tell you if you are in the ball park of the answer so *CHECK YOUR WORK*.
+* Submission process: Follow the submission instructions on the final page. Make sure you do not remove any `\newpage` tags or rename this file, as this will break the submission.
+
+```{r setup, include = FALSE}
+# Don't change these lines, just run them!
+source("setup/hw09.RAGS.R")
+```
+
+Helpful hints:
+
+-  Every function you need to use was taught during lecture! So you may need to 
+revisit the lecture code to help you along by opening the relevant files on Datahub. 
+Alternatively, you may wish to view the code in the condensed PDFs posted 
+on the course website. Good luck!
+
+- Knit your file early and often to minimize knitting errors! If you copy and 
+paste code for the slides, you are bound to get an error that is hard to 
+diagnose. Typing out the code is the way to smooth knitting! We recommend 
+knitting your file each time after you write a few sentences/add a new code 
+chunk, so you can detect the source of knitting errors more easily. This will 
+save you and the GSIs from frustration! **You must knit correctly before submitting.**
+
+- If your code runs off the page of the knitted PDF then you will LOSE POINTS! To
+avoid this, have a look at your knitted PDF and ensure all the code fits in the 
+file (you can easily view it on Gradescope via the provided link after submitting). 
+If it doesn't look right, go back to your .Rmd file and add spaces (new lines) using 
+the return or enter key so that the code runs onto the next line.
+
+\newpage
+
+--------------------------------------------------------------------------------
+
+### Section 1: Abstract interpretation [3 points]
+Read the following abstract and answer the questions that follow. 
+
+Webb, A. L., Dugan, A., Burchett, W., Barnett, K., Patel, N., Morehead, S., Silverberg, M., Doty, C., Adkins, B., & Falvo, L. (2015). Effect of a Novel Engagement Strategy Using Twitter on Test Performance. The western journal of emergency medicine, 16(6), 961–964. https://doi.org/10.5811/westjem.2015.10.28869
+
+**OBJECTIVE:**
+Medical educators in recent years have been using social media for more penetrance to technologically-savvy learners. The utility of using Twitter for curriculum content delivery has not been studied. We sought to determine if participation in a social media-based educational supplement would improve student performance on a test of clinical images at the end of the semester.
+
+**METHODS:**
+116 second-year medical students were enrolled in a lecture-based clinical medicine course, in which images of common clinical exam findings were presented. An additional, optional assessment was performed on Twitter. Each week, a clinical presentation and physical exam image (not covered in course lectures) were distributed via Twitter, and students were invited to guess the exam finding or diagnosis. After the completion of the course, students were asked to participate in a slideshow "quiz" with 24 clinical images, half from lecture and half from Twitter.
+
+**RESULTS:**
+We conducted a one-way analysis of variance to determine the effect Twitter participation had on total, Twitter-only, and lecture-only scores. Twitter participation data was collected from the end-of-course survey and was defined as submitting answers to the Twitter-only questions "all or most of the time", "about half of the time", and "little or none of the time." We found a significant difference in overall scores (p<0.001) and in Twitter-only scores (p<0.001). There was not enough evidence to conclude a significant difference in lecture-only scores (p=0.124). Students who submitted answers to Twitter "all or most of the time" or "about half the time" had significantly higher overall scores and Twitter-only scores (p<0.001 and p<0.001, respectively) than those students who only submitted answers "little or none of the time." 
+
+**CONCLUSIONS:**
+While students retained less information from Twitter than from traditional classroom lecture, some retention was noted. Future research on social media in medical education would benefit from clear control and experimental groups in settings where quantitative use of social media could be measured. Ultimately, it is unlikely for social media to replace lecture in medical curriculum; however, there is a reasonable role for social media as an adjunct to traditional medical education.
+
+\newpage
+
+1. [1 point]	Three methods of ANOVA hypothesis testing (types of tests) are mentioned in the abstract. What is the null hypothesis for each of these tests (please list in the order they are mentioned in the abstract)?
+
+$H_{0}$:  [TODO: YOUR ANSWER HERE] - one sentence only 
+
+
+$H_{0}$:  [TODO: YOUR ANSWER HERE] - one sentence only 
+
+
+$H_{0}$:  [TODO: YOUR ANSWER HERE] - one sentence only 
+
+
+
+\newpage
+
+2. [1 point] There are three outcomes of interest in this study. For which **outcome** would you conclude that there is no significant difference between the Twitter participation groups? Uncomment your choice below.
+
+```{r p2}
+# p2 <- "overall scores"
+# p2 <- "Twitter-only scores"
+# p2 <- "lecture-only scores"
+
+check_problem2()
+```
+
+\newpage
+
+3. [1 point] What test must the researchers have gone on to perform to conclude that students who submitted answers to Twitter "all or most of the time" or "about half the time" had significantly higher overall scores and Twitter-only scores than those students who only submitted answers "little or none of the time"? Uncomment one of the choices below.
+
+```{r p3}
+# p3 <- "ANOVA"
+# p3 <- "Tukey's HSD"
+# p3 <- "paired t-test"
+# p3 <- "one-sample z-test"
+
+check_problem3()
+```
+
+\newpage
+
+### Section 2: ANOVA and Tukey's HSD [6 points]
+For this question we will use data from the UCI Heart Disease dataset.
+
+```{r read}
+# Read CSV into R
+heart <- read_csv("heart.csv")
+# Convert cp into a factor variable
+heart$cp <- as.factor(heart$cp)
+
+head(heart)
+```
+
+\newpage
+
+4. [1 point] Generate the mean and standard deviations in a dataframe for resting blood pressure `trestbps` by chest pain type `cp`. Use dplyr functions.
+
+```{r p4, message=FALSE}
+p4 <- "YOUR CODE HERE"
+p4
+
+
+check_problem4()
+```
+
+\newpage
+
+5. [1 point] Create a boxplot that helps you to visualize these data.
+
+```{r p5}
+p5 <- "YOUR PLOT HERE"
+p5
+
+
+check_problem5()
+```
+
+\newpage
+
+6. [2 points]  Conduct an ANOVA for these data and assign to the variable `anova`. Then conduct a Tukey's HSD test and assign your model to the variable `tukey`.
+
+```{r p6, warning = FALSE}
+anova <- "YOUR CODE HERE"
+tukey <- "YOUR CODE HERE"
+p6 <- tidy(tukey) #keep this line
+p6
+
+
+check_problem6()
+
+```
+
+\newpage
+
+7. [1 point]  What are the null and alternative hypotheses for this test?
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+8. [1 point]  What do you conclude from your analysis?
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+### Section 3: Non-parametric [3 points]
+You are testing the change in test scores following an intensive tutoring session. You have the following data from a small group of students each student is tested before and after the tutoring session. Each row represents one student.  
+
+|Time 1   |Time 2|
+|---------|------|
+|65       |77    |
+|87       |100   |
+|77       |75    |
+|90       |89    |
+|70       |80    |
+|84       |81    |
+|92       |91    |
+|83       |96    |
+|85       |84    |
+|91       |89    |
+|68       |88    |
+|72       |100   |
+|81       |81    |
+
+```{r}
+#this code makes a dataframe of the table you see above
+test_scores <- tribble(
+  ~time1, ~time2,
+  65, 77,
+  87, 100,
+  77, 75,
+  90, 89,
+  70, 80,
+  84, 81,
+  92, 91,
+  83, 96,
+  85, 84,
+  91, 89,
+  68, 88,
+  72, 100,
+  81, 81)
+```
+
+\newpage
+
+9. [2 points] Calculate the appropriate non-parametric test for these data by hand. Attach an image to show your work. Make sure to place the image in the `src` directory. Uncomment the line by deleting the pound sign. Report the p-value. Keep it as a decimal and round to 3 places.
+
+```{r p9}
+#knitr::include_graphics("src/path-to-file")
+p9 <- "YOUR P-VALUE HERE"
+p9 
+
+
+check_problem9()
+```
+\newpage
+
+10. [1 point] Check your work using [insert your test].test() function in R. Keep your answer as a decimal rounded to 3 decimals. Report your p-value and save it to the variable p10.
+
+```{r p10, warning=FALSE}
+p10 <- "YOUR P-VALUE HERE"
+p10
+
+check_problem10()
+```
+
+\newpage
+
+**11. [4 points] BONUS** At the end of every homework, you will have the opportunity to obtain up to *4 extra credit points* on that assignment. 
+
++1 point for developing a multiple choice question on the material in the homework
+
++1 point for developing a true/false question on the material 
+
++2 points for developing a free response question.
+
+To get full credit, you need to write the question, write an answer, provide a rubric for grading the answer, and say something about why/how you feel this question addresses a concept in this homework. You can only write **one question per category**.
+
+*Note: If you are including code as part of your questions, please include an additional code chunk that loads the required packages and the required dataset.*
+
+[ YOUR ANSWER HERE ]
+
+\newpage
+
+### Check your score
+
+Click on the middle icon on the top right of this code chunk (with the downwards gray arrow and green bar) to run all your code in order. Then, run this chunk to check your score.
+```{r check-total-score}
+# Just run this chunk.
+total_score()
+```
+
+\newpage
+
+### Submission
+
+For assignments in this class, you'll be submitting using the **Terminal** tab in the pane below. In order for the submission to work properly, make sure that:
+
+1. Any image files you add that are needed to knit the file are in the `src` folder and file paths are specified accordingly. 
+2. You **have not changed the file name** of the assignment.
+3. The file is saved (the file name in the tab should be **black**, not red with an asterisk).
+4. The file knits properly.
+
+Once you have checked these items, you can proceed to submit your assignment.
+
+1. Click on the **Terminal** tab in the pane below.
+2. Copy-paste the following line of code into the terminal and press enter.
+
+cd; cd ph142-su20/hw/hw09; python3 turn_in.py
+
+3. Follow the prompts to enter your Gradescope username and password. When entering your password, you won't see anything come up on the screen--don't worry! This is just for security purposes--just keep typing and hit enter.
+4. If the submission is successful, you should see "Submission successful!" appear as output.
+5. If the submission fails, try to diagnose the issue using the error messages--if you have problems, post on Piazza. 
+
+The late policy will be strictly enforced, **no matter the reason**, including submission issues, so be sure to submit early enough to have time to diagnose issues if problems arise.
