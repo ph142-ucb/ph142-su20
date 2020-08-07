@@ -1,0 +1,413 @@
+---
+title: "Homework 10"
+author: "Your name and student ID"
+date: "Today's date"
+output:
+  pdf_document: default
+---
+* Due date: Tuesday, August 11th at 10:00pm.
+* Remember: autograder is meant as sanity check ONLY. It will not tell you if you have the correct answer. It will tell you if you are in the ball park of the answer so *CHECK YOUR WORK*.
+* Submission process: Follow the submission instructions on the final page. Make sure you do not remove any `\newpage` tags or rename this file, as this will break the submission.
+
+```{r setup, include = FALSE}
+# Don't change these lines, just run them!
+source("setup/hw10.RAGS.R")
+```
+
+Helpful hints:
+
+-  Every function you need to use was taught during lecture! So you may need to revisit the lecture code to help you along by opening the relevant files on Datahub. Alternatively, you may wish to view the code in the condensed PDFs posted on the course website. Good luck!
+
+- Knit your file early and often to minimize knitting errors! If you copy and paste code for the slides, you are bound to get an error that is hard to diagnose. Typing out the code is the way to smooth knitting! We recommend knitting your file each time after you write a few sentences/add a new code chunk, so you can detect the source of knitting errors more easily. This will save you and the GSIs from frustration! **You must knit correctly before submitting.**
+
+- If your code runs off the page of the knitted PDF then you will LOSE POINTS! To avoid this, have a look at your knitted PDF and ensure all the code fits in the file (you can easily view it on Gradescope via the provided link after submitting). If it doesn't look right, go back to your .Rmd file and add spaces (new lines) using the return or enter key so that the code runs onto the next line.
+
+
+--------------------------------------------------------------------------------
+
+### Part 1: Design and Conduct a Survey [9 points]
+
+You would like to conduct a survey of high school students in the U.S. to determine the prevalence of being overweight or obese. In order to apply for grant funding, however, you need to propose a sufficient sample size for your survey. Suppose you would like to obtain a 95% confidence interval with a range of 7 percentage points.
+
+1. [1 point] You have not done any further research thus far. Determine the most conservative sample size you would require and assign it to object `p1`. (Hint: What value should you assign for $p^*$ if you are looking for the most conservative estimate?)
+
+```{r q1}
+p1 <- "YOUR ANSWER HERE" 
+# Remember to remove " " if you want to store a number
+
+
+check_problem1()
+```
+
+
+\newpage
+
+2. [1 point] After doing some additional research, you find data from the [Centers for Disease Control and Prevention Youth Risk Behavior Surveillance Survey](https://www.cdc.gov/healthyyouth/data/yrbs/pdf/2017/ss6708.pdf) that estimates 30.4% of high school students in the U.S. were overweight or obese in 2017. You decide to modify your proposed sample size with this new data. What is your modified sample size estimate using the new proportion?
+
+```{r q2}
+p2 <- "YOUR ANSWER HERE"
+# Remember to remove " " if you want to store a number
+
+
+check_problem2()
+```
+
+
+
+\newpage
+
+Congratulations! The grant reviewers were so impressed by your study design that they agree to fund your survey. With your funding, you conduct a simple random sample of 3,000 high school students across the United States. You find that 842 of your sample of 3,000 high school students are overweight or obese.
+
+Perform all four of the methods discussed in lecture and during lab to create a 95% confidence interval for the proportion of U.S. high school students who are overweight or obese.
+
+Store your respective confidence intervals to `p4`, `p5`, `p6`, and `p7` using the following format:
+
+```{r eval = F}
+pX <- c("LOWERBOUND", "UPPERBOUND")
+
+# For example, if LOWERBOUND = 10, UPPERBOUND = 20:
+pX <- c(10, 20)
+```
+
+3. [1 point] Use the large sample method of constructing a 95% CI.
+
+```{r q3}
+# YOUR CODE HERE
+
+# Replace "LOWERBOUND" and "UPPERBOUND" with your answer
+# If your answer is a number, make sure it doesn't have quotes around it
+p3 <- c("LOWERBOUND", "UPPERBOUND")
+
+
+check_problem3()
+```
+
+\newpage
+
+4. [1 point] Use the Clopper-Pearson (Exact) method of constructing a 95% CI.
+
+```{r q4}
+# YOUR CODE HERE
+
+# Replace "LOWERBOUND" and "UPPERBOUND" with your answer
+# If your answer is a number, make sure it doesn't have quotes around it
+p4 <- c("LOWERBOUND", "UPPERBOUND")
+
+
+check_problem4()
+```
+
+\newpage
+
+5. [1 point] Use the Wilson Score method of constructing a 95% CI with a continuity correction. 
+
+```{r q5}
+# YOUR CODE HERE
+
+# Replace "LOWERBOUND" and "UPPERBOUND" with your answer
+# If your answer is a number, make sure it doesn't have quotes around it
+p5 <- c("LOWERBOUND", "UPPERBOUND")
+
+
+check_problem5()
+```
+
+\newpage
+
+6. [1 point] Use the plus four method of constructing a 95% CI. 
+
+```{r q6}
+# YOUR CODE HERE
+
+# Replace "LOWERBOUND" and "UPPERBOUND" with your answer
+# If your answer is a number, make sure it doesn't have quotes around it
+p6 <- c("LOWERBOUND", "UPPERBOUND")
+
+
+check_problem6()
+```
+
+\newpage
+
+7. [2 points] Create a plot comparing the confidence intervals. You may show your confidence intervals as percentages or decimals. (Hint: If you are stuck, refer back to the example code presented in Lab 10.)
+
+```{r, include = FALSE}
+library(tidyverse)
+library(ggrepel)
+library(tibble)
+library(broom)
+library(tidyr)
+```
+
+```{r q7}
+ci_methods <- "YOUR CODE HERE"
+# Your code should include the lower and upper bounds of the four CIs above
+
+p7 <- "YOUR PLOT HERE"
+# Your plot should use ci_methods to graph the four CIs
+
+
+check_problem7()
+```
+
+\newpage 
+
+8. [1 point] Suppose that the proportion of overweight or obese high school students in the United States was actually 30.4% in 2017. Based on the 95% confidence intervals calculated in questions 3-6, is there evidence against the null hypothesis that the proportion of high school students who are overweight or obese is 30.4%?
+
+[TO DO: YOUR ANSWER HERE]
+
+
+\newpage 
+
+### Part 2: COVID-19 Cases in California [17 Points]
+
+It may seem intuitive that population density is correlated with the number of COVID-19 cases, but does the data reflect this? To further explore this question, you can take COVID-19 data collected by the California Department of Public Health from [California's open data portal](https://data.ca.gov/dataset/covid-19-cases) and county population density data from the [2010 Census website](https://www2.census.gov/library/publications/decennial/2010/cph-2/cph-2-6.pdf). A cleaned dataset without missing data and unassigned county data has been imported for you as `cases_CA`.
+
+```{r covid-data, include = FALSE}
+# Read in CSV
+cases_CA <- read_csv("cases_CA.csv")
+```
+
+Here are the variables available in the dataset.
+
+```{r explore-data, echo = FALSE}
+str(cases_CA)
+```
+
+From the output, you can see that the dataset includes four variables.
+
+1. `county`: the name of the California county
+2. `total_confirmed`: the total number of confirmed COVID-19 cases since March 19, 2020 in that county
+3. `total_deaths`: the total number of COVID-19 related deaths since March 19, 2020 in that county
+4. `pop_density`: the population density of that county per square mile of land
+
+Let's apply the techniques of inference and gain competence creating and interpreting a linear model using this dataset.
+
+\newpage
+
+9. [1 point] Using a scatterplot, create a graph showing population density on the x-axis and total number of confirmed COVID-19 cases on the y-axis. Do not rename the axes.
+
+```{r q9}
+p9 <- "YOUR PLOT HERE"
+p9
+
+
+check_problem9()
+```
+
+\newpage
+
+The earlier plot does not look very good. A majority of the data is on the bottom left, with two outliers in particular. To identify these outliers, we will add labels to our graph from question 9 using `geom_text_repel` from the library `ggrepel`.
+
+Here are the results.
+
+```{r echo = FALSE}
+p9 +
+  geom_text_repel(aes(label = county))
+```
+
+\newpage
+
+10. [1 point] Which two counties are outliers in the graph? Filter `cases_CA` to create an dataframe containing *only* data from these two counties, and assign your modified dataframe to `q10`. (Hint: A `dplyr` function may be helpful here.)
+
+```{r q10}
+p10 <- "YOUR CODE HERE"
+
+
+check_problem10()
+```
+
+\newpage
+
+Because of these outliers, a linear model would not fit well. However, this is a good opportunity to try log-transforming the x and y variables.
+
+NOTE: The notation for natural logarithms and common logarithms can be confusing here. When coding in R, `log()` calculates the natural logarithm by default. For the purposes of this assignment, we will use the natural logarithm for our log transformations.
+
+11. [1 point] Modify the original `cases_CA` dataframe to include two additional columns: a log-transformed version of `pop_density` and a log-transformed version of `total_confirmed`. Name these columns `log_pop_density` and `log_total_confirmed`, respectively. Assign your modified dataframe to `p11`.
+
+```{r q11}
+p11 <- "YOUR CODE HERE"
+str(p11)
+
+
+check_problem11()
+```
+
+\newpage
+
+12. [1 point] Using a scatterplot, create a graph showing the log-transformed population density on the x-axis and log-transformed total number of confirmed COVID-19 cases on the y-axis. Do not rename the axes. Labeling the individual counties with `geom_text_repel` is also not necessary.
+
+```{r q12}
+p12 <- "YOUR PLOT HERE"
+p12
+
+
+check_problem12()
+```
+
+\newpage
+
+The log-transformed data looks much better, and it appears to be a good fit for linear regression.
+
+13. [1 point] Run a linear regression model on the relationship between log-transformed total number of confirmed COVID-19 cases and log-transformed population density. Think about which variable is the independent variable and which variable is the dependent variable.
+
+```{r q13}
+lm <- "YOUR MODEL HERE"
+
+
+check_problem13()
+```
+
+\newpage
+
+Here are the results of your linear regression model.
+
+```{r echo = FALSE}
+tidy(lm)
+```
+
+14. [1 point] Using the function `geom_abline`, add a linear regression line to your scatterplot from question 12.
+
+```{r q14}
+p14 <- "YOUR PLOT HERE"
+p14
+
+
+check_problem14()
+```
+
+\newpage
+
+15. [1 point] Calculate the correlation coefficient $r$ and the coefficient of determination $r^2$ for your linear model. Report your answers to four decimal places.
+
+```{r q15}
+r <- "YOUR CODE HERE" # Calculate correlation coefficient to four decimal places
+r_sq <- "YOUR CODE HERE" # Calculate coefficient of determination to four decimal places
+
+c(r, r_sq)
+
+
+check_problem15()
+```
+
+\newpage
+
+16. [2 points] Interpret the $r$ and $r^2$ values for your linear model between log-transformed population density and log-transformed total confirmed COVID-19 cases. How do these values compare to the $r$ and $r^2$ values for a linear model created without the logarithmic transformations? You do not need to conduct another linear model. Using terms like "greater than," "less than," or "equal to" is sufficient.
+
+[TO DO: YOUR ANSWER HERE]
+
+
+\newpage
+
+Until now, we have assumed that the linear model is a good fit for the log-transformed data. However, is this assumption reasonable? We should verify the four conditions for inference using diagnostic plots. Using code learned in class that was also shown in Lab 9, make the four plots to examine the conditions below.
+
+17. [1 point] Create a fitted model scatterplot with residual lines.
+
+```{r q17}
+augment_lm <- augment(lm) # This line of code has been provided to you
+
+p17 <- "YOUR PLOT HERE"
+p17
+
+
+check_problem17()
+```
+
+\newpage
+
+18. [1 point] Create a QQ plot.
+
+```{r q18}
+p18 <- "YOUR PLOT HERE"
+p18
+
+
+check_problem18()
+```
+
+\newpage
+
+19. [1 point] Create a plot of fitted values versus residuals.
+
+```{r q19}
+
+p19 <- "YOUR PLOT HERE"
+p19
+
+
+check_problem19()
+```
+
+\newpage
+
+20. [1 point] Create a comparative box plot that shows the amount of variability explained.
+
+```{r q20}
+# These two lines of code have been provided for you
+augment_lm_gather <- augment_lm %>% select(log_total_confirmed, .resid) %>%
+  gather(key = "type", value = "value", log_total_confirmed, .resid)
+
+p20 <- "YOUR PLOT HERE"
+p20
+
+
+check_problem20()
+```
+
+\newpage
+
+21. [4 points] Comment on each of the plots and conclude about which assumptions appear violated vs. not violated. Don't forget to comment on the one assumption that cannot be investigated using plots.
+
+[TO DO: YOUR ANSWER HERE]
+
+
+\newpage
+
+22. [4 points] BONUS** At the end of every homework, you will have the opportunity to obtain up to *4 extra credit points* on that assignment. 
+
++1 point for developing a multiple choice question on the material in the homework
+
++1 point for developing a true/false question on the material 
+
++2 points for developing a free response question.
+
+To get full credit, you need to write the question, write an answer, provide a rubric for grading the answer, and say something about why/how you feel this question addresses a concept in this homework. You can only write **one question per category**.
+
+*Note: If you are including code as part of your questions, please include an additional code chunk that loads the required packages and the required dataset.*
+
+[ YOUR ANSWER HERE ]
+
+\newpage
+
+### Check your score
+
+Click on the middle icon on the top right of this code chunk (with the downwards gray arrow and green bar) to run all your code in order. Then, run this chunk to check your score.
+
+```{r check-total-score}
+# Just run this chunk.
+total_score()
+```
+
+\newpage
+
+### Submission
+
+For assignments in this class, you'll be submitting using the **Terminal** tab in the pane below. In order for the submission to work properly, make sure that:
+
+1. Any image files you add that are needed to knit the file are in the `src` folder and file paths are specified accordingly. 
+2. You **have not changed the file name** of the assignment.
+3. The file is saved (the file name in the tab should be **black**, not red with an asterisk).
+4. The file knits properly.
+
+Once you have checked these items, you can proceed to submit your assignment.
+
+1. Click on the **Terminal** tab in the pane below.
+2. Copy-paste the following line of code into the terminal and press enter.
+
+cd; cd ph142-su20/hw/hw10; python3 turn_in.py
+
+3. Follow the prompts to enter your Gradescope username and password. When entering your password, you won't see anything come up on the screen--don't worry! This is just for security purposes--just keep typing and hit enter.
+4. If the submission is successful, you should see "Submission successful!" appear as output.
+5. If the submission fails, try to diagnose the issue using the error messages--if you have problems, post on Piazza. 
+
+The late policy will be strictly enforced, **no matter the reason**, including submission issues, so be sure to submit early enough to have time to diagnose issues if problems arise.

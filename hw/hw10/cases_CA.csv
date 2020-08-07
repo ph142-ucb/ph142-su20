@@ -1,0 +1,57 @@
+"county","total_confirmed","total_deaths","pop_density"
+"Alameda",6125,136,2043.6
+"Alpine",1,0,1.6
+"Amador",22,0,64.1
+"Butte",185,2,134.4
+"Calaveras",37,0,44.7
+"Colusa",53,0,18.6
+"Contra Costa",3259,77,1465.2
+"Del Norte",50,0,28.4
+"El Dorado",183,0,106
+"Fresno",5111,75,156.2
+"Glenn",110,0,21.4
+"Humboldt",134,4,37.7
+"Imperial",6150,97,41.8
+"Inyo",30,1,1.8
+"Kern",4853,76,103.3
+"Kings",2360,30,110.1
+"Lassen",217,0,7.7
+"Los Angeles",105325,3402,2419.6
+"Madera",519,5,70.6
+"Marin",1636,18,485.1
+"Mariposa",29,1,12.6
+"Mendocino",70,0,25.1
+"Merced",1052,11,132.2
+"Modoc",1,0,2.5
+"Mono",37,1,4.7
+"Monterey",1703,15,126.5
+"Napa",347,4,182.4
+"Nevada",115,1,103.1
+"Orange",15662,345,3807.7
+"Placer",713,11,247.6
+"Plumas",8,0,7.8
+"Riverside",19537,463,303.8
+"Sacramento",3425,68,1470.8
+"San Benito",219,2,39.8
+"San Bernardino",12712,258,101.5
+"San Diego",14624,372,735.8
+"San Francisco",3626,50,17180.2
+"San Joaquin",3990,54,492.6
+"San Luis Obispo",613,2,81.7
+"San Mateo",3326,108,1602.2
+"Santa Barbara",3268,29,155
+"Santa Clara",4547,158,1381
+"Santa Cruz",398,3,589.4
+"Shasta",104,5,46.9
+"Siskiyou",28,0,7.2
+"Solano",1350,25,503
+"Sonoma",1178,7,307.1
+"Stanislaus",2619,44,344.2
+"Sutter",188,3,157.3
+"Tehama",80,1,21.5
+"Trinity",2,0,4.3
+"Tulare",4359,128,91.7
+"Tuolumne",17,0,24.9
+"Ventura",3224,46,446.7
+"Yolo",526,24,197.9
+"Yuba",57,4,114.2
