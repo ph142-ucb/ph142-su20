@@ -1,0 +1,426 @@
+---
+title: "Homework 11"
+author: "Your name and student ID"
+date: "Today's date"
+output:
+  pdf_document: default
+---
+
+```{r, warning=F, message=F, echo=F}
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+```
+
+* Due date: Thursday, August 13 at 10 p.m.
+
+**Note: This assignment is optional. The autograder seen here is the full autograder (not just sanity checks). Check Piazza for more info**
+
+* Submission process: Follow the submission instructions on the final page. Make sure you do not remove any `\newpage` tags or rename this file, as this will break the submission.
+
+```{r setup, include = FALSE}
+# Don't change these lines, just run them!
+source("setup/hw11.RAGS.R")
+```
+
+Helpful hints:
+
+- Every function you need to use was taught during lecture! So you may need to revisit the lecture code to help you along by opening the relevant files on Datahub. Alternatively, you may wish to view the code in the condensed PDFs posted on the course website. Good luck!
+
+- Knit your file early and often to minimize knitting errors! If you copy and paste code for the slides, you are bound to get an error that is hard to diagnose. Typing out the code is the way to smooth knitting! We recommend knitting your file each time after you write a few sentences/add a new code chunk, so you can detect the source of knitting errors more easily. This will save you and the GSIs from frustration! **You must knit correctly before submitting.**
+
+- If your code runs off the page of the knitted PDF then you will LOSE POINTS! To avoid this, have a look at your knitted PDF and ensure all the code fits in the file (you can easily view it on Gradescope via the provided link after submitting). If it doesn't look right, go back to your .Rmd file and add spaces (new lines) using the return or enter key so that the code runs onto the next line.
+
+
+--------------------------------------------------------------------------------
+
+### Part 1: Distribution of COVID-19 Cases in California [7 points]
+
+The effects of COVID-19 on the health of racial and ethnic minority groups is still emerging; however, current data suggest a disproportionate burden of illness and death among racial and ethnic minority groups. You read an article that says that 45% of the cases happen in white individuals, 42% in black, and 13% in Latinx patients across the United States.
+
+After reading this, you wonder what the distribution of cases is in California. You have access to epidemiological data conducted in a random sample of 300 patients and find that 177 patients are white, 69 are black and 54 are Latinx. 
+
+1. [1 point] You would like to investigate whether the distribution of cases in California is different from that of the entire U.S. Does this correspond to a chi-square test of independence or a chi-square test for goodness of fit?
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+2. [1 point] What are the expected counts of patients in California? Assign each expected count to the appropriate variable. Make sure to remove the quotes. Round each number to 2 decimal places.
+
+```{r}
+# Remember to remove " " if you want to store a number
+white <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+black <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+latinx <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+
+
+check_problem2()
+```
+
+\newpage
+
+3. [1 point] State the null hypothesis under which the above expected counts were computed.
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+4. [1 point] Compute the chi-square statistic by hand. Round your answer to 2 decimal places.
+
+```{r}
+# Put your answer here
+chi_sq_answer <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+
+chi_sq_answer
+check_problem4()
+```
+
+
+\newpage
+
+5. [1 point] Which cell (i.e. term in summation) contributes the most to the statistic? Uncomment your answer.
+
+```{r}
+# Uncomment ONE line below for your answer
+
+# largest_contribution <- "white"
+# largest_contribution <- "black"
+# largest_contribution <- "latinx"
+
+
+check_problem5()
+```
+
+
+\newpage
+
+6. [1 point] Compute the $p$-value for your test statistic. Round your answer to 2 decimal places.
+
+```{r}
+# Put your answer here
+p_value <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+
+p_value
+check_problem6()
+```
+
+\newpage
+
+7. [1 point] Conclude whether you believe there is evidence against the null hypothesis in favor of the alternative hypothesis. Answer this by uncommenting the appropriate conclusion.
+
+```{r}
+# Uncomment ONE line below for your answer
+
+# conclusion <- "in favor of null"
+# conclusion <- "against null"
+
+
+check_problem7()
+```
+
+
+\newpage
+
+### Part 2: Chlamydia Cases in the United States [9 points]
+
+Chlamydia is the most frequently reported bacterial sexually transmitted infection in the United States. 
+
+Suppose that you selected a random sample from a population and collected these data on age and symptoms for the sample:
+
+|Age Group    | Symptoms     | No symptoms    | Row total   |
+|:-----------:|:------------:|:--------------:|:-----------:|
+|14-24        | 234          | 720            | 954 (49.7%) |
+|25-34        | 159          | 332            | 491 (25.6%) |
+|35-55        | 122          | 354            | 476 (24.7%) |
+|Col total    | 515 (26.8%)  | 1406 (73.2%)   | 1921        |
+
+8. [1 point] Which variable is explanatory and which is response? Uncomment the appropriate answer.
+
+```{r}
+# Uncomment ONE line below for your answer
+
+# variable_type <- c("explanatory: age group", "response: symptoms status")
+# variable_type <- c("explanatory: symptoms status", "response: age group")
+
+
+check_problem8()
+```
+
+\newpage
+
+9. [2 points] Formulate null and alternative hypotheses using these data to test whether there is a relationship between age group and symptom status. State these hypotheses using the language or notation of conditional distributions.
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+10. [1 point] Run the code below to examine the conditional distribution of age by symptoms status. Based on this plot, which age group will contribute the most to the chi-square statistic? That is, can you tell based on this plot when the observed count will differ most from the expected count under the null hypothesis of no relationship between age group and symptoms status? Explain why.
+
+```{r create-data, echo=F, out.width="80%", fig.align=T, message=F}
+# You do not need to modify this code chunk
+# Just run the code to generate the plot
+
+age_group <- rep(c("14-24", "25-34", "35-55"), 2)
+test <- c(rep("positive", 3), rep("negative", 3))
+number_of_women <- c(234, 159, 122,
+                     720, 332, 354)
+
+data <- data.frame(age_group, test, number_of_women)
+
+data <- data %>% group_by(test) %>% 
+  mutate(sum_women = sum(number_of_women),
+         prop_women_age = number_of_women/sum_women)
+
+ggplot(data, aes(x = age_group, y = prop_women_age)) + 
+  geom_bar(aes(fill = test), stat = "identity", position = "dodge") +
+  theme_minimal(base_size = 15) +
+  labs(y = "Proportion", x = "Age", 
+       main = "Conditional distribution of age by symptoms status")
+```
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+11. [2 points] Fill out the table of expected counts under the null hypothesis of no association between age group and symptoms status. You don't need to show your work, but make sure you can calculate the expected counts by hand, using a 
+calculator. Assign each appropriate cell/letter to the variable in the code. Round each number to 2 decimal places.
+
+Expected counts:
+
+|Age Group    | Symptoms                  | No symptoms               | 
+|:-----------:|:-------------------------:|:-------------------------:|
+|14-24        |          A                |          D                | 
+|25-34        |          B                |          E                | 
+|35-55        |          C                |          G                | 
+
+```{r}
+# Put your answers here
+A <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+B <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+C <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+D <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+E <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+G <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+
+
+check_problem11()
+
+```
+
+
+
+\newpage
+
+12. [1 point] Calculate the test statistic by hand. Round your answer to 2 decimal places.
+
+```{r}
+# Put your answer here
+chi_sq_p12 <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+
+
+check_problem12()
+```
+
+
+\newpage
+
+13. [1 point] Calculate the p-value for your test statistic. Round your answer to 2 decimal places.
+
+```{r}
+# Put your answer here
+p_value_p13 <- "REPLACE WITH NUMBER ROUNDED TO 2 DECIMALS"
+
+
+check_problem13()
+```
+
+
+\newpage
+
+14. [1 point] Assess whether there is evidence against the null in favor of the alternative. Answer this by uncommenting the appropriate conclusion.
+
+```{r}
+# Uncomment ONE line below for your answer
+
+# conclusion_p14 <- "in favor of null"
+# conclusion_p14 <- "against null"
+
+
+check_problem14()
+```
+
+
+\newpage
+
+### Part 3: Quadrivalent HPV Vaccination in Canada [2 points]
+
+The quadrivalent HPV vaccine was introduced to Canada in 2007, and was given to girls in Ontario, Canada who were enrolled in grade 8 (13-14 year olds). Before 2007, no girls recieved the vaccine, while in the 4 years after it was introduced nearly 40% of girls recieved the vaccine each year. One concern that some people had was that the vaccine itself would increase promiscuity if the girls felt a false sense of protection, which could thereby increase the prevalence of other sexually transmitted infections (STIs) among vaccinated girls. [This paper](https://www.ncbi.nlm.nih.gov/pubmed/25487660) examines this question using an advanced method called the "regression discontinuity" design which harnesses the abrupt change in vaccination status across cohorts of girls to estimate the causal effect of vaccination against HPV on the 
+occurrence of other STIs.
+
+Read only the abstract of the paper, and don't worry about the details because these are advanced methods. Note that the term "RD" is the difference in risk of STIs between girls exposed and unexposed to HPV vaccination. We can therefore think of this risk difference as the difference between two proportions.
+
+15. [1 point] Interpret this result from the abstract: We identified 15 441 (5.9%) cases of pregnancy and sexually transmitted infection and found no evidence that vaccination increased the risk of this composite outcome: RD per 1000 girls -0.61 (95% confidence interval [CI] -10.71 to 9.49). **In particular, what does -0.61 estimate?**
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+16. [1 point] The 95% confidence interval includes 0. What can you conclude about the p-value for a two-sided test of the difference between vaccinated and unvaccinated girls and their risk of sexually transmitted diseases?
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+### Part 4: Peanut Allergies in Infants [9 points]
+
+An allergy to peanuts is increasingly common in Western countries. A randomized controlled trial enrolled infants with a diagnosed peanut sensitivity. Infants were randomized to either avoid peanuts or to consume them regularly until they reached age 5. At the end of the study, 18 out of the 51 randomized to avoid peanuts were tested to be allergic to peanuts. Only 5 out of the 47 randomized to consuming them regularly were tested to be allergic to peanuts. 
+
+17. [1 point] Estimate the difference between the two proportions. Leave it as a number between 0 and 1. Round to at least 3 decimals. 
+
+```{r}
+# Put your answer here
+p17 <- "YOUR ANSWER HERE"
+
+
+check_problem17()
+```
+
+\newpage
+
+18. [1 point] Use the plus four method to find a 99% confidence interval for the difference between the two groups. Store the upper and lower bounds into an object called `p18`. Round to at least 3 decimals.
+
+```{r}
+# YOUR CODE HERE
+
+# Replace "LOWERBOUND" and "UPPERBOUND" with your answer
+# If your answer is a number, make sure it doesn't have quotes around it
+p18 <- c("LOWERBOUND", "UPPERBOUND")
+
+
+check_problem18()
+```
+
+
+\newpage
+
+19. [1 point] Why would it have been inappropriate to use the large sample method to create a 99% CI?
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+Perform a two-sided hypothesis test for the difference between the groups. Start by stating the null and alternative hypotheses, then calculate the test statistic, the $p$-value, and conclude with your interpretation of the $p$-value.
+
+20. [1 point] State the null and alternative hypotheses.
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+21. [1 point] Calculate the test statistic. Round to at least 3 decimals.
+
+```{r}
+# Put your answer here
+p21 <- "YOUR ANSWER HERE"
+
+
+check_problem21()
+```
+
+
+\newpage
+
+22. [1 point] Calculate the $p$-value. Round to AT LEAST 3 decimal places:
+
+```{r}
+# Put your answer here
+p22 <- "YOUR ANSWER HERE"
+
+
+check_problem22()
+```
+
+\newpage
+
+23. [1 point] Interpret the $p$-value.
+
+[TODO: YOUR ANSWER HERE]
+
+
+\newpage
+
+24. [1 point] Suppose you were testing the hypotheses $H_0: \mu_d = 0$ and $H_a: \mu_d \neq 0$ in a paired design and obtain a $p$-value of 0.21. Which one of the following could be a possible 95% confidence interval for $\mu_d$?
+
+```{r}
+# Uncomment ONE line below for your answer
+
+# p24 <- "-2.30 to -0.70"
+# p24 <- "-1.20 to 0.90"
+# p24 <- "1.50 to 3.80"
+# p24 <- "4.50 to 6.90"
+
+
+check_problem24()
+```
+
+\newpage 
+
+25. [1 point] Suppose you were testing the hypotheses $H_0: \mu_d = 0$ and $H_a: \mu_d \neq 0$ in a paired design and obtain a $p$-value of 0.02. Also suppose you computed confidence intervals for $\mu_d$. Based on the $p$-value which of the following are true?
+
+```{r}
+# Uncomment ONE line below for your answer
+
+# p25 <- "Both a 95% CI and a 99% CI will contain 0."
+# p25 <- "A 95% CI will contain 0, but a 99% CI will not."
+# p25 <- "A 95% CI will not contain 0, but a 99% CI will."
+# p25 <- "Neither a 95% CI nor a 99% CI interval will contain 0."
+
+
+check_problem25()
+```
+
+\newpage
+
+### Check your score
+
+Click on the middle icon on the top right of this code chunk (with the downwards gray arrow and green bar) to run all your code in order. Then, run this chunk to check your score.
+
+```{r check-total-score}
+# Just run this chunk
+total_score()
+```
+
+\newpage
+
+### Submission
+
+For assignments in this class, you'll be submitting using the **Terminal** tab in the pane below. In order for the submission to work properly, make sure that:
+
+1. Any image files you add that are needed to knit the file are in the `src` folder and file paths are specified accordingly. 
+2. You **have not changed the file name** of the assignment.
+3. The file is saved (the file name in the tab should be **black**, not red with an asterisk).
+4. The file knits properly.
+
+Once you have checked these items, you can proceed to submit your assignment.
+
+1. Click on the **Terminal** tab in the pane below.
+2. Copy-paste the following line of code into the terminal and press enter.
+
+cd; cd ph142-su20/hw/hw11; python3 turn_in.py
+
+3. Follow the prompts to enter your Gradescope username and password. When entering your password, you won't see anything come up on the screen--don't worry! 
+This is just for security purposes--just keep typing and hit enter.
+4. If the submission is successful, you should see "Submission successful!" appear as output.
+5. If the submission fails, try to diagnose the issue using the error messages--if you have problems, post on Piazza. 
+
+The late policy will be strictly enforced, **no matter the reason**, including submission issues, 
+so be sure to submit early enough to have time to diagnose issues if problems arise.
