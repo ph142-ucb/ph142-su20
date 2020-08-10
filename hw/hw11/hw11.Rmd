@@ -14,7 +14,7 @@ library(tidyverse)
 
 * Due date: Thursday, August 13 at 10 p.m.
 
-**Note: This assignment is optional. The autograder seen here is the full autograder (not just sanity checks). Check Piazza for more info**
+**Note: This assignment is optional. The autograder seen here is the full autograder (not just sanity checks)**
 
 * Submission process: Follow the submission instructions on the final page. Make sure you do not remove any `\newpage` tags or rename this file, as this will break the submission.
 
