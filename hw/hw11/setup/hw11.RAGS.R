@@ -353,12 +353,12 @@ check_problem11 = function() {
              error_message = "A is not correct")
   
   checkpoint(checkpoint_number = 2,
-             test = all.equal(B, 31.79,tol = 0.03), 
+             test = all.equal(B, 131.63,tol = 0.03), 
              correct_message = "B is correct",
              error_message = "B is not correct")
   
   checkpoint(checkpoint_number = 3,
-             test = all.equal(C, 127.16,tol = 0.03), 
+             test = all.equal(C, 127.61,tol = 0.03), 
              correct_message = "C is correct",
              error_message = "C is not correct")
   
