@@ -125,7 +125,7 @@ check_problem4 = function() {
   # Test cases here:
   
   checkpoint(checkpoint_number = 1,
-             test = all.equal(chi_sq_answer, 61.22, tol = .01),
+             test = all.equal(chi_sq_answer, 44.62, tol = .01),
              correct_message = "You answer is correct",
              error_message = "Check your answer."
   )
